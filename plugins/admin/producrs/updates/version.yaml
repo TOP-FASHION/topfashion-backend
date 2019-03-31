@@ -1,0 +1,11 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table admin_producrs_'
+    - builder_table_create_admin_producrs_.php
+1.0.3:
+    - 'Updated table admin_producrs_'
+    - builder_table_update_admin_producrs_product.php
+1.0.4:
+    - 'Drop table admin_producrs_product'
+    - builder_table_delete_admin_producrs_product.php

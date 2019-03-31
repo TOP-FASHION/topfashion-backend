@@ -1,0 +1,1 @@
+1554098858a:1:{i:0;O:8:"stdClass":3:{s:2:"id";i:3;s:4:"item";s:24:"panakour_backup_settings";s:5:"value";s:241:"{"include_files":[{"path":"themes"},{"path":"plugins"}],"exclude_files":[{"path":"vendor"},{"path":"plugins\/rainlab"}],"maximum_execution_time":"30","filename_prefix":"","storage":"local","database_driver":"mysql","gzip_database_dumps":"1"}";}}

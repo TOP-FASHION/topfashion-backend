@@ -1,0 +1,6 @@
+plugin:
+    name: 'admin.producrs::lang.plugin.name'
+    description: 'admin.producrs::lang.plugin.description'
+    author: admin
+    icon: oc-icon-list-ol
+    homepage: ''
