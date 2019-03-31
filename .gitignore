@@ -133,3 +133,6 @@ yarn.lock
 Homestead.json
 Homestead.yaml
 .env
+
+install_files/
+install.php

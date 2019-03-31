@@ -1,0 +1,10 @@
+name: Products
+form: $/admin/product/models/product/fields.yaml
+modelClass: Admin\Product\Models\Product
+defaultRedirect: admin/product/products
+create:
+    redirect: 'admin/product/products/update/:id'
+    redirectClose: admin/product/products
+update:
+    redirect: admin/product/products
+    redirectClose: admin/product/products
