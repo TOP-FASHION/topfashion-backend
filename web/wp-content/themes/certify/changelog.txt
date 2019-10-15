@@ -1,0 +1,41 @@
+== Changelog ==
+
+= 1.2.4.3 ==
+
+1. Added the support of the header logo layout(left,right).
+
+= 1.2.4.2 ==
+
+1. Fixed menu issue.
+
+= 1.2.4.1 ==
+
+1. Fixed escaping issues.
+
+= 1.2.4 ==
+
+1. Fixed Fatal error.
+
+= 1.2.3 ==
+
+1. Added recommended plugin tab.
+
+= 1.2.2 ==
+
+1. Update string.
+
+= 1.2.1 ==
+
+1. Update theme about page description.
+
+= 1.2 ==
+
+1. Added About Theme Page.
+
+= 1.1 ==
+
+1. Fixed mobile responsive issue.
+
+= 1.0 ==
+
+1. Released

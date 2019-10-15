@@ -97,11 +97,10 @@ function get_id_from_blogname( $slug ) {
 
 	$site_ids = get_sites(
 		array(
-			'number'                 => 1,
-			'fields'                 => 'ids',
-			'domain'                 => $domain,
-			'path'                   => $path,
-			'update_site_meta_cache' => false,
+			'number' => 1,
+			'fields' => 'ids',
+			'domain' => $domain,
+			'path'   => $path,
 		)
 	);
 

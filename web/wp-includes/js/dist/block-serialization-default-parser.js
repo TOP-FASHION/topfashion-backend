@@ -82,18 +82,18 @@ this["wp"] = this["wp"] || {}; this["wp"]["blockSerializationDefaultParser"] =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 258);
+/******/ 	return __webpack_require__(__webpack_require__.s = 197);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 258:
+/***/ 197:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "parse", function() { return parse; });
-/* harmony import */ var _babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(28);
+/* harmony import */ var _babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(25);
 
 var document;
 var offset;
@@ -166,84 +166,6 @@ function Frame(block, tokenStart, tokenLength, prevOffset, leadingHtmlStart) {
     leadingHtmlStart: leadingHtmlStart
   };
 }
-/**
- * Parser function, that converts input HTML into a block based structure.
- *
- * @param {string} doc The HTML document to parse.
- *
- * @example
- * Input post:
- * ```html
- * <!-- wp:columns {"columns":3} -->
- * <div class="wp-block-columns has-3-columns"><!-- wp:column -->
- * <div class="wp-block-column"><!-- wp:paragraph -->
- * <p>Left</p>
- * <!-- /wp:paragraph --></div>
- * <!-- /wp:column -->
- *
- * <!-- wp:column -->
- * <div class="wp-block-column"><!-- wp:paragraph -->
- * <p><strong>Middle</strong></p>
- * <!-- /wp:paragraph --></div>
- * <!-- /wp:column -->
- *
- * <!-- wp:column -->
- * <div class="wp-block-column"></div>
- * <!-- /wp:column --></div>
- * <!-- /wp:columns -->
- * ```
- *
- * Parsing code:
- * ```js
- * import { parse } from '@wordpress/block-serialization-default-parser';
- *
- * parse( post ) === [
- *     {
- *         blockName: "core/columns",
- *         attrs: {
- *             columns: 3
- *         },
- *         innerBlocks: [
- *             {
- *                 blockName: "core/column",
- *                 attrs: null,
- *                 innerBlocks: [
- *                     {
- *                         blockName: "core/paragraph",
- *                         attrs: null,
- *                         innerBlocks: [],
- *                         innerHTML: "\n<p>Left</p>\n"
- *                     }
- *                 ],
- *                 innerHTML: '\n<div class="wp-block-column"></div>\n'
- *             },
- *             {
- *                 blockName: "core/column",
- *                 attrs: null,
- *                 innerBlocks: [
- *                     {
- *                         blockName: "core/paragraph",
- *                         attrs: null,
- *                         innerBlocks: [],
- *                         innerHTML: "\n<p><strong>Middle</strong></p>\n"
- *                     }
- *                 ],
- *                 innerHTML: '\n<div class="wp-block-column"></div>\n'
- *             },
- *             {
- *                 blockName: "core/column",
- *                 attrs: null,
- *                 innerBlocks: [],
- *                 innerHTML: '\n<div class="wp-block-column"></div>\n'
- *             }
- *         ],
- *         innerHTML: '\n<div class="wp-block-columns has-3-columns">\n\n\n\n</div>\n'
- *     }
- * ];
- * ```
- * @return {Array} A block-based representation of the input HTML.
- */
-
 
 var parse = function parse(doc) {
   document = doc;
@@ -477,13 +399,13 @@ function addBlockFromStack(endOffset) {
 
 /***/ }),
 
-/***/ 28:
+/***/ 25:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js
-var arrayWithHoles = __webpack_require__(37);
+var arrayWithHoles = __webpack_require__(35);
 
 // CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js
 function _iterableToArrayLimit(arr, i) {
@@ -512,7 +434,7 @@ function _iterableToArrayLimit(arr, i) {
   return _arr;
 }
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/nonIterableRest.js
-var nonIterableRest = __webpack_require__(38);
+var nonIterableRest = __webpack_require__(36);
 
 // CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return _slicedToArray; });
@@ -525,7 +447,7 @@ function _slicedToArray(arr, i) {
 
 /***/ }),
 
-/***/ 37:
+/***/ 35:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -536,7 +458,7 @@ function _arrayWithHoles(arr) {
 
 /***/ }),
 
-/***/ 38:
+/***/ 36:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

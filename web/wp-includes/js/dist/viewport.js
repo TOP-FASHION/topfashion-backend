@@ -82,7 +82,7 @@ this["wp"] = this["wp"] || {}; this["wp"]["viewport"] =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 372);
+/******/ 	return __webpack_require__(__webpack_require__.s = 317);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -94,7 +94,7 @@ this["wp"] = this["wp"] || {}; this["wp"]["viewport"] =
 
 /***/ }),
 
-/***/ 372:
+/***/ 317:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -198,7 +198,7 @@ function isViewportMatch(state, query) {
 }));
 
 // EXTERNAL MODULE: external {"this":["wp","compose"]}
-var external_this_wp_compose_ = __webpack_require__(6);
+var external_this_wp_compose_ = __webpack_require__(7);
 
 // CONCATENATED MODULE: ./node_modules/@wordpress/viewport/build-module/with-viewport-match.js
 /**
@@ -216,21 +216,9 @@ var external_this_wp_compose_ = __webpack_require__(6);
  * the given prop names, where the value passed to the underlying component is
  * the result of the query assigned as the object's value.
  *
- * @see isViewportMatch
- *
  * @param {Object} queries  Object of prop name to viewport query.
  *
- * @example
- *
- * ```jsx
- * function MyComponent( { isMobile } ) {
- * 	return (
- * 		<div>Currently: { isMobile ? 'Mobile' : 'Not Mobile' }</div>
- * 	);
- * }
- *
- * MyComponent = withViewportMatch( { isMobile: '< small' } )( MyComponent );
- * ```
+ * @see isViewportMatch
  *
  * @return {Function} Higher-order component.
  */
@@ -259,19 +247,9 @@ var with_viewport_match_withViewportMatch = function withViewportMatch(queries) 
  * Higher-order component creator, creating a new component which renders if
  * the viewport query is satisfied.
  *
- * @see withViewportMatches
- *
  * @param {string} query Viewport query.
  *
- * @example
- *
- * ```jsx
- * function MyMobileComponent() {
- * 	return <div>I'm only rendered on mobile viewports!</div>;
- * }
- *
- * MyMobileComponent = ifViewportMatches( '< small' )( MyMobileComponent );
- * ```
+ * @see withViewportMatches
  *
  * @return {Function} Higher-order component.
  */
@@ -378,7 +356,7 @@ build_module_setIsMatching.flush();
 
 /***/ }),
 
-/***/ 6:
+/***/ 7:
 /***/ (function(module, exports) {
 
 (function() { module.exports = this["wp"]["compose"]; }());

@@ -1,0 +1,310 @@
+/*
+Theme Name: Innofit
+Author URI: https://wordpress.org/
+Theme URI: https://wordpress.org/themes/innofit
+Author: SpiceThemes 
+Created by: Shahid (Scientech IT)
+Copyright (c) 2018 Innofit
+Date: Not mentioned
+http://www.spicethemes.com
+Name: default.css
+*/
+
+
+
+/*--------------------------------------------------------------
+	Common
+--------------------------------------------------------------*/
+
+blockquote { border-left: 3px solid #2a83e8; }
+
+
+/*--------------------------------------------------------------
+5. Forms
+--------------------------------------------------------------*/
+
+button,
+input[type="button"],
+input[type="submit"] {
+	background-color: #2a83e8;
+}
+button.secondary:hover,
+button.secondary:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="button"].secondary:hover,
+input[type="button"].secondary:focus,
+input[type="reset"].secondary:hover,
+input[type="reset"].secondary:focus,
+input[type="submit"].secondary:hover,
+input[type="submit"].secondary:focus {
+	background: #2a83e8;
+	color: #fff;
+}
+.btn-default, .btn-animate.light, .btn-animate.dark { background: #2a83e8; }
+.btn-bg-default { background: #2a83e8 !important; }
+
+.btn-border { border: 2px solid #2a83e8; }
+.btn-border:hover, .btn-border:focus { background: #2a83e8; }
+
+.btn-border-dark:hover, .btn-border-dark:focus { background: #2a83e8; border: 2px solid #2a83e8; }
+
+/*--------------------------------------------------------------
+	Navbar
+--------------------------------------------------------------*/
+
+@media (max-width: 991px) {
+	.navbar-custom .nav li.active a, 
+	.navbar-custom .nav li.active a:hover, 
+	.navbar-custom .nav li.active a:focus,
+	.navbar-custom .nav li a:hover {
+		color: #2a83e8;
+	}
+}
+
+/*===================================================================================*/
+/*	Woocommerce Header Cart
+/*===================================================================================*/
+
+.cart-header > a .cart-total {
+	background: #2a83e8;
+}
+
+/*===================================================================================*/
+/*	Main Slider - Owl Carousel
+/*===================================================================================*/
+
+.pointer-scroll { background: #2a83e8; }
+
+/*===================================================================================*/
+/*	OWL SLIDER NEXT - PREV BUTTONS
+/*===================================================================================*/
+
+.owl-theme .owl-dots .owl-dot.active span, 
+.owl-theme .owl-dots .owl-dot:hover span {
+	background: rgba(37, 131, 236, 1);
+}
+
+/*===================================================================================*/
+/*	Mixed Classes
+/*===================================================================================*/
+
+.bg-default { background-color: #2a83e8; }
+.text-default { color: #2a83e8; }
+.entry-header .entry-title a:hover  { color: #2a83e8; }
+
+/*===================================================================================*/
+/*	SERVICE SECTION
+/*===================================================================================*/
+
+.services .post:before { border-bottom-color: #2a83e8; }
+.services .post-thumbnail a { color: #2a83e8; }
+
+/*===================================================================================*/
+/*	About Section
+/*===================================================================================*/
+
+.about-thumbnail img { box-shadow: -40px -40px 0px 0px #2a83e8; }
+@media (min-width: 768px) and (max-width: 992px) { 
+	.about-thumbnail img { box-shadow: -25px -25px 0px 0px #2a83e8; }
+}
+@media (max-width: 768px) {  
+	.about-thumbnail img { box-shadow: -15px -15px 0px 0px #2a83e8; }
+}
+
+/*===================================================================================*/
+/*	PORTFOLIO FILTERS
+/*===================================================================================*/
+
+.portfolio-filters li.active a:before, 
+.portfolio-filters li a:before {
+	background-color: #2a83e8; 
+}
+
+/*===================================================================================*/
+/*	Portfolio Section
+/*===================================================================================*/
+
+.portfolio .post { background-color: #2a83e8; }
+
+/*===================================================================================*/
+/*	SHOP & PRODUCT SECTION
+/*===================================================================================*/
+
+.product-price > .woocommerce-loop-product__title a:hover, 
+.product-price > .woocommerce-loop-product__title a:focus { 
+	color: #2a83e8; 
+}
+
+
+/*===================================================================================*/
+/*	WOOCOMMERCE PLUGIN CSS
+/*===================================================================================*/
+
+.woocommerce ul.product_list_widget li a:hover, .woocommerce ul.product_list_widget li a:focus, 
+.woocommerce .posted_in a:hover, .woocommerce .posted_in a:focus { color: #2a83e8; }
+.woocommerce div.product form.cart .button, .woocommerce a.button, .woocommerce a.button:hover, .woocommerce a.added_to_cart, .woocommerce table.my_account_orders .order-actions .button { color: #fff; }
+.woocommerce ul.products li.product .button,  
+ .owl-item .item .cart .add_to_cart_button { background: #2a83e8 !important; }
+.woocommerce ul.products li.product .button, .woocommerce ul.products li.product .button:hover, .owl-item .item .cart .add_to_cart_button { border: 1px solid #2a83e8 !important; }
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt { background-color: #2a83e8; }
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+    background-color: #2a83e8;
+    color: #fff;
+}
+.woocommerce div.product form.cart .button, .woocommerce a.button, .woocommerce a.button:hover, .woocommerce a.button, .woocommerce .woocommerce-Button, .woocommerce .cart input.button, .woocommerce input.button.alt, .woocommerce button.button, .woocommerce #respond input#submit, .woocommerce .cart input.button:hover, .woocommerce .cart input.button:focus, 
+.woocommerce input.button.alt:hover, .woocommerce input.button.alt:focus, 
+.woocommerce input.button:hover, .woocommerce input.button:focus, 
+.woocommerce button.button:hover, .woocommerce button.button:focus, 
+.woocommerce #respond input#submit:hover, .woocommerce #respond input#submit:focus, 
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button { background: #2a83e8; border: 1px solid transparent !important; }
+.widget.woocommerce.widget_product_search .woocommerce-product-search button[type="submit"] {
+    background-color: #2a83e8;
+    border: 2px solid #2a83e8;
+}
+.widget.woocommerce.widget_product_search .woocommerce-product-search button[type="submit"]:hover {
+    background: #2a83e8;
+}
+.woocommerce-message, .woocommerce-info {
+    border-top-color: #2a83e8;
+}
+.woocommerce-message::before, .woocommerce-info::before { color: #2a83e8; }
+.woocommerce a.added_to_cart { background: #21202e; border: 1px solid #ffffff; }
+.woocommerce .checkout_coupon input.button, 
+.woocommerce .woocommerce-MyAccount-content input.button, .woocommerce .login input.button { background-color: #2a83e8; color: #ffffff; border: 1px solid transparent; }
+.woocommerce nav.woocommerce-pagination ul li a:focus, .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce nav.woocommerce-pagination ul li span.current { color: #2a83e8;
+    background-color: #fff;
+    border: 1px solid #f3f3f3; }
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range { background-color: #2a83e8; }
+.add-to-cart a.added_to_cart, 
+.add-to-cart a.added_to_cart:hover, 
+.add-to-cart a.added_to_cart:focus { 
+	background: #2a83e8;
+}
+.woocommerce-section {  background-color: #2a83e8; }
+.rating li i { color: #2a83e8; }
+
+.woocommerce ul.products li.product .onsale, .woocommerce span.onsale, .products .onsale { 
+    background: #2a83e8;
+    border: 2px solid #2a83e8;
+}
+
+
+/*===================================================================================*/
+/*	TESTIMONIAL SECTION
+/*===================================================================================*/
+
+.testmonial-block .name > a:hover { color: #2a83e8; }
+
+/*===================================================================================*/
+/*	Subscribe Newsletter
+/*===================================================================================*/
+
+.subscribe-form .form-control:focus { border-color: #2a83e8; }
+.sib_signup_form input[type="email"]:focus {
+   border-color: #2a83e8;
+}
+
+/*===================================================================================*/
+/*	PRICING SECTION
+/*===================================================================================*/
+
+.pricing-title-bg.default { background-color: #2a83e8; }
+.pricing-plans .price { color: #2a83e8; }
+
+/*===================================================================================*/
+/*	BLOG META
+/*===================================================================================*/
+
+.entry-meta a:hover, .entry-meta a:focus, .item-meta a:hover, .item-meta a:focus { color: #2a83e8 !important; }
+.entry-meta .cat-links a, .entry-meta .tag-links a { color: #2a83e8 !important; }
+.entry-meta .cat-links a , .entry-meta .cat-links{ color: #2a83e8 !important; }
+
+/*Paginations*/
+.pagination a:hover, .pagination a.active, .nav-links .page-numbers.current { color: #2a83e8; }
+
+/*Blog Author*/
+.blog-author img {     
+	-webkit-box-shadow: 7px 7px 0px 0px #2a83e8;
+	-moz-box-shadow: 7px 7px 0px 0px #2a83e8;
+	box-shadow: 7px 7px 0px 0px #2a83e8;
+}
+.blog-author .small-social-icon li a:hover, 
+.blog-author .small-social-icon li a:focus {
+    color: #2a83e8;
+}
+
+.small-social-icon li a:hover, .small-social-icon li a:focus {
+    color: #2a83e8;
+}
+
+.team-grid .social-links li a:hover, .team-grid .social-links li a:focus {
+    color: #2a83e8;
+}
+
+/*Comments*/
+.reply a {
+	background-color: #2a83e8;
+    border: 1px solid #2a83e8;
+}
+.reply a:hover, .reply a:focus { 
+	background-color: #2a83e8; 
+	border: 1px solid #2a83e8;
+}
+
+/*===================================================================================*/
+/*	Contact Form 7 & Contact Info Section
+/*===================================================================================*/
+
+.contact .subtitle { color: #2a83e8; }
+.contact-icon { background-color: #2a83e8; }
+.contact-form { border-top: 4px solid #2a83e8; }
+.contact-widget address > a:hover, .contact-widget address > a:hover { color: #2a83e8; }  
+
+/*===================================================================================*/
+/*	Instagram Gallery Section
+/*===================================================================================*/
+
+.insta-btn a, .insta-btn a:hover, .insta-btn a:focus {
+    color: #2a83e8;
+}
+.instagallery-actions .igact-instalink {
+    color: #2a83e8;
+}
+.instagallery-actions .igact-instalink:hover, 
+.instagallery-actions .igact-instalink:focus {
+	background: #2a83e8;
+}
+
+/*===================================================================================*/
+/*	PAGE TITLE SECTION 
+/*===================================================================================*/
+
+.page-breadcrumb > li a:hover, .page-breadcrumb > li a:focus, .page-breadcrumb > li.active a { color: #2a83e8; }
+
+/*===================================================================================*/
+/*	Sidebar & Widgets Section
+/*===================================================================================*/
+
+.widget a:hover, .widget a:focus,  
+.widget .post .entry-title a:hover, .widget .post .entry-title a:focus { color: #2a83e8 !important; }
+.widget .tagcloud a:hover { color: #2a83e8 !important; }
+
+/*===================================================================================*/
+/*	Footer Section
+/*===================================================================================*/
+
+@media (min-width: 992px){ .site-footer:before { background-color: #2a83e8; } }
+
+/*===================================================================================*/
+/*	404 Error Page
+/*===================================================================================*/
+
+.error-404 h1 > i { color: #2a83e8; }
+
+/*===================================================================================*/
+/*	Page Scroll Up
+/*===================================================================================*/
+
+.scroll-up a:hover, .scroll-up a:focus { background: #2a83e8; }
+

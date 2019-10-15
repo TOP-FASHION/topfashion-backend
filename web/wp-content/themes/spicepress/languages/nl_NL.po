@@ -1,0 +1,1001 @@
+# <!=Copyright (C) 2018 spicethemes.com
+# This file is distributed under the GNU General Public License v3 or later.=!>
+# Translators:
+# FX Bénard <fxb@wp-translations.org>, 2018
+# ThemeBoy <transifex@themeboy.com>, 2018
+# Thom, 2018
+# Chantal Coolsma <chantalcoolsma@me.com>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: SpicePress 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wp-translations.pro/\n"
+"POT-Creation-Date: 2018-04-19 14:47:50+00:00\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Chantal Coolsma <chantalcoolsma@me.com>, 2018\n"
+"Language-Team: Dutch (Netherlands) (https://www.transifex.com/wp-translations/teams/64435/nl_NL/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n1.0.2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Textdomain-Support: yes\n"
+
+#: 404.php:14
+msgid "4"
+msgstr "4"
+
+#: 404.php:13
+msgid "Oops! Page not found"
+msgstr "Oeps! Pagina niet gevonden"
+
+#: 404.php:15
+msgid "We are sorry, but the page you are looking for does not exist."
+msgstr "Het spijt ons, maar de pagina die je zoekt bestaat niet."
+
+#: 404.php:16
+msgid "Go Back"
+msgstr "Ga terug"
+
+#: comments.php:6
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Dit bericht is beveiligd met een wachtwoord. Voer het wachtwoord in om de "
+"reacties te bekijken."
+
+#: comments.php:21
+msgid "Reply"
+msgstr "Beantwoorden"
+
+#: comments.php:30
+msgid "Posted on"
+msgstr "Geplaatst op"
+
+#: comments.php:33
+msgid "Edit"
+msgstr "Bewerken"
+
+#: comments.php:36
+msgid "Your comment is awaiting moderation."
+msgstr "Je reactie is in afwachting van moderatie."
+
+#: comments.php:55
+msgid "No comments so far"
+msgstr "Geen reacties to nu toe"
+
+#: comments.php:55
+msgid "1 comment so far"
+msgstr "1 reactie tot nu toe"
+
+#: comments.php:55
+msgid "% Comments"
+msgstr "% reacties"
+
+#: comments.php:63
+msgid "Comment navigation"
+msgstr "Reactienavigatie"
+
+#: comments.php:64
+msgid "&larr; Older Comments"
+msgstr "&larr; Oudere reacties"
+
+#: comments.php:65
+msgid "Newer Comments &rarr;"
+msgstr "Nieuwere reacties &rarr;"
+
+#: comments.php:70 comments.php:116
+msgid "Comments are closed."
+msgstr "Reacties zijn gesloten."
+
+#: comments.php:76
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment"
+msgstr "Je moet <a href=\"%s\">inloggen</a> om een reactie te kunnen plaatsen"
+
+#: comments.php:82
+msgid "Name"
+msgstr "Naam"
+
+#: comments.php:83
+msgid "Email"
+msgstr "E-mail"
+
+#: comments.php:95
+msgid "Message"
+msgstr "Bericht"
+
+#: comments.php:96
+msgid "Logged in as"
+msgstr "Ingelogd als"
+
+#: comments.php:96
+msgid "Logout of this account"
+msgstr "Uitloggen van dit account"
+
+#: comments.php:96
+msgid "Log out"
+msgstr "Uitloggen"
+
+#: comments.php:98
+msgid "Send Message"
+msgstr "Verzend bericht"
+
+#: comments.php:102
+msgid "Leave a Reply"
+msgstr "Geef een reactie"
+
+#: content-page.php:36 content.php:34 functions/template-tags.php:168
+#: index-news.php:60 template/template-page-full-width.php:28
+msgid "Read More"
+msgstr "Meer lezen"
+
+#: footer.php:5 functions/customizer/customizer_general_settings.php:44
+msgid "Copyright © 2018 SpiceThemes. All right reserved"
+msgstr "Copyright © 2018 SpiceThemes. Alle rechten voorbehouden"
+
+#: functions/breadcrumbs/breadcrumbs.php:30
+#: functions/breadcrumbs/breadcrumbs.php:41
+#: functions/breadcrumbs/breadcrumbs.php:44
+msgid "Home"
+msgstr "Home"
+
+#: functions/breadcrumbs/breadcrumbs.php:47
+msgid "Archive by category"
+msgstr "Archief op categorie"
+
+#: functions/breadcrumbs/breadcrumbs.php:51
+#: functions/breadcrumbs/breadcrumbs.php:52
+#: functions/breadcrumbs/breadcrumbs.php:57
+#: functions/breadcrumbs/breadcrumbs.php:62
+msgid "Y"
+msgstr "Y"
+
+#: functions/breadcrumbs/breadcrumbs.php:52
+msgid "m"
+msgstr "m"
+
+#: functions/breadcrumbs/breadcrumbs.php:52
+#: functions/breadcrumbs/breadcrumbs.php:58
+msgid "F"
+msgstr "v"
+
+#: functions/breadcrumbs/breadcrumbs.php:53
+msgid "d"
+msgstr "d"
+
+#: functions/breadcrumbs/breadcrumbs.php:97
+msgid "Error 404"
+msgstr "Fout 404 "
+
+#: functions/customizer/customizer-pro.php:12
+msgid "UPGRADE TO PRO"
+msgstr "NAAR PRO UPGRADEN"
+
+#: functions/customizer/customizer-pro.php:19
+msgid "Upgrade to Pro"
+msgstr "Upgraden naar Pro"
+
+#: functions/customizer/customizer_general_settings.php:11
+msgid "General settings"
+msgstr "Algemene instellingen"
+
+#: functions/customizer/customizer_general_settings.php:16
+msgid "Remove animation"
+msgstr "Animatie verwijderen"
+
+#: functions/customizer/customizer_general_settings.php:27
+msgid "Remove animation effects from entire site"
+msgstr "Animatie-effecten van hele site verwijderen"
+
+#: functions/customizer/customizer_general_settings.php:36
+msgid "Footer copyright settings"
+msgstr "Copyright footer-instellingen"
+
+#: functions/customizer/customizer_general_settings.php:51
+msgid "Copyright text"
+msgstr "Copyright tekst"
+
+#: functions/customizer/customizer_header_image.php:7
+msgid "Custom header settings"
+msgstr "Aangepaste header-instellingen"
+
+#: functions/customizer/customizer_header_image.php:15
+msgid "Header Headline"
+msgstr "Kop header"
+
+#: functions/customizer/customizer_header_image.php:27
+msgid "Header Text"
+msgstr "Koptekst"
+
+#: functions/customizer/customizer_recommended_plugin.php:16
+msgid "Recommended Actions"
+msgstr "Aanbevolen acties"
+
+#: functions/customizer/customizer_recommended_plugin.php:17
+msgid "Recommended Plugin"
+msgstr "Aanbevolen plugin"
+
+#: functions/customizer/customizer_recommended_plugin.php:18
+msgid "Install and Activate"
+msgstr "Installeren en activeren"
+
+#: functions/customizer/customizer_recommended_plugin.php:19
+msgid "Activate"
+msgstr "Activeren"
+
+#: functions/customizer/customizer_recommended_plugin.php:20
+msgid "Deactivate"
+msgstr "Deactiveren"
+
+#: functions/customizer/customizer_sections_settings.php:21
+msgid "Homepage section settings"
+msgstr "Instellingen homepagina-sectie"
+
+#: functions/customizer/customizer_sections_settings.php:26
+msgid "Latest News settings"
+msgstr "Laatste nieuws-instellingen"
+
+#: functions/customizer/customizer_sections_settings.php:35
+msgid "Enable Home News section"
+msgstr "Nieuwssectie homepage inschakelen"
+
+#: functions/customizer/customizer_sections_settings.php:39
+msgid "ON"
+msgstr "AAN"
+
+#: functions/customizer/customizer_sections_settings.php:40
+msgid "OFF"
+msgstr "UIT"
+
+#: functions/customizer/customizer_sections_settings.php:47 index-news.php:10
+msgid "Latest News"
+msgstr "Laatste nieuws"
+
+#: functions/customizer/customizer_sections_settings.php:52
+#: functions/customizer-repeater/class/customizer-repeater-control.php:256
+#: functions/customizer-repeater/class/customizer-repeater-control.php:405
+msgid "Title"
+msgstr "Titel"
+
+#: functions/customizer/customizer_sections_settings.php:64
+#: functions/customizer-repeater/class/customizer-repeater-control.php:270
+#: functions/customizer-repeater/class/customizer-repeater-control.php:419
+msgid "Description"
+msgstr "Beschrijving"
+
+#: functions/customizer/customizer_sections_settings.php:82
+msgid "Enable post meta values, like author name, date, comments, etc."
+msgstr ""
+"Metawaarden bericht, zoals naam auteur, datum, reacties, enz. inschakelen."
+
+#: functions/customizer-notify/spicepress-customizer-notify.php:111
+msgid "Activating"
+msgstr "Activeren"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:33
+msgid "Add new field"
+msgstr "Voeg een nieuw veld toe"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:38
+msgid "Customizer Repeater"
+msgstr "Customizer herhaler"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:263
+#: functions/customizer-repeater/class/customizer-repeater-control.php:412
+msgid "Subtitle"
+msgstr "Ondertitel"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:279
+#: functions/customizer-repeater/class/customizer-repeater-control.php:427
+msgid "Button Text"
+msgstr "Tekst knop"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:290
+#: functions/customizer-repeater/class/customizer-repeater-control.php:437
+#: functions/customizer-repeater/class/customizer-repeater-control.php:626
+#: functions/customizer-repeater/class/customizer-repeater-control.php:648
+msgid "Link"
+msgstr "Link"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:309
+#: functions/customizer-repeater/class/customizer-repeater-control.php:455
+msgid "Video Url"
+msgstr "Video URL"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:333
+#: functions/customizer-repeater/class/customizer-repeater-control.php:397
+msgid "Color"
+msgstr "Kleur"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:343
+#: functions/customizer-repeater/class/customizer-repeater-control.php:466
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:351
+#: functions/customizer-repeater/class/customizer-repeater-control.php:475
+msgid "Designation"
+msgstr "Bestemming"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:367
+#: functions/customizer-repeater/class/customizer-repeater-control.php:486
+msgid "Delete field"
+msgstr "Verwijder veld"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:523
+msgid "Open link in new tab:"
+msgstr "Link in een nieuwe tab openen:"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:534
+#: functions/customizer-repeater/class/customizer-repeater-control.php:602
+msgid "Icon"
+msgstr "Icoon"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:539
+msgid ""
+"Note: Some icons may not be displayed here. You can see the full list of "
+"icons at %1$s."
+msgstr ""
+"Opmerking: enkele iconen worden hier niet getoond. Je kunt een volledige "
+"lijst van iconen zien via %1$s."
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:540
+msgid "http://fontawesome.io/icons/"
+msgstr "http://fontawesome.io/icons/"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:557
+#: functions/customizer-repeater/class/customizer-repeater-control.php:603
+msgid "Image"
+msgstr "Afbeelding"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:560
+msgid "Upload Image"
+msgstr "Upload afbeelding"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:569
+msgid "Slide Format"
+msgstr "Formaat slide"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:573
+msgid "Standard"
+msgstr "Standaard"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:577
+msgid "Aside"
+msgstr "Aside"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:581
+msgid "Quote"
+msgstr "Citaat"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:585
+msgid "Status"
+msgstr "Status"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:589
+msgid "Video"
+msgstr "Video"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:599
+msgid "Image type"
+msgstr "Type afbeelding"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:604
+msgid "None"
+msgstr "Geen"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:612
+msgid "Social icons"
+msgstr "Sociale iconen"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:629
+#: functions/customizer-repeater/class/customizer-repeater-control.php:659
+msgid "Remove Icon"
+msgstr "Verwijder icoon"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:634
+#: functions/customizer-repeater/class/customizer-repeater-control.php:667
+msgid "Add Icon"
+msgstr "Icoon toevoegen"
+
+#: functions/spicepress-info/sections/free_pro.php:14
+msgid "Features"
+msgstr "Eigenschappen"
+
+#: functions/spicepress-info/sections/free_pro.php:18
+msgid "Frontpage Sections"
+msgstr "Voorpagina secties"
+
+#: functions/spicepress-info/sections/free_pro.php:19
+msgid "You will find a number of sections on the front page."
+msgstr "Je vindt een aantal secties op de startpagina."
+
+#: functions/spicepress-info/sections/free_pro.php:21
+msgid "Page Templates Support"
+msgstr "Paginatemplates-ondersteuning"
+
+#: functions/spicepress-info/sections/free_pro.php:22
+msgid "SpicePress includes various page templates."
+msgstr "SpicePress bevat verschillende paginatemplates."
+
+#: functions/spicepress-info/sections/free_pro.php:24
+msgid "Layout Options"
+msgstr "Layout opties"
+
+#: functions/spicepress-info/sections/free_pro.php:25
+msgid ""
+"SpicePress supports both a Full-Width and a Boxed layout options. To choose "
+"your preference (and switch between them) go to Appearance > Customize."
+msgstr ""
+"SpicePress ondersteunt zowel een volledige breedte als boxed layout opties. "
+"Om je voorkeur te kiezen (en deze wisselen) ga naar Weergave > Customizer."
+
+#: functions/spicepress-info/sections/free_pro.php:27
+msgid "Mobile Friendly"
+msgstr "Mobielvriendelijk"
+
+#: functions/spicepress-info/sections/free_pro.php:28
+msgid "Responsive layout in all devices"
+msgstr "Responsive layout op alle apparaten"
+
+#: functions/spicepress-info/sections/free_pro.php:30
+msgid "Contact Form Support"
+msgstr "Contactformulier ondersteuning"
+
+#: functions/spicepress-info/sections/free_pro.php:31
+msgid ""
+"This theme supports the Contact Form 7 plugin. Use it to build your contact "
+"form."
+msgstr ""
+"Dit thema ondersteunt de Contact Form 7-plugin. Gebruik het om je "
+"contactformulier te maken."
+
+#: functions/spicepress-info/sections/free_pro.php:34
+#: functions/spicepress-info/sections/github.php:88
+msgid "Mulitple Color Schemes"
+msgstr "Meerdere kleurenschema's"
+
+#: functions/spicepress-info/sections/free_pro.php:35
+msgid ""
+"Enjoy any of the 7 preset color schemes, or create your own, without adding "
+"any code."
+msgstr ""
+"Geniet van de 7 bestaande kleurenschema's of maak je eigen aan, zonder code "
+"toe te voegen."
+
+#: functions/spicepress-info/sections/free_pro.php:37
+msgid "Google Map"
+msgstr "Google Maps"
+
+#: functions/spicepress-info/sections/free_pro.php:38
+msgid ""
+"Display your Shop and Business location on your website using Google Maps."
+msgstr ""
+"Toon je winkel- en bedrijfslocatie op je website door Google Maps te "
+"gebruiken."
+
+#: functions/spicepress-info/sections/free_pro.php:40
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: functions/spicepress-info/sections/free_pro.php:41
+msgid ""
+"Present your project/portfolio collection with 2 column, 3 column and 4 "
+"column layouts. You can also display your project/portfolio by category."
+msgstr ""
+"Presenteer je project-/portfolio-collectie met 2 kolommen, 3 kolommen en 4 "
+"kolommen layouts. Je kunt je project/portfolio ook per categorie tonen."
+
+#: functions/spicepress-info/sections/free_pro.php:44
+msgid "About Us Page"
+msgstr "Over ons-pagina"
+
+#: functions/spicepress-info/sections/free_pro.php:45
+msgid "Show team members and custom content added in the WordPress editor."
+msgstr ""
+"Toon teamleden en aangepaste inhoud die in de WordPress editor is "
+"toegevoegd."
+
+#: functions/spicepress-info/sections/free_pro.php:48
+msgid "Services Page"
+msgstr "Diensten-pagina"
+
+#: functions/spicepress-info/sections/free_pro.php:49
+msgid "Show all your services in a single place."
+msgstr "Toon al je diensten op één enkele plek."
+
+#: functions/spicepress-info/sections/free_pro.php:52
+msgid "Testimonial/Review Section"
+msgstr "Testimonial/beoordeling sectie"
+
+#: functions/spicepress-info/sections/free_pro.php:53
+msgid "Show user feedback on the Homepage."
+msgstr "Gebruikersfeedback op de homepage tonen."
+
+#: functions/spicepress-info/sections/free_pro.php:57
+msgid "Typography Settings"
+msgstr "Typografie-instellingen"
+
+#: functions/spicepress-info/sections/free_pro.php:58
+msgid "You can customize the style without adding any code."
+msgstr "Je kunt de stijl aanpassen zonder code toe te voegen."
+
+#: functions/spicepress-info/sections/free_pro.php:62
+msgid "WPML Support"
+msgstr "WPML-ondersteuning"
+
+#: functions/spicepress-info/sections/free_pro.php:63
+msgid "You can use WPML to make your website multilingual."
+msgstr "Je kunt WPML gebruiken om je website meertalig te maken."
+
+#: functions/spicepress-info/sections/free_pro.php:66
+msgid "Support Forum"
+msgstr "Ondersteuningsforum"
+
+#: functions/spicepress-info/sections/free_pro.php:67
+msgid "Get instant 24/7 support on our Support Forum."
+msgstr "Krijg direct 24/7 ondersteuning op ons ondersteuningsforum."
+
+#. Theme Name of the plugin/theme
+msgid "SpicePress"
+msgstr "SpicePress"
+
+#: functions/spicepress-info/sections/free_pro.php:87
+msgid ""
+"Slider [Static Image], Services [3 Services], Portfolio [3 Portfolio], "
+"Testimonial, Latest News"
+msgstr ""
+"Slider [statische afbeelding], diensten [3 diensten], portfolio [3 "
+"portfolio's], recensie, laatste nieuws"
+
+#: functions/spicepress-info/sections/free_pro.php:92
+msgid "Business Template and Full-Width Template"
+msgstr "Zakelijke template en volledige breedte template"
+
+#: functions/spicepress-info/sections/free_pro.php:93
+msgid "Wide Layout"
+msgstr "Brede layout"
+
+#: functions/spicepress-info/sections/free_pro.php:105
+msgid "On WordPress.org Support Forum"
+msgstr "Op WordPress.org ondersteuningsforum"
+
+#: functions/spicepress-info/sections/free_pro.php:117
+msgid "SpicePress PRO"
+msgstr "SpicePress PRO"
+
+#: functions/spicepress-info/sections/free_pro.php:122
+msgid ""
+"Top Header, Slider [Unlimited], Services [Unlimited], Portfolio [Unlimited],"
+" Latest News, Clients, Testimonials, Custom Widgets"
+msgstr ""
+"Top header, Slider [onbeperkt], Diensten [onbeperkt], Portfolio [onbeperkt],"
+" Laatste nieuws, Klanten, Testimonials, Aangepaste widgets"
+
+#: functions/spicepress-info/sections/free_pro.php:124
+msgid ""
+"About, Services, Portfolio, Blog Left & Right Sidebars, Blog Full Width, "
+"Page Full Width, Contact Page and much more."
+msgstr ""
+"Over, Diensten, Portfolio, Blog linker & rechter zijbalken, Blog volledige "
+"breedte, Pagina volledige breedte, Contact pagina en veel meer."
+
+#: functions/spicepress-info/sections/free_pro.php:125
+msgid "Wide layout & Boxed Layout"
+msgstr "Brede layout & boxed layout"
+
+#: functions/spicepress-info/sections/free_pro.php:137
+msgid "Premium Support Forum"
+msgstr "Premium ondersteuningsforum"
+
+#: functions/spicepress-info/sections/free_pro.php:147
+msgid "Get SpicePress PRO Now!"
+msgstr "Nu SpicePress PRO verkrijgen!"
+
+#: functions/spicepress-info/sections/getting-started.php:14
+msgid "About the SpicePress theme"
+msgstr "Over het SpicePress-thema"
+
+#: functions/spicepress-info/sections/getting-started.php:20
+msgid ""
+"This theme is ideal for creating corporate and business websites. The PRO "
+"version has tons of features: a homepage with many sections where you can "
+"feature unlimited sliders, portfolios, user reviews, latest news, services, "
+"calls to action and much more. Each section in the HomePage template is "
+"carefully designed to fit to all business requirements."
+msgstr ""
+"Dit thema is ideaal voor het maken van zakelijke websites. De PRO versie "
+"heeft vele functies: een homepage met meerdere secties waar je onbeperkte "
+"sliders, portfolio's, gebruikers beoordelingen, laatste nieuws, diensten, "
+"call-to-action en veel meer kunt uitlichten. Elke sectie in het homepage "
+"template is ontworpen om alle zakelijke vereisten in te passen."
+
+#: functions/spicepress-info/sections/getting-started.php:22
+msgid ""
+"You can use this theme for any type of activity. SpicePress is compatible "
+"with popular plugins like WPML and Polylang. To help you create an effective"
+" and impactful web presence, SpicePress has predefined versions of many "
+"pages: Contact, Services, Portfolios, About Us and Blog."
+msgstr ""
+"Je kan dit thema gebruiken voor welke activiteit dan ook. SpicePress is "
+"compatibel met populaire plugins zoals WPML en Polylang. Om je te helpen een"
+" effectieve aanwezigheid op het web te maken, heeft SpicePress "
+"voorgedefinieerde versies van vele pagina's: Contact, Diensten, Portfolio's,"
+" Over ons en Blog."
+
+#: functions/spicepress-info/sections/getting-started.php:24
+#: functions/spicepress-info/welcome-screen.php:210
+msgid "Getting Started"
+msgstr "Aan de slag"
+
+#: functions/spicepress-info/sections/getting-started.php:28
+msgid ""
+"To take full advantage of all the features this theme has to offer, install "
+"and activate the SpiceBox plugin. Go to Customize and install the SpiceBox "
+"plugin."
+msgstr ""
+"Om volledig voordeel te halen uit alle functies van dit thema, installeer en"
+" activeer de SpiceBox-pugin. Ga naar Customizer en installeer de SpiceBox-"
+"plugin."
+
+#: functions/spicepress-info/sections/getting-started.php:31
+msgid "Go to the Customizer"
+msgstr "Ga naar de Customizer"
+
+#: functions/spicepress-info/sections/getting-started.php:37
+msgid "SpicePress theme"
+msgstr "SpicePress-thema"
+
+#: functions/spicepress-info/sections/getting-started.php:45
+msgid "Useful Links"
+msgstr "Handige links"
+
+#: functions/spicepress-info/sections/getting-started.php:52
+msgid "Lite Demo"
+msgstr "Lite demo"
+
+#: functions/spicepress-info/sections/getting-started.php:56
+msgid "PRO Demo"
+msgstr "PRO-demo"
+
+#: functions/spicepress-info/sections/getting-started.php:67
+msgid "Your feedback is valuable to us"
+msgstr "Je feedback is waardevol voor ons"
+
+#: functions/spicepress-info/sections/getting-started.php:70
+msgid "Premium Theme Support"
+msgstr "Premium thema ondersteuning"
+
+#: functions/spicepress-info/sections/getting-started.php:80
+msgid "Premium Theme Details"
+msgstr "Premium thema details"
+
+#: functions/spicepress-info/sections/github.php:11
+#: functions/spicepress-info/welcome-screen.php:212
+msgid "Why Upgrade to PRO?"
+msgstr "Waarom naar PRO upgraden?"
+
+#: functions/spicepress-info/sections/github.php:16
+msgid "Site Layout"
+msgstr "Site layout"
+
+#: functions/spicepress-info/sections/github.php:17
+msgid ""
+"SpicePress comes with two types of layout: a boxed one and a full-width "
+"layout. You can easily switch between them in Appearance > Customize."
+msgstr ""
+"SpicePress heeft twee layout-types: boxed en volledige breedte. Je kan deze "
+"gemakkelijk wisselen bij Weergave > Customizer."
+
+#: functions/spicepress-info/sections/github.php:24
+msgid "Top Header Section"
+msgstr "Top header-sectie"
+
+#: functions/spicepress-info/sections/github.php:25
+msgid ""
+"You can customize your header section. There are Contact info detail and "
+"social media icons features in Header Top section."
+msgstr ""
+"Je kan de header sectie aanpassen. Er zijn functies voor contactgegevens en "
+"social media iconen in de header top-sectie."
+
+#: functions/spicepress-info/sections/github.php:33
+msgid "Multi Level Navigation"
+msgstr "Navigatie met meerdere niveaus"
+
+#: functions/spicepress-info/sections/github.php:34
+msgid ""
+"There are beautifully styled navigation/menus in SpicePress. You can create "
+"sub menus and make multi level menus."
+msgstr ""
+"SpicePress bevat prachtig vormgegeven navigatie/menu's. Je kan submenu's en "
+"menu's met meerdere lagen maken."
+
+#: functions/spicepress-info/sections/github.php:42
+msgid "Caption Slider"
+msgstr "Onderschrift slider"
+
+#: functions/spicepress-info/sections/github.php:43
+msgid ""
+"You can create unlimited sliders, which can be controlled by the settings in"
+" Appearance > Customize."
+msgstr ""
+"Je kan een onbeperkt aantal sliders maken, welke beheert kunnen worden in de"
+" instellingen bij Weergave > Customizer."
+
+#: functions/spicepress-info/sections/github.php:51
+msgid "Service Features"
+msgstr "Dienst functies"
+
+#: functions/spicepress-info/sections/github.php:53
+msgid ""
+"You can display any number of services on the Homepage, with thousands of "
+"Font Awesome icons available. You can also display a set of services on a "
+"separate page by using the Service page template."
+msgstr ""
+"Je kunt elk aantal diensten op de homepage tonen, met duizenden beschikbare "
+"Font Awesome iconen. Je kunt ook een set diensten op een aparte pagina tonen"
+" door gebruik te maken van de dienstpagina-template."
+
+#: functions/spicepress-info/sections/github.php:61
+msgid "Portfolio Features"
+msgstr "Portfolio functies"
+
+#: functions/spicepress-info/sections/github.php:62
+msgid ""
+"Showcase any number of projects. This theme provides you with an option to "
+"create 2, 3, 4 column grid layouts by using the portfolio 2, 3, 4 column "
+"layout templates, respectively. If you have a number of projects to present "
+"then these templates are the answer. You can also create categorized "
+"portfolios, which display all the portfolio categories in a single place. In"
+" fact, we have coded this theme so that you can create any number of "
+"different portfolios."
+msgstr ""
+"Toon elk aantal projecten. Dit thema biedt je een optie om 2, 3, 4 kolommen "
+"grid layouts aan te maken door de portfolio 2, 3, 4 kolommen layoutsjablonen"
+" te gebruiken. Als je een aantal projecten wilt presenteren, zijn deze "
+"sjablonen het antwoord. Je kunt ook gecategoriseerde portfolio's aanmaken, "
+"welke al de portfoliocategorieën weergeeft op een enkele plaats. We hebben "
+"dit thema eigenlijk zo gecodeerd dat je elk aantal verschillende portfolio's"
+" kunt aanmaken."
+
+#: functions/spicepress-info/sections/github.php:70
+msgid "Latest News Section"
+msgstr "Laatste nieuws-sectie"
+
+#: functions/spicepress-info/sections/github.php:71
+msgid ""
+"This section is often used to display Latest News, Announcements and Events "
+"type content."
+msgstr ""
+"Deze sectie wordt vaak gebruikt om het laatste nieuws, mededelingen en "
+"activiteiten inhoud te weergeven."
+
+#: functions/spicepress-info/sections/github.php:78
+msgid "Testimonial Feature"
+msgstr "Recensie functie"
+
+#: functions/spicepress-info/sections/github.php:79
+msgid ""
+"Testimonials are a powerful way to gain credibility. You can display "
+"testimonials with a carousel effect."
+msgstr ""
+"Recensies zijn een krachtige manier om meer geloofwaardigheid te krijgen. Je"
+" kunt recensies met een carousel effect weergeven."
+
+#: functions/spicepress-info/sections/github.php:89
+msgid ""
+"SpicePress comes with 7 preset color schemes and you can also create your "
+"own palettes using the Custom Color Setting in the Customizer."
+msgstr ""
+"SpicePress komt met 7 voorgedefinieerde kleurenschema's en je kunt ook je "
+"eigen paletten maken met de aangepaste kleuren instelling in de Customizer."
+
+#: functions/spicepress-info/sections/github.php:97
+msgid "Well Documented"
+msgstr "Goed gedocumenteerd"
+
+#: functions/spicepress-info/sections/github.php:98
+msgid ""
+"We provide good knowledgebase articles which will help you to create "
+"effective websites. You can visit these articles via our  "
+msgstr ""
+"We leveren goede kennisbank-artikelen, welke je helpen effectieve websites "
+"te maken. Je kan deze artikelen bezoeken via onze"
+
+#: functions/spicepress-info/sections/github.php:98
+msgid "Help Section"
+msgstr "Helpsectie"
+
+#: functions/spicepress-info/sections/github.php:106
+msgid "Custom widget "
+msgstr "Aangepaste widget"
+
+#: functions/spicepress-info/sections/github.php:107
+msgid ""
+"Building a website with our custom widgets is very simple. Just place them "
+"inside the available sidebar or even in the content."
+msgstr ""
+"Een website bouwen met onze aangepaste widgets is heel eenvoudig. Plaats ze "
+"gewoon in de zijbalk of zelfs in de inhoud."
+
+#: functions/spicepress-info/sections/github.php:116
+msgid "Translation Ready"
+msgstr "Gereed voor vertaling"
+
+#: functions/spicepress-info/sections/github.php:117
+msgid ""
+"The theme supports yet another famous plugin: WPML. With the help of this "
+"support you can create a website available in multiple languages."
+msgstr ""
+"Het thema ondersteunt nog een andere bekende plugin: WPML. Met de hulp van "
+"deze ondersteuning kan je een website maken in meerdere talen."
+
+#: functions/spicepress-info/welcome-screen.php:57
+msgid "Welcome to %1$s - Version %2$s"
+msgstr "Welkom bij %1$s - versie %2$s"
+
+#: functions/spicepress-info/welcome-screen.php:59
+msgid ""
+"Welcome! Thank you for choosing SpiceThemes SpicePress WordPress theme. To "
+"take full advantage of the features this theme has to offer visit our "
+"%swelcome page%s."
+msgstr ""
+"Welkom! Bedankt dat je hebt gekozen voor het SpiceThemes SpicePress "
+"WordPress thema. Om volledig voordeel te halen uit de functies die dit thema"
+" biedt, bezoek onze %swelkomst pagina%s."
+
+#: functions/spicepress-info/welcome-screen.php:60
+msgid "Get started with SpicePress"
+msgstr "Aan de slag met SpicePress"
+
+#: functions/spicepress-info/welcome-screen.php:103
+msgid "Hooray! There are no required actions for you right now."
+msgstr "Hoera! Er zijn geen vereiste acties voor je op dit moment."
+
+#: functions/spicepress-info/welcome-screen.php:140
+msgid "View Theme Info"
+msgstr "Thema info tonen"
+
+#: functions/spicepress-info/welcome-screen.php:213
+msgid "Free VS PRO"
+msgstr "Free versus PRO"
+
+#: functions/template-tags.php:26
+msgid "By"
+msgstr "Door"
+
+#: functions/template-tags.php:32
+msgid "in"
+msgstr "in"
+
+#: functions/template-tags.php:36
+msgid "Tag"
+msgstr "Tag"
+
+#: functions/template-tags.php:99 functions/template-tags.php:103
+#: functions/template-tags.php:107 functions/template-tags.php:113
+#: functions/template-tags.php:119 functions/template-tags.php:125
+#: functions/template-tags.php:147
+msgid "%1$s %2$s"
+msgstr "%1$s op %2$s"
+
+#: functions/template-tags.php:111
+msgid "Category Archive"
+msgstr "Categorie archief"
+
+#: functions/template-tags.php:117
+msgid "All posts by"
+msgstr "Alle berichten door"
+
+#: functions/template-tags.php:123
+msgid "Tag Archive"
+msgstr "Tag archief"
+
+#: functions/template-tags.php:143
+msgid "Search results for"
+msgstr "Zoekresultaten voor"
+
+#: functions/template-tags.php:153
+msgid "Error 404: Page Not Found"
+msgstr "Fout 404: pagina niet gevonden"
+
+#: functions/template-tags.php:157
+msgid "%1$s "
+msgstr "%1$s"
+
+#: functions/template-tags.php:177
+msgid "previous page"
+msgstr "vorige pagina"
+
+#: functions/template-tags.php:177
+msgid "next page"
+msgstr "volgende pagina"
+
+#: functions/widgets/sidebars.php:8 functions/widgets/sidebars.php:10
+msgid "Sidebar widget area"
+msgstr "Zijbalk widgetgebied"
+
+#: functions/widgets/sidebars.php:18 functions/widgets/sidebars.php:20
+msgid "Footer widget left area"
+msgstr "Footer widgetgebied links"
+
+#: functions/widgets/sidebars.php:28 functions/widgets/sidebars.php:30
+msgid "Footer widget central area"
+msgstr "Footer widgetgebied midden"
+
+#: functions/widgets/sidebars.php:38 functions/widgets/sidebars.php:40
+msgid "Footer widget right area"
+msgstr "Footer widgetgebied rechts"
+
+#: functions/widgets/sidebars.php:50 functions/widgets/sidebars.php:52
+msgid "WooCommerce sidebar widget area"
+msgstr "WooCommerce zijbalk widgetgebied"
+
+#: functions.php:49
+msgid "Page"
+msgstr "Pagina"
+
+#: functions.php:98
+msgid "Primary Menu"
+msgstr "Primair menu"
+
+#: header/header-navbar.php:45
+msgid "Toggle navigation"
+msgstr "Navigatie in-/uitklappen"
+
+#: search.php:28
+msgid "Nothing found"
+msgstr "Niets gevonden"
+
+#: search.php:29
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Helaas, geen resultaten voldeden aan de zoekcriteria. Probeer het opnieuw "
+"met andere zoekwoorden."
+
+#: searchform.php:3
+msgid "Search here"
+msgstr "Hier zoeken"
+
+#. Theme URI of the plugin/theme
+msgid "https://spicethemes.com/spicepress-wordpress-theme/"
+msgstr "https://spicethemes.com/spicepress-wordpress-theme/"
+
+#. Description of the plugin/theme
+msgid ""
+"SpicePress is a responsive and fully customizable business template. The "
+"advanced admin panel will enable you to personalize the theme without any "
+"technical information. SpicePress offers 7 predefined color schemes as well "
+"as the opportunity to customize the existing graphics to create your own "
+"unique website interface."
+msgstr ""
+"SpicePress is een responsive en volledig aanpasbaar zakelijk template. Het "
+"geavanceerde beheerspaneel stelt je in staat om het thema te personaliseren "
+"zonder technische informatie. SpicePress biedt 7 voorgedefinieerde "
+"kleurenschema's, als ook de mogelijkheid om bestaande graphics aan te passen"
+" om je eigen unieke website interface te maken."
+
+#. Author of the plugin/theme
+msgid "spicethemes.com"
+msgstr "spicethemes.com"
+
+#. Author URI of the plugin/theme
+msgid "https://spicethemes.com"
+msgstr "https://spicethemes.com"
+
+#. Template Name of the plugin/theme
+msgid "Business Template"
+msgstr "Zakelijke template"
+
+#. Template Name of the plugin/theme
+msgid "Full-width page"
+msgstr "Volledige breedte-pagina"

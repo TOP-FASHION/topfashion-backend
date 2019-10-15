@@ -1,0 +1,1009 @@
+# <!=Copyright (C) 2018 spicethemes.com
+# This file is distributed under the GNU General Public License v3 or later.=!>
+# Translators:
+# FX Bénard <fxb@wp-translations.org>, 2018
+# WebSource <info@websource.li>, 2018
+# ThemeBoy <transifex@themeboy.com>, 2018
+# Sören Wrede <soerenwrede@gmail.com>, 2018
+# Christian Herrmann, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: SpicePress 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wp-translations.pro/\n"
+"POT-Creation-Date: 2018-04-19 14:47:50+00:00\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Christian Herrmann, 2018\n"
+"Language-Team: German (Germany) (https://www.transifex.com/wp-translations/teams/64435/de_DE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n1.0.2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Textdomain-Support: yes\n"
+
+#: 404.php:14
+msgid "4"
+msgstr "4"
+
+#: 404.php:13
+msgid "Oops! Page not found"
+msgstr "Oops! Seite nicht gefunden"
+
+#: 404.php:15
+msgid "We are sorry, but the page you are looking for does not exist."
+msgstr "Es tut uns leid, aber die Seite, die du suchst, existiert nicht."
+
+#: 404.php:16
+msgid "Go Back"
+msgstr "Zurück"
+
+#: comments.php:6
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Dieser Beitrag ist passwortgeschützt. Um Kommentare anschauen zu können "
+"musst du das Passwort angeben."
+
+#: comments.php:21
+msgid "Reply"
+msgstr "Antworten"
+
+#: comments.php:30
+msgid "Posted on"
+msgstr "Veröffentlicht am"
+
+#: comments.php:33
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: comments.php:36
+msgid "Your comment is awaiting moderation."
+msgstr "Dein Kommentar wartet auf Freischaltung."
+
+#: comments.php:55
+msgid "No comments so far"
+msgstr "Bisher keine Kommentare"
+
+#: comments.php:55
+msgid "1 comment so far"
+msgstr "1 Kommentar bisher"
+
+#: comments.php:55
+msgid "% Comments"
+msgstr "% Kommentare"
+
+#: comments.php:63
+msgid "Comment navigation"
+msgstr "Kommentar-Navigation"
+
+#: comments.php:64
+msgid "&larr; Older Comments"
+msgstr "&larr; Ältere Kommentare"
+
+#: comments.php:65
+msgid "Newer Comments &rarr;"
+msgstr "Neuere Kommentare &rarr;"
+
+#: comments.php:70 comments.php:116
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: comments.php:76
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment"
+msgstr "Du musst <a href=\"%s\">angemeldet</a> sein, um einen Kommentar abzugeben"
+
+#: comments.php:82
+msgid "Name"
+msgstr "Name"
+
+#: comments.php:83
+msgid "Email"
+msgstr "E-Mail"
+
+#: comments.php:95
+msgid "Message"
+msgstr "Nachricht"
+
+#: comments.php:96
+msgid "Logged in as"
+msgstr "Angemeldet als"
+
+#: comments.php:96
+msgid "Logout of this account"
+msgstr "Diesen Benutzer abmelden"
+
+#: comments.php:96
+msgid "Log out"
+msgstr "Abmelden"
+
+#: comments.php:98
+msgid "Send Message"
+msgstr "Nachricht senden"
+
+#: comments.php:102
+msgid "Leave a Reply"
+msgstr "Schreibe einen Kommentar"
+
+#: content-page.php:36 content.php:34 functions/template-tags.php:168
+#: index-news.php:60 template/template-page-full-width.php:28
+msgid "Read More"
+msgstr "Weiterlesen"
+
+#: footer.php:5 functions/customizer/customizer_general_settings.php:44
+msgid "Copyright © 2018 SpiceThemes. All right reserved"
+msgstr "Copyright © 2018 SpiceThemes. Alle Rechte vorbehalten"
+
+#: functions/breadcrumbs/breadcrumbs.php:30
+#: functions/breadcrumbs/breadcrumbs.php:41
+#: functions/breadcrumbs/breadcrumbs.php:44
+msgid "Home"
+msgstr "Startseite"
+
+#: functions/breadcrumbs/breadcrumbs.php:47
+msgid "Archive by category"
+msgstr "Archiv nach Kategorie"
+
+#: functions/breadcrumbs/breadcrumbs.php:51
+#: functions/breadcrumbs/breadcrumbs.php:52
+#: functions/breadcrumbs/breadcrumbs.php:57
+#: functions/breadcrumbs/breadcrumbs.php:62
+msgid "Y"
+msgstr "Y"
+
+#: functions/breadcrumbs/breadcrumbs.php:52
+msgid "m"
+msgstr "m"
+
+#: functions/breadcrumbs/breadcrumbs.php:52
+#: functions/breadcrumbs/breadcrumbs.php:58
+msgid "F"
+msgstr "F"
+
+#: functions/breadcrumbs/breadcrumbs.php:53
+msgid "d"
+msgstr "d"
+
+#: functions/breadcrumbs/breadcrumbs.php:97
+msgid "Error 404"
+msgstr "Fehler 404"
+
+#: functions/customizer/customizer-pro.php:12
+msgid "UPGRADE TO PRO"
+msgstr "UPGRADE AUF PRO"
+
+#: functions/customizer/customizer-pro.php:19
+msgid "Upgrade to Pro"
+msgstr "Upgrade auf Pro"
+
+#: functions/customizer/customizer_general_settings.php:11
+msgid "General settings"
+msgstr "Allgemeine Einstellungen"
+
+#: functions/customizer/customizer_general_settings.php:16
+msgid "Remove animation"
+msgstr "Animation entfernen"
+
+#: functions/customizer/customizer_general_settings.php:27
+msgid "Remove animation effects from entire site"
+msgstr "Animationseffekte auf der gesamten Website entfernen"
+
+#: functions/customizer/customizer_general_settings.php:36
+msgid "Footer copyright settings"
+msgstr "Footer-Copyright Einstellungen"
+
+#: functions/customizer/customizer_general_settings.php:51
+msgid "Copyright text"
+msgstr "Copyright Text"
+
+#: functions/customizer/customizer_header_image.php:7
+msgid "Custom header settings"
+msgstr "Individuelle Header-Einstellungen"
+
+#: functions/customizer/customizer_header_image.php:15
+msgid "Header Headline"
+msgstr "Header-Überschrift"
+
+#: functions/customizer/customizer_header_image.php:27
+msgid "Header Text"
+msgstr "Header-Text"
+
+#: functions/customizer/customizer_recommended_plugin.php:16
+msgid "Recommended Actions"
+msgstr "Empfohlene Aktionen"
+
+#: functions/customizer/customizer_recommended_plugin.php:17
+msgid "Recommended Plugin"
+msgstr "Empfohlenes Plugin"
+
+#: functions/customizer/customizer_recommended_plugin.php:18
+msgid "Install and Activate"
+msgstr "Installieren und aktivieren"
+
+#: functions/customizer/customizer_recommended_plugin.php:19
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: functions/customizer/customizer_recommended_plugin.php:20
+msgid "Deactivate"
+msgstr "Deaktivieren"
+
+#: functions/customizer/customizer_sections_settings.php:21
+msgid "Homepage section settings"
+msgstr "Startseite-Abschnitt Einstellungen"
+
+#: functions/customizer/customizer_sections_settings.php:26
+msgid "Latest News settings"
+msgstr "Neueste Nachrichten Einstellungen"
+
+#: functions/customizer/customizer_sections_settings.php:35
+msgid "Enable Home News section"
+msgstr "Home-Neuigkeiten-Abschnitt aktivieren"
+
+#: functions/customizer/customizer_sections_settings.php:39
+msgid "ON"
+msgstr "AN"
+
+#: functions/customizer/customizer_sections_settings.php:40
+msgid "OFF"
+msgstr "Aus"
+
+#: functions/customizer/customizer_sections_settings.php:47 index-news.php:10
+msgid "Latest News"
+msgstr "Neueste Nachrichten"
+
+#: functions/customizer/customizer_sections_settings.php:52
+#: functions/customizer-repeater/class/customizer-repeater-control.php:256
+#: functions/customizer-repeater/class/customizer-repeater-control.php:405
+msgid "Title"
+msgstr "Titel"
+
+#: functions/customizer/customizer_sections_settings.php:64
+#: functions/customizer-repeater/class/customizer-repeater-control.php:270
+#: functions/customizer-repeater/class/customizer-repeater-control.php:419
+msgid "Description"
+msgstr "Beschreibung"
+
+#: functions/customizer/customizer_sections_settings.php:82
+msgid "Enable post meta values, like author name, date, comments, etc."
+msgstr "Beitrags-Metadaten aktivieren, wie Autorname, Datum, Kommentare etc."
+
+#: functions/customizer-notify/spicepress-customizer-notify.php:111
+msgid "Activating"
+msgstr "Aktivieren"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:33
+msgid "Add new field"
+msgstr "Neues Feld hinzufügen"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:38
+msgid "Customizer Repeater"
+msgstr "Customizer Repeater"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:263
+#: functions/customizer-repeater/class/customizer-repeater-control.php:412
+msgid "Subtitle"
+msgstr "Untertitel"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:279
+#: functions/customizer-repeater/class/customizer-repeater-control.php:427
+msgid "Button Text"
+msgstr "Button-Text"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:290
+#: functions/customizer-repeater/class/customizer-repeater-control.php:437
+#: functions/customizer-repeater/class/customizer-repeater-control.php:626
+#: functions/customizer-repeater/class/customizer-repeater-control.php:648
+msgid "Link"
+msgstr "Link"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:309
+#: functions/customizer-repeater/class/customizer-repeater-control.php:455
+msgid "Video Url"
+msgstr "Video-URL"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:333
+#: functions/customizer-repeater/class/customizer-repeater-control.php:397
+msgid "Color"
+msgstr "Farbe"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:343
+#: functions/customizer-repeater/class/customizer-repeater-control.php:466
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:351
+#: functions/customizer-repeater/class/customizer-repeater-control.php:475
+msgid "Designation"
+msgstr "Bezeichnung"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:367
+#: functions/customizer-repeater/class/customizer-repeater-control.php:486
+msgid "Delete field"
+msgstr "Feld löschen"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:523
+msgid "Open link in new tab:"
+msgstr "Link in neuem Tab öffnen:"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:534
+#: functions/customizer-repeater/class/customizer-repeater-control.php:602
+msgid "Icon"
+msgstr "Icon"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:539
+msgid ""
+"Note: Some icons may not be displayed here. You can see the full list of "
+"icons at %1$s."
+msgstr ""
+"Hinweis: Manche Icons werden hier vielleicht nicht angezeigt. Du findest die"
+" vollständige Liste auf %1$s."
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:540
+msgid "http://fontawesome.io/icons/"
+msgstr "http://fontawesome.io/icons/"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:557
+#: functions/customizer-repeater/class/customizer-repeater-control.php:603
+msgid "Image"
+msgstr "Bild"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:560
+msgid "Upload Image"
+msgstr "Bild hochladen"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:569
+msgid "Slide Format"
+msgstr "Slide-Format"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:573
+msgid "Standard"
+msgstr "Standard"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:577
+msgid "Aside"
+msgstr "Kurzmitteilung"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:581
+msgid "Quote"
+msgstr "Zitat"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:585
+msgid "Status"
+msgstr "Status"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:589
+msgid "Video"
+msgstr "Video"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:599
+msgid "Image type"
+msgstr "Bildtyp"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:604
+msgid "None"
+msgstr "Keine"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:612
+msgid "Social icons"
+msgstr "Soziale Icons"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:629
+#: functions/customizer-repeater/class/customizer-repeater-control.php:659
+msgid "Remove Icon"
+msgstr "Icon entfernen"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:634
+#: functions/customizer-repeater/class/customizer-repeater-control.php:667
+msgid "Add Icon"
+msgstr "Icon hinzufügen"
+
+#: functions/spicepress-info/sections/free_pro.php:14
+msgid "Features"
+msgstr "Funktionen"
+
+#: functions/spicepress-info/sections/free_pro.php:18
+msgid "Frontpage Sections"
+msgstr "Startseiten-Abschnitte"
+
+#: functions/spicepress-info/sections/free_pro.php:19
+msgid "You will find a number of sections on the front page."
+msgstr "Du wirst einige Bereiche auf der Startseite vorfinden."
+
+#: functions/spicepress-info/sections/free_pro.php:21
+msgid "Page Templates Support"
+msgstr "Unterstützung von Seitenvorlagen"
+
+#: functions/spicepress-info/sections/free_pro.php:22
+msgid "SpicePress includes various page templates."
+msgstr "SpicePress beinhaltet verschiedene Seitenvorlagen."
+
+#: functions/spicepress-info/sections/free_pro.php:24
+msgid "Layout Options"
+msgstr "Layout-Optionen"
+
+#: functions/spicepress-info/sections/free_pro.php:25
+msgid ""
+"SpicePress supports both a Full-Width and a Boxed layout options. To choose "
+"your preference (and switch between them) go to Appearance > Customize."
+msgstr ""
+"SpicePress unterstützt sowohl ein Layout in voller Breite als auch ein Boxed"
+" Layout. Um deine Wahl zu treffen (und dazwischen umzuschalten), gehe zu "
+"Design > Customizer."
+
+#: functions/spicepress-info/sections/free_pro.php:27
+msgid "Mobile Friendly"
+msgstr "Für Mobilgeräte geeignet"
+
+#: functions/spicepress-info/sections/free_pro.php:28
+msgid "Responsive layout in all devices"
+msgstr "Responsives Layout auf allen Geräten"
+
+#: functions/spicepress-info/sections/free_pro.php:30
+msgid "Contact Form Support"
+msgstr "Unterstützung für Kontaktformular"
+
+#: functions/spicepress-info/sections/free_pro.php:31
+msgid ""
+"This theme supports the Contact Form 7 plugin. Use it to build your contact "
+"form."
+msgstr ""
+"Dieses Theme unterstützt das Contact Form 7 Plugin. Nutze es, um ein "
+"Kontaktformular zu erstellen."
+
+#: functions/spicepress-info/sections/free_pro.php:34
+#: functions/spicepress-info/sections/github.php:88
+msgid "Mulitple Color Schemes"
+msgstr "Zahlreiche Farbschemata"
+
+#: functions/spicepress-info/sections/free_pro.php:35
+msgid ""
+"Enjoy any of the 7 preset color schemes, or create your own, without adding "
+"any code."
+msgstr ""
+"Freu dich über 7 vorgefertigte Farbschemata oder erstelle deine eigenen, "
+"ohne eine Zeile Code."
+
+#: functions/spicepress-info/sections/free_pro.php:37
+msgid "Google Map"
+msgstr "Google Maps"
+
+#: functions/spicepress-info/sections/free_pro.php:38
+msgid ""
+"Display your Shop and Business location on your website using Google Maps."
+msgstr ""
+"Deine Laden- oder Geschäftsadresse mit Google Maps auf deiner Website "
+"präsentieren."
+
+#: functions/spicepress-info/sections/free_pro.php:40
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: functions/spicepress-info/sections/free_pro.php:41
+msgid ""
+"Present your project/portfolio collection with 2 column, 3 column and 4 "
+"column layouts. You can also display your project/portfolio by category."
+msgstr ""
+"Präsentiere dein Projekt/Portfolio in 2 Spalten-, 3 Spalten- und 4-Spalten-"
+"Layouts. Du kannst dein Projekt/Portfolio auch nach Kategorien getrennt "
+"anzeigen."
+
+#: functions/spicepress-info/sections/free_pro.php:44
+msgid "About Us Page"
+msgstr "Über Uns Seite"
+
+#: functions/spicepress-info/sections/free_pro.php:45
+msgid "Show team members and custom content added in the WordPress editor."
+msgstr ""
+"Mitarbeiter und eigene Inhalte, die du im WordPress Editor hinzugefügt hast,"
+" anzeigen."
+
+#: functions/spicepress-info/sections/free_pro.php:48
+msgid "Services Page"
+msgstr "Dienstleistungen-Seite"
+
+#: functions/spicepress-info/sections/free_pro.php:49
+msgid "Show all your services in a single place."
+msgstr "Präsentiere all deine Dienstleistungen an einem zentralen Ort."
+
+#: functions/spicepress-info/sections/free_pro.php:52
+msgid "Testimonial/Review Section"
+msgstr "Referenzen/Bewertungen Bereich"
+
+#: functions/spicepress-info/sections/free_pro.php:53
+msgid "Show user feedback on the Homepage."
+msgstr "Benutzer-Feedback auf der Homepage anzeigen."
+
+#: functions/spicepress-info/sections/free_pro.php:57
+msgid "Typography Settings"
+msgstr "Typografie-Einstellungen"
+
+#: functions/spicepress-info/sections/free_pro.php:58
+msgid "You can customize the style without adding any code."
+msgstr "Du kannst den Stil ohne Code zu schreiben anpassen."
+
+#: functions/spicepress-info/sections/free_pro.php:62
+msgid "WPML Support"
+msgstr "WPML-Unterstützung"
+
+#: functions/spicepress-info/sections/free_pro.php:63
+msgid "You can use WPML to make your website multilingual."
+msgstr "Mit WPML machst du deine Website mehrsprachig."
+
+#: functions/spicepress-info/sections/free_pro.php:66
+msgid "Support Forum"
+msgstr "Support Forum"
+
+#: functions/spicepress-info/sections/free_pro.php:67
+msgid "Get instant 24/7 support on our Support Forum."
+msgstr "Erhalte 24/7 Hilfe in unserem Support Forum."
+
+#. Theme Name of the plugin/theme
+msgid "SpicePress"
+msgstr "SpicePress"
+
+#: functions/spicepress-info/sections/free_pro.php:87
+msgid ""
+"Slider [Static Image], Services [3 Services], Portfolio [3 Portfolio], "
+"Testimonial, Latest News"
+msgstr ""
+"Slider [Statisches Bild], Dienstleistungen [3 Dienstleistungen], Portfolio "
+"[3 Portfolios], Referenzen, Letzte Neuigkeiten"
+
+#: functions/spicepress-info/sections/free_pro.php:92
+msgid "Business Template and Full-Width Template"
+msgstr "Unternehmens-Template und Template in voller Breite"
+
+#: functions/spicepress-info/sections/free_pro.php:93
+msgid "Wide Layout"
+msgstr "Breites Layout"
+
+#: functions/spicepress-info/sections/free_pro.php:105
+msgid "On WordPress.org Support Forum"
+msgstr "Im WordPress.org Support Forum"
+
+#: functions/spicepress-info/sections/free_pro.php:117
+msgid "SpicePress PRO"
+msgstr "SpicePress PRO"
+
+#: functions/spicepress-info/sections/free_pro.php:122
+msgid ""
+"Top Header, Slider [Unlimited], Services [Unlimited], Portfolio [Unlimited],"
+" Latest News, Clients, Testimonials, Custom Widgets"
+msgstr ""
+"Bereich über Header [Unbegrenzt], Dienstleistungen [Unbegrenzt], Portfolio "
+"[Unbegrenzt], Letzte Neuigkeiten, Kunden, Referenzen, Eigene Widgets"
+
+#: functions/spicepress-info/sections/free_pro.php:124
+msgid ""
+"About, Services, Portfolio, Blog Left & Right Sidebars, Blog Full Width, "
+"Page Full Width, Contact Page and much more."
+msgstr ""
+"Über, Dienstleistungen, Portfolio, Blog mit Seitenleiste Links und Rechts, "
+"Blog in voller Breite, Seite in voller Breite, Kontaktseite und vieles mehr."
+
+#: functions/spicepress-info/sections/free_pro.php:125
+msgid "Wide layout & Boxed Layout"
+msgstr "Breites Layout & Begrenztes Layout"
+
+#: functions/spicepress-info/sections/free_pro.php:137
+msgid "Premium Support Forum"
+msgstr "Premium Support Forum"
+
+#: functions/spicepress-info/sections/free_pro.php:147
+msgid "Get SpicePress PRO Now!"
+msgstr "Hol dir jetzt SpicePress PRO!"
+
+#: functions/spicepress-info/sections/getting-started.php:14
+msgid "About the SpicePress theme"
+msgstr "Über das SpicePress Theme"
+
+#: functions/spicepress-info/sections/getting-started.php:20
+msgid ""
+"This theme is ideal for creating corporate and business websites. The PRO "
+"version has tons of features: a homepage with many sections where you can "
+"feature unlimited sliders, portfolios, user reviews, latest news, services, "
+"calls to action and much more. Each section in the HomePage template is "
+"carefully designed to fit to all business requirements."
+msgstr ""
+"Dieses Theme ist ideal für das Erstellen von Unternehmens- oder Geschäfts-"
+"Websites. Die PRO-Version bietet zahlreiche Funktionen: Die Startseite hat "
+"zahlreiche Bereiche für die unbegrenzte Anzeige von Slidern, Portfolios, "
+"Benutzerbewertungen, Neuesten Nachrichten, Dienstleistungen, Aufrufen, und "
+"vielem mehr. Jeder Abschnitt der Startseitenvorlage ist sorgfältig auf all "
+"die Erfordernisse eines Unternehmens abgestimmt."
+
+#: functions/spicepress-info/sections/getting-started.php:22
+msgid ""
+"You can use this theme for any type of activity. SpicePress is compatible "
+"with popular plugins like WPML and Polylang. To help you create an effective"
+" and impactful web presence, SpicePress has predefined versions of many "
+"pages: Contact, Services, Portfolios, About Us and Blog."
+msgstr ""
+"Du kannst dieses Theme für jede Art von Aktivität benutzen. SpicePress ist "
+"zu beliebten Plugins wie WPML und Polylang kompatibel. Um dir dabei zu "
+"helfen, eine effektive und eindrucksvolle Webpräsenz zu erstellen, bietet "
+"SpicePress vordefinierte Versionen vieler Seiten: Kontakt ,Dienstleistungen,"
+" Portfolios, Über Uns und Blog."
+
+#: functions/spicepress-info/sections/getting-started.php:24
+#: functions/spicepress-info/welcome-screen.php:210
+msgid "Getting Started"
+msgstr "Jetzt loslegen"
+
+#: functions/spicepress-info/sections/getting-started.php:28
+msgid ""
+"To take full advantage of all the features this theme has to offer, install "
+"and activate the SpiceBox plugin. Go to Customize and install the SpiceBox "
+"plugin."
+msgstr ""
+"Damit du die Vorteile all der Optionen, die dieses Theme anzubieten hat, "
+"genießen kannst, installiere und aktiviere bitte das Plugin SpiceBox. Gehe "
+"dazu zum Customizer."
+
+#: functions/spicepress-info/sections/getting-started.php:31
+msgid "Go to the Customizer"
+msgstr "Zum Customizer gehen"
+
+#: functions/spicepress-info/sections/getting-started.php:37
+msgid "SpicePress theme"
+msgstr "SpicePress Theme"
+
+#: functions/spicepress-info/sections/getting-started.php:45
+msgid "Useful Links"
+msgstr "Nützliche Links"
+
+#: functions/spicepress-info/sections/getting-started.php:52
+msgid "Lite Demo"
+msgstr "Lite Demo"
+
+#: functions/spicepress-info/sections/getting-started.php:56
+msgid "PRO Demo"
+msgstr "PRO Demo"
+
+#: functions/spicepress-info/sections/getting-started.php:67
+msgid "Your feedback is valuable to us"
+msgstr "Dein Feedback ist uns wichtig"
+
+#: functions/spicepress-info/sections/getting-started.php:70
+msgid "Premium Theme Support"
+msgstr "Premium Theme Support"
+
+#: functions/spicepress-info/sections/getting-started.php:80
+msgid "Premium Theme Details"
+msgstr "Premium Theme Details"
+
+#: functions/spicepress-info/sections/github.php:11
+#: functions/spicepress-info/welcome-screen.php:212
+msgid "Why Upgrade to PRO?"
+msgstr "Warum auf PRO upgraden?"
+
+#: functions/spicepress-info/sections/github.php:16
+msgid "Site Layout"
+msgstr "Website-Layout"
+
+#: functions/spicepress-info/sections/github.php:17
+msgid ""
+"SpicePress comes with two types of layout: a boxed one and a full-width "
+"layout. You can easily switch between them in Appearance > Customize."
+msgstr ""
+"SpicePress bietet zwei Arten von Layouts: Ein Boxed Layout und eines in "
+"voller Breite. Du kannst einfach zwischen ihnen wechseln in Design > "
+"Customizer."
+
+#: functions/spicepress-info/sections/github.php:24
+msgid "Top Header Section"
+msgstr "Bereich über Header"
+
+#: functions/spicepress-info/sections/github.php:25
+msgid ""
+"You can customize your header section. There are Contact info detail and "
+"social media icons features in Header Top section."
+msgstr ""
+"Du kannst deinen Header-Bereich anpassen. Möglich sind Kontaktinformationen "
+"und Icons für Soziale Medien in dem Bereich über dem Header."
+
+#: functions/spicepress-info/sections/github.php:33
+msgid "Multi Level Navigation"
+msgstr "Mehrstufige Navigation"
+
+#: functions/spicepress-info/sections/github.php:34
+msgid ""
+"There are beautifully styled navigation/menus in SpicePress. You can create "
+"sub menus and make multi level menus."
+msgstr ""
+"In SpicePress gibt es elegante Navigationsmenüs. Du kannst Untermenüs und "
+"mehrstufige Menüs erstellen."
+
+#: functions/spicepress-info/sections/github.php:42
+msgid "Caption Slider"
+msgstr "Slider-Beschriftung"
+
+#: functions/spicepress-info/sections/github.php:43
+msgid ""
+"You can create unlimited sliders, which can be controlled by the settings in"
+" Appearance > Customize."
+msgstr ""
+"Du kannst unbegrenzt Slider-Elemente erstellen und sie über die "
+"Einstellungen in Design > Customizer verwalten."
+
+#: functions/spicepress-info/sections/github.php:51
+msgid "Service Features"
+msgstr "Dienstleistungs-Funktionen"
+
+#: functions/spicepress-info/sections/github.php:53
+msgid ""
+"You can display any number of services on the Homepage, with thousands of "
+"Font Awesome icons available. You can also display a set of services on a "
+"separate page by using the Service page template."
+msgstr ""
+"Du kannst jede Anzahl von Dienstleistungen auf der Homepage anzeigen, mit "
+"Tausenden von verfügbaren FontAwesome Icons. Du kannst auch ein Set von "
+"Dienstleistungen auf einer separaten Seite anzeigen, indem du die "
+"Seitenvorlagen für Dienstleistungen benutzt."
+
+#: functions/spicepress-info/sections/github.php:61
+msgid "Portfolio Features"
+msgstr "Portfolio-Funktionen"
+
+#: functions/spicepress-info/sections/github.php:62
+msgid ""
+"Showcase any number of projects. This theme provides you with an option to "
+"create 2, 3, 4 column grid layouts by using the portfolio 2, 3, 4 column "
+"layout templates, respectively. If you have a number of projects to present "
+"then these templates are the answer. You can also create categorized "
+"portfolios, which display all the portfolio categories in a single place. In"
+" fact, we have coded this theme so that you can create any number of "
+"different portfolios."
+msgstr ""
+"Stelle jede Anzahl von Projekten aus. Dieses Theme bietet dir die Option, "
+"2-, 3-, 4-Spalten-Raster-Layouts zu erstellen, indem du die jeweiligen "
+"Vorlagen für 2-, 3-, 4-Spalten benutzt. Falls du eine Anzahl Projekte "
+"präsentieren willst, sind diese Vorlagen die Antwort. Du kannst auch "
+"kategorisierte Portfolios erstellen, welche all die Portfolio-Kategorien an "
+"einem einzigen Ort anzeigen. Tatsächlich haben wir dieses Theme so "
+"programmiert, dass du jede Anzahl verschiedener Portfolios erstellen kannst."
+
+#: functions/spicepress-info/sections/github.php:70
+msgid "Latest News Section"
+msgstr "Neueste Nachrichten Bereich"
+
+#: functions/spicepress-info/sections/github.php:71
+msgid ""
+"This section is often used to display Latest News, Announcements and Events "
+"type content."
+msgstr ""
+"Dieser Bereich wird häufig zur Anzeige der neuesten Nachrichten, "
+"Bekanntmachungen und für Veranstaltungshinweise genutzt."
+
+#: functions/spicepress-info/sections/github.php:78
+msgid "Testimonial Feature"
+msgstr "Referenzen-Funktion"
+
+#: functions/spicepress-info/sections/github.php:79
+msgid ""
+"Testimonials are a powerful way to gain credibility. You can display "
+"testimonials with a carousel effect."
+msgstr ""
+"Referenzen sind ein großartiger Weg, Vertrauen aufzubauen. Du kannst "
+"Referenzen mit einem Karussell-Effekt anzeigen."
+
+#: functions/spicepress-info/sections/github.php:89
+msgid ""
+"SpicePress comes with 7 preset color schemes and you can also create your "
+"own palettes using the Custom Color Setting in the Customizer."
+msgstr ""
+"SpicePress bietet 7 vordefinierte Farbschemata und du kannst auch deine "
+"eigenen Paletten erstellen, über die Eigenen Farbeinstellungen im "
+"Customizer."
+
+#: functions/spicepress-info/sections/github.php:97
+msgid "Well Documented"
+msgstr "Ausführlich dokumentiert"
+
+#: functions/spicepress-info/sections/github.php:98
+msgid ""
+"We provide good knowledgebase articles which will help you to create "
+"effective websites. You can visit these articles via our  "
+msgstr ""
+"Wir bieten gute Beiträge in unserer Wissensdatenbank, die dir bei der "
+"Erstellung effektiver Websites helfen. Du findest diese Beiträge über unser"
+
+#: functions/spicepress-info/sections/github.php:98
+msgid "Help Section"
+msgstr "Hilfe-Abschnitt"
+
+#: functions/spicepress-info/sections/github.php:106
+msgid "Custom widget "
+msgstr "Individuelles Widget"
+
+#: functions/spicepress-info/sections/github.php:107
+msgid ""
+"Building a website with our custom widgets is very simple. Just place them "
+"inside the available sidebar or even in the content."
+msgstr ""
+"Eine Website mit unseren individuellen Widgets zu erstellen, ist sehr "
+"einfach. Platziere sie einfach in der verfügbaren Seitenleiste oder sogar im"
+" Inhaltsbereich."
+
+#: functions/spicepress-info/sections/github.php:116
+msgid "Translation Ready"
+msgstr "Übersetzbar"
+
+#: functions/spicepress-info/sections/github.php:117
+msgid ""
+"The theme supports yet another famous plugin: WPML. With the help of this "
+"support you can create a website available in multiple languages."
+msgstr ""
+"Das Theme unterstützt jetzt ein weiteres renommiertes Plugin: WPML. Mithilfe"
+" dieser Unterstützung kannst du eine Website in mehreren Sprachen zur "
+"Verfügung stellen."
+
+#: functions/spicepress-info/welcome-screen.php:57
+msgid "Welcome to %1$s - Version %2$s"
+msgstr "Willkommen bei %1$s - Version %2$s"
+
+#: functions/spicepress-info/welcome-screen.php:59
+msgid ""
+"Welcome! Thank you for choosing SpiceThemes SpicePress WordPress theme. To "
+"take full advantage of the features this theme has to offer visit our "
+"%swelcome page%s."
+msgstr ""
+"Willkommen! Danke für die Wahl von SpiceThemes SpicePress WordPress Theme! "
+"Um die vollen Vorzüge der Funktionen, die dieses Theme zu bieten hat, zu "
+"genießen, besuche bitte unsere %sWillkommensseite%s."
+
+#: functions/spicepress-info/welcome-screen.php:60
+msgid "Get started with SpicePress"
+msgstr "Erste Schritte mit SpicePress"
+
+#: functions/spicepress-info/welcome-screen.php:103
+msgid "Hooray! There are no required actions for you right now."
+msgstr "Hurra! Es gibt im Moment keine erforderlichen Maßnahmen für dich."
+
+#: functions/spicepress-info/welcome-screen.php:140
+msgid "View Theme Info"
+msgstr "Theme-Information anzeigen"
+
+#: functions/spicepress-info/welcome-screen.php:213
+msgid "Free VS PRO"
+msgstr "Kostenlos ggü. Pro-Version"
+
+#: functions/template-tags.php:26
+msgid "By"
+msgstr "Von"
+
+#: functions/template-tags.php:32
+msgid "in"
+msgstr "in"
+
+#: functions/template-tags.php:36
+msgid "Tag"
+msgstr "Schlagwort"
+
+#: functions/template-tags.php:99 functions/template-tags.php:103
+#: functions/template-tags.php:107 functions/template-tags.php:113
+#: functions/template-tags.php:119 functions/template-tags.php:125
+#: functions/template-tags.php:147
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: functions/template-tags.php:111
+msgid "Category Archive"
+msgstr "Kategorien-Archiv"
+
+#: functions/template-tags.php:117
+msgid "All posts by"
+msgstr "Alle Beiträge von"
+
+#: functions/template-tags.php:123
+msgid "Tag Archive"
+msgstr "Schlagwort-Archiv"
+
+#: functions/template-tags.php:143
+msgid "Search results for"
+msgstr "Suchergebnisse für"
+
+#: functions/template-tags.php:153
+msgid "Error 404: Page Not Found"
+msgstr "Fehler 404: Seite nicht gefunden"
+
+#: functions/template-tags.php:157
+msgid "%1$s "
+msgstr "%1$s "
+
+#: functions/template-tags.php:177
+msgid "previous page"
+msgstr "Vorherige Seite"
+
+#: functions/template-tags.php:177
+msgid "next page"
+msgstr "Nächste Seite"
+
+#: functions/widgets/sidebars.php:8 functions/widgets/sidebars.php:10
+msgid "Sidebar widget area"
+msgstr "Widget-Bereich (Seitenleiste)"
+
+#: functions/widgets/sidebars.php:18 functions/widgets/sidebars.php:20
+msgid "Footer widget left area"
+msgstr "Footer-Widget-Bereich Links"
+
+#: functions/widgets/sidebars.php:28 functions/widgets/sidebars.php:30
+msgid "Footer widget central area"
+msgstr "Footer-Widget-Bereich Mitte"
+
+#: functions/widgets/sidebars.php:38 functions/widgets/sidebars.php:40
+msgid "Footer widget right area"
+msgstr "Footer-Widget-Bereich Rechts"
+
+#: functions/widgets/sidebars.php:50 functions/widgets/sidebars.php:52
+msgid "WooCommerce sidebar widget area"
+msgstr "WooCommerce Seitenleiste-Widgetbereich"
+
+#: functions.php:49
+msgid "Page"
+msgstr "Seite"
+
+#: functions.php:98
+msgid "Primary Menu"
+msgstr "Primäres Menü"
+
+#: header/header-navbar.php:45
+msgid "Toggle navigation"
+msgstr "Schalte Navigation"
+
+#: search.php:28
+msgid "Nothing found"
+msgstr "Nichts gefunden"
+
+#: search.php:29
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Leider gibt es keine Ergebnisse für deine Suchkriterien. Bitte versuche es "
+"noch einmal mit anderen Suchbegriffen."
+
+#: searchform.php:3
+msgid "Search here"
+msgstr "Hier suchen"
+
+#. Theme URI of the plugin/theme
+msgid "https://spicethemes.com/spicepress-wordpress-theme/"
+msgstr "https://spicethemes.com/spicepress-wordpress-theme/"
+
+#. Description of the plugin/theme
+msgid ""
+"SpicePress is a responsive and fully customizable business template. The "
+"advanced admin panel will enable you to personalize the theme without any "
+"technical information. SpicePress offers 7 predefined color schemes as well "
+"as the opportunity to customize the existing graphics to create your own "
+"unique website interface."
+msgstr ""
+"SpicePress ist ein responsives und voll anpassbares Business-Template. Über "
+"das erweiterte Admin-Panel kannst du das Theme ohne jede technische "
+"Information personalisieren. SpicePress bietet 7 vordefinierte Farbschemata "
+"und die Gelegenheit, das bestehende Aussehen anzupassen, um deine eigene, "
+"einzigartige Website zu erstellen."
+
+#. Author of the plugin/theme
+msgid "spicethemes.com"
+msgstr "spicethemes.com"
+
+#. Author URI of the plugin/theme
+msgid "https://spicethemes.com"
+msgstr "https://spicethemes.com"
+
+#. Template Name of the plugin/theme
+msgid "Business Template"
+msgstr "Unternehmens-Template"
+
+#. Template Name of the plugin/theme
+msgid "Full-width page"
+msgstr "Seite mit voller Breite"

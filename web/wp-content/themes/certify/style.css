@@ -1,0 +1,19 @@
+/*
+Theme Name:   Certify
+Description:  Certify is a responsive, multi-purpose WordPress theme. It's flexible and suitable for agencies, agency, blog, business, corporate, finance, account, consulting or portfolios. Customization is easy and straight-forward, with options provided that allow you to setup your site to perfectly fit your desired online presence.
+Author:       SpiceThemes
+Author URI:   https://spicethemes.com/
+Theme URI:    https://spicethemes.com/certify-wordpress-theme
+Template:     spicepress
+Version:      1.2.4.3
+Tags: 		   blog, custom-logo, portfolio, one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, full-width-template, sticky-post, threaded-comments, translation-ready
+Text Domain: certify
+
+*/
+
+/*===================================================================================*/
+/*	HOMEPAGE SLIDER CONTENT SECTION
+/*===================================================================================*/
+.slider-section { padding: 80px 0; }
+.slider-content { background-color: #ffffff; border: 1px solid #e9e9e9; padding: 30px 15px 25px; transition: all 0.4s ease 0s; }
+body.page-template-template-slider-content .header-overlapped ~ #slider-carousel { margin-bottom: 0!important; }

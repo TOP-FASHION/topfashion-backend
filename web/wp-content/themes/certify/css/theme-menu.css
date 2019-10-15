@@ -1,0 +1,176 @@
+/*--------------------------------------------------------------
+	Navbar Overlapped & Stiky Header Css
+--------------------------------------------------------------*/
+
+body.page .header-overlapped ~ #slider-carousel,
+body.woocommerce-page .header-overlapped ~ #slider-carousel { margin: -70px 0 70px; }
+body.page-template.page-template-template-business .header-overlapped ~ #slider-carousel, 
+body.blog .header-overlapped, 
+body.page-template.page-template-template-overlapped .header-overlapped ~ #slider-carousel { 
+	margin: 0px; 
+}
+body.page-template-template-business .header-overlapped, 
+body.page-template-template-overlaped .header-overlapped { 
+    background-color: transparent; 
+    margin: 0; 
+    position: relative; 
+    z-index: 99; 
+}
+.header-overlapped .page-title-section { background-color: transparent !important; }
+.navbar-overlapped {
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	z-index: 20;
+	background-color: rgba(0,0,0,0.2);
+}
+@media (min-width:500px) {
+    body.page-template-template-business .navbar-overlapped { 
+        position: absolute; 
+        right: 0; 
+        left: 0; 
+        top: 0; 
+        z-index: 20;
+    }
+}
+.navbar-overlapped { min-height: 90px; position: relative; }
+.header-overlapped .page-seperate {display: none;}
+.navbar-overlapped .navbar-brand { padding: 20px 0px; color: #ffffff; }
+.navbar-overlapped .navbar-brand:hover, 
+.navbar-overlapped .navbar-brand:focus { 
+	color: #ffffff; 
+}
+.navbar-overlapped .site-title a, 
+.navbar-overlapped .site-title a:hover, 
+.navbar-overlapped .site-title a:focus, 
+.navbar-overlapped .site-description {
+    color: #fff;
+}
+.navbar-overlapped .navbar-nav > li > a {
+	color: #fff;
+	border-bottom: 2px solid transparent;
+	padding: 34px 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.navbar-overlapped .navbar-nav > li > a:hover, 
+.navbar-overlapped .navbar-nav > li > a:focus {
+    background-color: transparent;
+    color: #fff;
+    border-bottom: 2px solid rgba(255,255,255,1);
+}
+.navbar-overlapped .navbar-nav > .open > a,
+.navbar-overlapped .navbar-nav > .open > a:hover,
+.navbar-overlapped .navbar-nav > .open > a:focus { 
+	background-color: transparent; 
+	color: #fff; 
+	border-bottom: 2px solid transparent; 
+} 
+.navbar-overlapped .navbar-nav > .active > a, 
+.navbar-overlapped .navbar-nav > .active > a:hover, 
+.navbar-overlapped .navbar-nav > .active > a:focus { 
+	background-color: transparent !important;
+    color: #fff;
+    border-bottom: 2px solid rgba(255,255,255,1);
+}
+.navbar-overlapped .cart-header { width: 25px; height: 25px; margin: 33px 7px 32px 20px; }
+.navbar-overlapped .cart-header > a.cart-icon { color: #fff; border: 1px solid #ffffff; }
+.navbar-overlapped .cart-header > a.cart-icon { width: auto; height: auto; border: 0 none; padding: 0; }
+.navbar-overlapped .cart-header > a .cart-total { right: -11px; top: -4px; }
+
+/*Header Stiky Menu*/
+.stiky-header{
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+	background: #21202e;
+	transition: all 0.3s ease;
+	min-height: 70px;
+	box-shadow: 0 2px 3px rgba(0,0,0,.1)
+}
+.navbar-overlapped.stiky-header .navbar-brand { padding: 10px 0px; }
+.navbar-overlapped.stiky-header .site-branding-text { padding: 3px 50px 3px 15px; }
+.navbar-overlapped.stiky-header .navbar-nav > li > a { padding: 24px 10px; }
+.navbar-overlapped.stiky-header .cart-header { margin: 23px 7px 22px 20px; }
+
+@media (min-width: 1100px) and (max-width: 1101px) { 
+	/*Navbar Classic*/
+	.navbar-classic .navbar-nav > li > a { padding: 20px 25px; }
+	.navbar-classic .navbar-nav .cart-header { margin: 18px 12px 18px 20px; }
+}
+
+/*--------------------------------------------------------------
+	Menubar - Media Queries
+--------------------------------------------------------------*/
+
+@media (min-width: 768px){
+	.navbar-custom .navbar-brand {
+		padding: 20px 50px 20px 0;
+	}
+}
+@media (min-width: 1100px) {
+	.navbar-transparent { background: transparent; padding-bottom: 0px; padding-top: 0px; margin: 0; }
+	.navbar-custom .open > .dropdown-menu { visibility: visible; opacity: 1; }
+	.navbar-right .dropdown-menu { right: auto; left: 0; }
+}
+
+/** BELOW MAX-WIDTH MEDIA QUERIES **/
+
+@media (max-width: 1100px) {
+	.navbar-custom .navbar-nav li > a { color: #bbb; padding: 12px 0px 12px 0px; }	
+	/*Navbar Overlapped*/
+	.navbar-overlapped.stiky-header .navbar-toggle { 
+		margin: 13px 15px 13px 0; 
+	}	
+	.navbar-overlapped.stiky-header .navbar-collapse.in {
+		max-height: 500px;
+		padding-right: 0px;
+	}
+	
+}
+@media (max-width: 1100px) { 
+	/*Navbar Overlapped*/
+	.navbar-overlapped.stiky-header .navbar-brand { padding: 20px 0px; }
+	.navbar-overlapped.stiky-header .navbar-nav > li > a { padding: 12px 15px; }
+	.navbar-overlapped .navbar-nav > li > a:hover, 
+	.navbar-overlapped .navbar-nav > li > a:focus {
+		border-bottom: 1px dotted #4c4a5f;
+	}
+	.navbar-overlapped .navbar-nav > .active > a, 
+	.navbar-overlapped .navbar-nav > .active > a:hover, 
+	.navbar-overlapped .navbar-nav > .active > a:focus {
+		border-bottom: 1px dotted #4c4a5f;
+	}
+	.navbar-overlapped .navbar-toggle { color: #fff; }
+	.navbar-overlapped .navbar-toggle .icon-bar { background-color: #fff; }	
+	
+}
+@media (max-width: 768px) {
+	.navbar-custom .navbar-brand { padding: 20px 50px 20px 15px; }
+}
+@media (max-width: 500px) { 
+	.navbar-custom .navbar-brand { float: none; display: block; text-align: center; padding: 20px 15px 25px 15px; }
+	.navbar-custom .navbar-brand img { margin: 0 auto; }
+	.site-branding-text { padding: 17px 15px 17px 15px; float: none; text-align: center; }
+	.navbar-toggle { float: none; margin: 10px auto 25px; }
+	/*Navbar Overlapped*/
+	.navbar-overlapped { position: relative; background-color: #21202e; border-bottom: 1px solid #4c4a5f; }
+	.navbar-overlapped .navbar-collapse.in { bottom: 0px; }
+	.navbar-overlapped .navbar-collapse { bottom: 0px; }	
+	.navbar-overlapped .navbar-header { border-bottom: 1px solid #4c4a5f; }
+	.navbar-overlapped.stiky-header .navbar-toggle { float: none; margin: 10px auto 25px; }
+	.navbar-overlapped.stiky-header .site-branding-text { 
+		padding: 17px 15px 17px 15px; 
+		float: none; 
+		text-align: center; 
+	}
+	body.blog .navbar-overlapped { position: relative; }
+	
+}
+
+@media (min-width: 1101px) {
+	.navbar-header.align-right ~ .navbar-collapse { padding-left: 0; }
+}

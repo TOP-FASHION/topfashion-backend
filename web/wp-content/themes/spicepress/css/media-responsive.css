@@ -1,0 +1,105 @@
+/*
+* Author: SpicePress
+* Created by: Shahid (Scientech IT)
+* Copyright (c) 2017 SpicePress
+* Date: 1 Dec, 2017
+* http://www.spicethemes.com
+*/
+
+
+
+@media only screen and (min-width: 960px) and (max-width: 1200px) {
+
+/*Post - Standard Format*/
+.format-standard { width: 50%; } 
+.slide-text-bg1 { padding: 10px 15px 13px; width: 100%; }
+/*Post - Status Format*/
+.homepage-mycarousel .format-status { width: 50%; }
+/*Post - Aside Format*/
+.homepage-mycarousel .format-aside { width: 50%; }
+/*Post - Quote Format*/
+.homepage-mycarousel .format-quote { width: 50%; }
+/*About*/
+.about-img-area { margin: 0 0 25px; padding: 0px; position: relative; }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+/*Post - Standard Format*/
+.format-standard { width: 50%; left: 15%; }
+.slide-text-bg1 { width: 100%; }
+/*Post - Status Format*/
+.homepage-mycarousel .format-status { width: 50%; }
+/*Post - Aside Format*/
+.homepage-mycarousel .format-aside { width: 50%; }
+/*Post - Quote Format*/
+.homepage-mycarousel .format-quote { width: 50%; }
+
+body.boxed .carousel-inner > .item > img, body.boxed .carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/*Callout*/
+.sm-callout-btn { float: left; margin-top: 15px; }
+/*About*/
+.about-img-area { margin: 0 0 25px; padding: 0px; position: relative; }
+
+}	
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+/*Header Contact Info*/
+.header-contact-info { float: none; text-align: center !important; }
+.header-sidebar .col-md-6:nth-child(2) ul.header-contact-info { padding-top: 0px; }
+.header-contact-info li { padding: 0; }
+/*Post - Standard Format*/
+.format-standard { width: 65%; left: 15%; }
+.slide-text-bg1 { width: 100%; }
+/*Post - Status Format*/
+.homepage-mycarousel .format-status { width: 65%; }
+/*Post - Aside Format*/
+.homepage-mycarousel .format-aside { width: 65%; padding: 12px; }
+.homepage-mycarousel .format-aside p { padding: 15px 25px 10px; }
+/*Post - Quote Format*/
+.homepage-mycarousel .format-quote { width: 65%; }
+/*Post - Video Format*/
+.homepage-mycarousel .format-video { width: 70%; }
+.homepage-mycarousel .format-video h1 { padding: 0 0 5px; line-height: 1.3; }
+.homepage-mycarousel .video-frame { margin: 0px; }
+.homepage-mycarousel .video-content { margin: 0 0px 0px 0px; }
+.format-video-btn-sm { margin: 0; }
+/*Slider Next-Prev*/
+.carou-direction-nav a { width: 32px; height: 40px; }
+.carou-direction-nav a:before { font-size: 24px; line-height: 1.7; font-weight: 700; }
+.carou-direction-nav .carou-prev, .carou-direction-nav :hover .carou-prev { left: 10px; }
+.carou-direction-nav .carou-next, .carou-direction-nav :hover .carou-next { right: 10px; }
+body.boxed .carousel-inner > .item > img, body.boxed .carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/*Testimonial*/
+.testmonial-area { padding: 0; }
+.testmonial-area h4 { text-align: center; }
+.author-box { float: none; margin: 0 auto 20px; }
+.description-box { padding: 15px; }
+.description-box:before { right: 0; left: 0; margin: 0 auto; }
+.author-description p { text-align: center; }
+/*Callout*/
+.sm-callout-btn { float: left; margin-top: 15px; }
+/*About*/
+.about-img-area { margin: 0 0 25px; padding: 0px; position: relative; }
+/*Top Book Button*/
+.sm-top-btn { float: left; padding: 25px 20px 25px 0; }
+	
+} 
+
+@media only screen and (min-width: 100px) and (max-width: 480px) {
+	
+/*Post - Video Format*/	
+.homepage-mycarousel .format-video .col-xs-6 { width: 100%; }
+.homepage-mycarousel .video-content { margin: 15px 0px 0px; }	
+/*Header Contact Info*/	
+/* .header-contact-info { float: none; text-align: center !important; } */
+}
+

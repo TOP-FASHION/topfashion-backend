@@ -1,0 +1,1006 @@
+# <!=Copyright (C) 2018 spicethemes.com
+# This file is distributed under the GNU General Public License v3 or later.=!>
+# Translators:
+# FX Bénard <fxb@wp-translations.org>, 2018
+# Tor-Bjorn Fjellner, 2018
+# Johan Yourstone <johan.yourstone@gmail.com>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: SpicePress 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wp-translations.pro/\n"
+"POT-Creation-Date: 2018-04-19 14:47:50+00:00\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Johan Yourstone <johan.yourstone@gmail.com>, 2018\n"
+"Language-Team: Swedish (Sweden) (https://www.transifex.com/wp-translations/teams/64435/sv_SE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv_SE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n1.0.2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Textdomain-Support: yes\n"
+
+#: 404.php:14
+msgid "4"
+msgstr "4"
+
+#: 404.php:13
+msgid "Oops! Page not found"
+msgstr "Ajdå! Sidan gick inte att hitta"
+
+#: 404.php:15
+msgid "We are sorry, but the page you are looking for does not exist."
+msgstr "Sidan du försökte hämta finns inte."
+
+#: 404.php:16
+msgid "Go Back"
+msgstr "Gå tillbaka"
+
+#: comments.php:6
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Det här inlägget är lösenordsskyddat. Ange lösenordet för att se eventuella "
+"kommentarer."
+
+#: comments.php:21
+msgid "Reply"
+msgstr "Svara"
+
+#: comments.php:30
+msgid "Posted on"
+msgstr "Publicerat"
+
+#: comments.php:33
+msgid "Edit"
+msgstr "Redigera"
+
+#: comments.php:36
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar inväntar granskning."
+
+#: comments.php:55
+msgid "No comments so far"
+msgstr "Inga kommentarer hittills"
+
+#: comments.php:55
+msgid "1 comment so far"
+msgstr "1 kommentar hittills"
+
+#: comments.php:55
+msgid "% Comments"
+msgstr "% kommentarer"
+
+#: comments.php:63
+msgid "Comment navigation"
+msgstr "Kommentarsnavigering"
+
+#: comments.php:64
+msgid "&larr; Older Comments"
+msgstr "&larr; Äldre kommentarer"
+
+#: comments.php:65
+msgid "Newer Comments &rarr;"
+msgstr "Nyare kommentarer &rarr;"
+
+#: comments.php:70 comments.php:116
+msgid "Comments are closed."
+msgstr "Kommentarer inaktiverade."
+
+#: comments.php:76
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment"
+msgstr "Du måste vara <a href=\"%s\">inloggad</a> för att kommentera"
+
+#: comments.php:82
+msgid "Name"
+msgstr "Namn"
+
+#: comments.php:83
+msgid "Email"
+msgstr "E-postadress"
+
+#: comments.php:95
+msgid "Message"
+msgstr "Meddelande"
+
+#: comments.php:96
+msgid "Logged in as"
+msgstr "Inloggad som"
+
+#: comments.php:96
+msgid "Logout of this account"
+msgstr "Logga ut från kontot"
+
+#: comments.php:96
+msgid "Log out"
+msgstr "Logga ut"
+
+#: comments.php:98
+msgid "Send Message"
+msgstr "Skicka meddelande"
+
+#: comments.php:102
+msgid "Leave a Reply"
+msgstr "Kommentera"
+
+#: content-page.php:36 content.php:34 functions/template-tags.php:168
+#: index-news.php:60 template/template-page-full-width.php:28
+msgid "Read More"
+msgstr "Läs mer"
+
+#: footer.php:5 functions/customizer/customizer_general_settings.php:44
+msgid "Copyright © 2018 SpiceThemes. All right reserved"
+msgstr "Copyright © 2018 SpiceThemes. Alla rättigheter förbehållna"
+
+#: functions/breadcrumbs/breadcrumbs.php:30
+#: functions/breadcrumbs/breadcrumbs.php:41
+#: functions/breadcrumbs/breadcrumbs.php:44
+msgid "Home"
+msgstr "Hem"
+
+#: functions/breadcrumbs/breadcrumbs.php:47
+msgid "Archive by category"
+msgstr "Arkiv per kategori"
+
+#: functions/breadcrumbs/breadcrumbs.php:51
+#: functions/breadcrumbs/breadcrumbs.php:52
+#: functions/breadcrumbs/breadcrumbs.php:57
+#: functions/breadcrumbs/breadcrumbs.php:62
+msgid "Y"
+msgstr "Y"
+
+#: functions/breadcrumbs/breadcrumbs.php:52
+msgid "m"
+msgstr "m"
+
+#: functions/breadcrumbs/breadcrumbs.php:52
+#: functions/breadcrumbs/breadcrumbs.php:58
+msgid "F"
+msgstr "F"
+
+#: functions/breadcrumbs/breadcrumbs.php:53
+msgid "d"
+msgstr "d"
+
+#: functions/breadcrumbs/breadcrumbs.php:97
+msgid "Error 404"
+msgstr "Fel 404"
+
+#: functions/customizer/customizer-pro.php:12
+msgid "UPGRADE TO PRO"
+msgstr "UPPGRADERA TILL PRO"
+
+#: functions/customizer/customizer-pro.php:19
+msgid "Upgrade to Pro"
+msgstr "Uppgradera till Pro"
+
+#: functions/customizer/customizer_general_settings.php:11
+msgid "General settings"
+msgstr "Allmänna inställningar"
+
+#: functions/customizer/customizer_general_settings.php:16
+msgid "Remove animation"
+msgstr "Ta bort animering"
+
+#: functions/customizer/customizer_general_settings.php:27
+msgid "Remove animation effects from entire site"
+msgstr "Ta bort animeringseffekterna på hela webbplatsen"
+
+#: functions/customizer/customizer_general_settings.php:36
+msgid "Footer copyright settings"
+msgstr "Inställningar för upphovsrätt i sidfot"
+
+#: functions/customizer/customizer_general_settings.php:51
+msgid "Copyright text"
+msgstr "Upphovsrättstext"
+
+#: functions/customizer/customizer_header_image.php:7
+msgid "Custom header settings"
+msgstr "Inställningar för anpassat sidhuvud"
+
+#: functions/customizer/customizer_header_image.php:15
+msgid "Header Headline"
+msgstr "Rubrik i sidhuvud"
+
+#: functions/customizer/customizer_header_image.php:27
+msgid "Header Text"
+msgstr "Text i sidhuvud"
+
+#: functions/customizer/customizer_recommended_plugin.php:16
+msgid "Recommended Actions"
+msgstr "Rekommenderade åtgärder"
+
+#: functions/customizer/customizer_recommended_plugin.php:17
+msgid "Recommended Plugin"
+msgstr "Rekommenderade tillägg"
+
+#: functions/customizer/customizer_recommended_plugin.php:18
+msgid "Install and Activate"
+msgstr "Installera och aktivera"
+
+#: functions/customizer/customizer_recommended_plugin.php:19
+msgid "Activate"
+msgstr "Aktivera"
+
+#: functions/customizer/customizer_recommended_plugin.php:20
+msgid "Deactivate"
+msgstr "Inaktivera"
+
+#: functions/customizer/customizer_sections_settings.php:21
+msgid "Homepage section settings"
+msgstr "Inställningar för startsidans sektioner"
+
+#: functions/customizer/customizer_sections_settings.php:26
+msgid "Latest News settings"
+msgstr "Inställningar för senaste nytt"
+
+#: functions/customizer/customizer_sections_settings.php:35
+msgid "Enable Home News section"
+msgstr "Aktivera startsidans sektion för senaste nytt"
+
+#: functions/customizer/customizer_sections_settings.php:39
+msgid "ON"
+msgstr "PÅ"
+
+#: functions/customizer/customizer_sections_settings.php:40
+msgid "OFF"
+msgstr "AV"
+
+#: functions/customizer/customizer_sections_settings.php:47 index-news.php:10
+msgid "Latest News"
+msgstr "Senaste nytt"
+
+#: functions/customizer/customizer_sections_settings.php:52
+#: functions/customizer-repeater/class/customizer-repeater-control.php:256
+#: functions/customizer-repeater/class/customizer-repeater-control.php:405
+msgid "Title"
+msgstr "Rubrik"
+
+#: functions/customizer/customizer_sections_settings.php:64
+#: functions/customizer-repeater/class/customizer-repeater-control.php:270
+#: functions/customizer-repeater/class/customizer-repeater-control.php:419
+msgid "Description"
+msgstr "Beskrivning"
+
+#: functions/customizer/customizer_sections_settings.php:82
+msgid "Enable post meta values, like author name, date, comments, etc."
+msgstr ""
+"Aktivera visning av inläggens meta-information, d.v.s. författarnamn, "
+"publiceringsdatum, kommentarer m.m."
+
+#: functions/customizer-notify/spicepress-customizer-notify.php:111
+msgid "Activating"
+msgstr "Aktiverar"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:33
+msgid "Add new field"
+msgstr "Lägg till nytt fält"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:38
+msgid "Customizer Repeater"
+msgstr "Upprepa i anpassaren"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:263
+#: functions/customizer-repeater/class/customizer-repeater-control.php:412
+msgid "Subtitle"
+msgstr "Underrubrik"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:279
+#: functions/customizer-repeater/class/customizer-repeater-control.php:427
+msgid "Button Text"
+msgstr "Knapptext"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:290
+#: functions/customizer-repeater/class/customizer-repeater-control.php:437
+#: functions/customizer-repeater/class/customizer-repeater-control.php:626
+#: functions/customizer-repeater/class/customizer-repeater-control.php:648
+msgid "Link"
+msgstr "Länk"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:309
+#: functions/customizer-repeater/class/customizer-repeater-control.php:455
+msgid "Video Url"
+msgstr "Videolänk"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:333
+#: functions/customizer-repeater/class/customizer-repeater-control.php:397
+msgid "Color"
+msgstr "Färg"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:343
+#: functions/customizer-repeater/class/customizer-repeater-control.php:466
+msgid "Shortcode"
+msgstr "Kortkod"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:351
+#: functions/customizer-repeater/class/customizer-repeater-control.php:475
+msgid "Designation"
+msgstr "Benämning"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:367
+#: functions/customizer-repeater/class/customizer-repeater-control.php:486
+msgid "Delete field"
+msgstr "Radera fält"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:523
+msgid "Open link in new tab:"
+msgstr "Öppna länken i en ny flik:"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:534
+#: functions/customizer-repeater/class/customizer-repeater-control.php:602
+msgid "Icon"
+msgstr "Ikon"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:539
+msgid ""
+"Note: Some icons may not be displayed here. You can see the full list of "
+"icons at %1$s."
+msgstr ""
+"Observera: vissa ikoner kanske inte visas här. Du kan se en fullständig "
+"lista med ikoner på %1$s."
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:540
+msgid "http://fontawesome.io/icons/"
+msgstr "http://fontawesome.io/icons/"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:557
+#: functions/customizer-repeater/class/customizer-repeater-control.php:603
+msgid "Image"
+msgstr "Bild"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:560
+msgid "Upload Image"
+msgstr "Ladda upp bild"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:569
+msgid "Slide Format"
+msgstr "Bildformat"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:573
+msgid "Standard"
+msgstr "Standard"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:577
+msgid "Aside"
+msgstr "Notering"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:581
+msgid "Quote"
+msgstr "Citat"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:585
+msgid "Status"
+msgstr "Status"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:589
+msgid "Video"
+msgstr "Video"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:599
+msgid "Image type"
+msgstr "Bildtyp"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:604
+msgid "None"
+msgstr "Ingen"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:612
+msgid "Social icons"
+msgstr "Sociala ikoner"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:629
+#: functions/customizer-repeater/class/customizer-repeater-control.php:659
+msgid "Remove Icon"
+msgstr "Ta bort ikon"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:634
+#: functions/customizer-repeater/class/customizer-repeater-control.php:667
+msgid "Add Icon"
+msgstr "Lägg till ikon"
+
+#: functions/spicepress-info/sections/free_pro.php:14
+msgid "Features"
+msgstr "Funktioner"
+
+#: functions/spicepress-info/sections/free_pro.php:18
+msgid "Frontpage Sections"
+msgstr "Sektioner för startsida"
+
+#: functions/spicepress-info/sections/free_pro.php:19
+msgid "You will find a number of sections on the front page."
+msgstr "Du hittar ett antal sektioner på startsidan."
+
+#: functions/spicepress-info/sections/free_pro.php:21
+msgid "Page Templates Support"
+msgstr "Stöd för sidmallar"
+
+#: functions/spicepress-info/sections/free_pro.php:22
+msgid "SpicePress includes various page templates."
+msgstr "Temat SpicePress innehåller flera olika sidmallar."
+
+#: functions/spicepress-info/sections/free_pro.php:24
+msgid "Layout Options"
+msgstr "Layoutalternativ"
+
+#: functions/spicepress-info/sections/free_pro.php:25
+msgid ""
+"SpicePress supports both a Full-Width and a Boxed layout options. To choose "
+"your preference (and switch between them) go to Appearance > Customize."
+msgstr ""
+"SpicePress har alternativ som stöder både fullbreddslayout och layout med "
+"rutor. Du väljer vad du vill ha (och kan ändra mellan dessa alternativ) "
+"genom att gå till Utseende > Anpassa."
+
+#: functions/spicepress-info/sections/free_pro.php:27
+msgid "Mobile Friendly"
+msgstr "Mobilvänligt"
+
+#: functions/spicepress-info/sections/free_pro.php:28
+msgid "Responsive layout in all devices"
+msgstr "Responsiv layout för alla sorts enheter"
+
+#: functions/spicepress-info/sections/free_pro.php:30
+msgid "Contact Form Support"
+msgstr "Stöd för kontaktformulär"
+
+#: functions/spicepress-info/sections/free_pro.php:31
+msgid ""
+"This theme supports the Contact Form 7 plugin. Use it to build your contact "
+"form."
+msgstr ""
+"Detta tema stöder tillägget Contact Form 7. Använd det för att skapa ditt "
+"kontaktformulär."
+
+#: functions/spicepress-info/sections/free_pro.php:34
+#: functions/spicepress-info/sections/github.php:88
+msgid "Mulitple Color Schemes"
+msgstr "Flera färgscheman"
+
+#: functions/spicepress-info/sections/free_pro.php:35
+msgid ""
+"Enjoy any of the 7 preset color schemes, or create your own, without adding "
+"any code."
+msgstr ""
+"Njut av något av de 7 förinställda färgschemana, eller skapa ditt eget, utan"
+" att du måste koda."
+
+#: functions/spicepress-info/sections/free_pro.php:37
+msgid "Google Map"
+msgstr "Google Maps"
+
+#: functions/spicepress-info/sections/free_pro.php:38
+msgid ""
+"Display your Shop and Business location on your website using Google Maps."
+msgstr ""
+"Låt webbplatsen visa din var din butik eller ditt kontor finns med hjälp av "
+"Google Maps."
+
+#: functions/spicepress-info/sections/free_pro.php:40
+msgid "Portfolio"
+msgstr "Portfölj"
+
+#: functions/spicepress-info/sections/free_pro.php:41
+msgid ""
+"Present your project/portfolio collection with 2 column, 3 column and 4 "
+"column layouts. You can also display your project/portfolio by category."
+msgstr ""
+"Presentera din projekt- eller portföljsamling i layout med 2, 3 eller 4 "
+"kolumner. Du kan också visa dina projekt/portföljer efter kategori."
+
+#: functions/spicepress-info/sections/free_pro.php:44
+msgid "About Us Page"
+msgstr "Sidan Om oss"
+
+#: functions/spicepress-info/sections/free_pro.php:45
+msgid "Show team members and custom content added in the WordPress editor."
+msgstr ""
+"Visa team-medlemmarna och anpassat innehåll genom att lägga in det i "
+"WordPress-redigeraren."
+
+#: functions/spicepress-info/sections/free_pro.php:48
+msgid "Services Page"
+msgstr "Sida med tjänster"
+
+#: functions/spicepress-info/sections/free_pro.php:49
+msgid "Show all your services in a single place."
+msgstr "Visa alla dina tjänster på ett och samma ställe."
+
+#: functions/spicepress-info/sections/free_pro.php:52
+msgid "Testimonial/Review Section"
+msgstr "Sektion för rekommendationer/recensioner"
+
+#: functions/spicepress-info/sections/free_pro.php:53
+msgid "Show user feedback on the Homepage."
+msgstr "Visa reaktioner från användare på startsidan."
+
+#: functions/spicepress-info/sections/free_pro.php:57
+msgid "Typography Settings"
+msgstr "Typografiinställningar"
+
+#: functions/spicepress-info/sections/free_pro.php:58
+msgid "You can customize the style without adding any code."
+msgstr "Du kan anpassa stilen utan att koda en enda rad."
+
+#: functions/spicepress-info/sections/free_pro.php:62
+msgid "WPML Support"
+msgstr "Stöd för WPML"
+
+#: functions/spicepress-info/sections/free_pro.php:63
+msgid "You can use WPML to make your website multilingual."
+msgstr "Med hjälp av WPML, kan du skapa en flerspråkig webbplats."
+
+#: functions/spicepress-info/sections/free_pro.php:66
+msgid "Support Forum"
+msgstr "Supportforum"
+
+#: functions/spicepress-info/sections/free_pro.php:67
+msgid "Get instant 24/7 support on our Support Forum."
+msgstr "Få support direkt, dygnet runt alla dagar i vårt supportforum."
+
+#. Theme Name of the plugin/theme
+msgid "SpicePress"
+msgstr "SpicePress"
+
+#: functions/spicepress-info/sections/free_pro.php:87
+msgid ""
+"Slider [Static Image], Services [3 Services], Portfolio [3 Portfolio], "
+"Testimonial, Latest News"
+msgstr ""
+"Bildvisare [statisk bild], tjänster [3 tjänster], portföljer [3 portföljer],"
+" rekommendationer, senaste nytt"
+
+#: functions/spicepress-info/sections/free_pro.php:92
+msgid "Business Template and Full-Width Template"
+msgstr "Företagsmall och fullbreddsmall"
+
+#: functions/spicepress-info/sections/free_pro.php:93
+msgid "Wide Layout"
+msgstr "Bred layout"
+
+#: functions/spicepress-info/sections/free_pro.php:105
+msgid "On WordPress.org Support Forum"
+msgstr "I supportforumet på WordPress.org"
+
+#: functions/spicepress-info/sections/free_pro.php:117
+msgid "SpicePress PRO"
+msgstr "SpicePress PRO"
+
+#: functions/spicepress-info/sections/free_pro.php:122
+msgid ""
+"Top Header, Slider [Unlimited], Services [Unlimited], Portfolio [Unlimited],"
+" Latest News, Clients, Testimonials, Custom Widgets"
+msgstr ""
+"Övre sidhuvud, bildvisare [obegränsat], tjänster [obegränsat], portföljer "
+"[obegränsat], senaste nytt, kunder, rekommendationer, anpassade widgetar"
+
+#: functions/spicepress-info/sections/free_pro.php:124
+msgid ""
+"About, Services, Portfolio, Blog Left & Right Sidebars, Blog Full Width, "
+"Page Full Width, Contact Page and much more."
+msgstr ""
+"Om oss, tjänster, portfölj, blogg med sidopanel till vänster och höger, "
+"blogg med fullbredd, sida med fullbredd, kontaktsida och mycket mer."
+
+#: functions/spicepress-info/sections/free_pro.php:125
+msgid "Wide layout & Boxed Layout"
+msgstr "Bred layout och rutbaserad layout"
+
+#: functions/spicepress-info/sections/free_pro.php:137
+msgid "Premium Support Forum"
+msgstr "Forum för premiumsupport"
+
+#: functions/spicepress-info/sections/free_pro.php:147
+msgid "Get SpicePress PRO Now!"
+msgstr "Skaffa SpicePress PRO nu!"
+
+#: functions/spicepress-info/sections/getting-started.php:14
+msgid "About the SpicePress theme"
+msgstr "Om temat SpicePress"
+
+#: functions/spicepress-info/sections/getting-started.php:20
+msgid ""
+"This theme is ideal for creating corporate and business websites. The PRO "
+"version has tons of features: a homepage with many sections where you can "
+"feature unlimited sliders, portfolios, user reviews, latest news, services, "
+"calls to action and much more. Each section in the HomePage template is "
+"carefully designed to fit to all business requirements."
+msgstr ""
+"Detta tema passar utmärkt för att skapa webbplatser för företag. PRO-"
+"versionen innehåller en stor mängd funktioner: en startsida med många "
+"sektioner där du kan lägga in obegränsat antal bildvisare, portföljer, "
+"rekommendationer från användare, senaste nytt, tjänster, uppmaningar till "
+"läsaren och mycket annat. Varje sektion i mallen för startsidan är "
+"omsorgsfullt utformad för att motsvara behoven hos alla företag."
+
+#: functions/spicepress-info/sections/getting-started.php:22
+msgid ""
+"You can use this theme for any type of activity. SpicePress is compatible "
+"with popular plugins like WPML and Polylang. To help you create an effective"
+" and impactful web presence, SpicePress has predefined versions of many "
+"pages: Contact, Services, Portfolios, About Us and Blog."
+msgstr ""
+"Du kan använda detta tema för alla typer av verksamheter. SpicePress är "
+"kompatibelt med populära tillägg, såsom WPML och Polylang. För att hjälpa "
+"dig att skapa en effektiv och verksam närvaro på webben innehåller "
+"SpicePress fördefinierade versioner av många sidor: kontaktsida, tjänster, "
+"portföljer, \"om oss\" och en blogg."
+
+#: functions/spicepress-info/sections/getting-started.php:24
+#: functions/spicepress-info/welcome-screen.php:210
+msgid "Getting Started"
+msgstr "Komma igång"
+
+#: functions/spicepress-info/sections/getting-started.php:28
+msgid ""
+"To take full advantage of all the features this theme has to offer, install "
+"and activate the SpiceBox plugin. Go to Customize and install the SpiceBox "
+"plugin."
+msgstr ""
+"För att dra full nytta av alla funktioner som detta tema har att erbjuda "
+"behöver du installera och aktivera tillägget SpiceBox. Gå till Anpassa och "
+"installera tillägget SpiceBox."
+
+#: functions/spicepress-info/sections/getting-started.php:31
+msgid "Go to the Customizer"
+msgstr "Gå till anpassaren"
+
+#: functions/spicepress-info/sections/getting-started.php:37
+msgid "SpicePress theme"
+msgstr "Temat SpicePress"
+
+#: functions/spicepress-info/sections/getting-started.php:45
+msgid "Useful Links"
+msgstr "Användbara länkar"
+
+#: functions/spicepress-info/sections/getting-started.php:52
+msgid "Lite Demo"
+msgstr "Demo av Lite"
+
+#: functions/spicepress-info/sections/getting-started.php:56
+msgid "PRO Demo"
+msgstr "Demo av PRO"
+
+#: functions/spicepress-info/sections/getting-started.php:67
+msgid "Your feedback is valuable to us"
+msgstr "Din feedback är värdefull för oss"
+
+#: functions/spicepress-info/sections/getting-started.php:70
+msgid "Premium Theme Support"
+msgstr "Support för premiumtema"
+
+#: functions/spicepress-info/sections/getting-started.php:80
+msgid "Premium Theme Details"
+msgstr "Information om premiumtema"
+
+#: functions/spicepress-info/sections/github.php:11
+#: functions/spicepress-info/welcome-screen.php:212
+msgid "Why Upgrade to PRO?"
+msgstr "Varför uppgradera till PRO?"
+
+#: functions/spicepress-info/sections/github.php:16
+msgid "Site Layout"
+msgstr "Sidlayout"
+
+#: functions/spicepress-info/sections/github.php:17
+msgid ""
+"SpicePress comes with two types of layout: a boxed one and a full-width "
+"layout. You can easily switch between them in Appearance > Customize."
+msgstr ""
+"SpicePress levereras med två layout-typer: en rutbaserad och en "
+"fullbreddslayout. Du kan enkelt växla mellan dem under Utseende > Anpassa."
+
+#: functions/spicepress-info/sections/github.php:24
+msgid "Top Header Section"
+msgstr "Övre sidhuvudssektion"
+
+#: functions/spicepress-info/sections/github.php:25
+msgid ""
+"You can customize your header section. There are Contact info detail and "
+"social media icons features in Header Top section."
+msgstr ""
+"Du kan anpassa din sidhuvudssektion, Det finns funktioner för "
+"kontaktinformation och ikoner för sociala medier i den övre delen av "
+"sidhuvudet."
+
+#: functions/spicepress-info/sections/github.php:33
+msgid "Multi Level Navigation"
+msgstr "Navigering i flera nivåer"
+
+#: functions/spicepress-info/sections/github.php:34
+msgid ""
+"There are beautifully styled navigation/menus in SpicePress. You can create "
+"sub menus and make multi level menus."
+msgstr ""
+"SpicePress innehåller vackert utformad navigering och menyer. Du kan skapa "
+"undermenyer och menyer i flera nivåer."
+
+#: functions/spicepress-info/sections/github.php:42
+msgid "Caption Slider"
+msgstr "Bildtextvisare"
+
+#: functions/spicepress-info/sections/github.php:43
+msgid ""
+"You can create unlimited sliders, which can be controlled by the settings in"
+" Appearance > Customize."
+msgstr ""
+"Du kan skapa obegränsat antal bildvisare, detta styrs av inställningarna "
+"under Utseende > Anpassa."
+
+#: functions/spicepress-info/sections/github.php:51
+msgid "Service Features"
+msgstr "Tjänstefunktioner"
+
+#: functions/spicepress-info/sections/github.php:53
+msgid ""
+"You can display any number of services on the Homepage, with thousands of "
+"Font Awesome icons available. You can also display a set of services on a "
+"separate page by using the Service page template."
+msgstr ""
+"Du kan visa valfritt antal tjänster på startsidan, med tillgång till "
+"tusentals FontAwesome-ikoner. Du kan även visa en uppsättning tjänster på en"
+" separat sida med hjälp av mallen för tjänstesidor."
+
+#: functions/spicepress-info/sections/github.php:61
+msgid "Portfolio Features"
+msgstr "Portföljfunktioner"
+
+#: functions/spicepress-info/sections/github.php:62
+msgid ""
+"Showcase any number of projects. This theme provides you with an option to "
+"create 2, 3, 4 column grid layouts by using the portfolio 2, 3, 4 column "
+"layout templates, respectively. If you have a number of projects to present "
+"then these templates are the answer. You can also create categorized "
+"portfolios, which display all the portfolio categories in a single place. In"
+" fact, we have coded this theme so that you can create any number of "
+"different portfolios."
+msgstr ""
+"Visa upp valfritt antal projekt. Detta tema ger dig möjligheten att skapa en"
+" rutnätslayout med 2, 3 eller 4 kolumner genom att använda motsvarande mall "
+"för layout med 2, 3 respektive 4 kolumner. Om du behöver visa upp flera "
+"projekt kan dessa mallar vara vad du behöver. Du kan också skapa "
+"kategoriindelade portföljer, vilka visar alla portföljkategorierna på ett "
+"och samma ställe. Vi har faktiskt kodat temat på ett sätt som låter dig "
+"skapa ett obegränsat antal olika portföljer."
+
+#: functions/spicepress-info/sections/github.php:70
+msgid "Latest News Section"
+msgstr "Sektion för senaste nytt"
+
+#: functions/spicepress-info/sections/github.php:71
+msgid ""
+"This section is often used to display Latest News, Announcements and Events "
+"type content."
+msgstr ""
+"Denna sektion används ofta för att visa senaste nytt, meddelanden, evenemang"
+" och liknande innehåll."
+
+#: functions/spicepress-info/sections/github.php:78
+msgid "Testimonial Feature"
+msgstr "Funktion för rekommendationer"
+
+#: functions/spicepress-info/sections/github.php:79
+msgid ""
+"Testimonials are a powerful way to gain credibility. You can display "
+"testimonials with a carousel effect."
+msgstr ""
+"Rekommendationer är ett effektivt sätt att öka er trovärdighet. Du kan visa "
+"rekommendationerna med en karusell-effekt."
+
+#: functions/spicepress-info/sections/github.php:89
+msgid ""
+"SpicePress comes with 7 preset color schemes and you can also create your "
+"own palettes using the Custom Color Setting in the Customizer."
+msgstr ""
+"SpicePress levereras med 7 förinställda färgscheman och du kan också skapa "
+"dina egna paletter genom att använda anpassade färginställningar i "
+"Anpassaren."
+
+#: functions/spicepress-info/sections/github.php:97
+msgid "Well Documented"
+msgstr "Väldokumenterat"
+
+#: functions/spicepress-info/sections/github.php:98
+msgid ""
+"We provide good knowledgebase articles which will help you to create "
+"effective websites. You can visit these articles via our  "
+msgstr ""
+"Vi tillhandahåller en kunskapsbas med bra artiklar som hjälper dig att skapa"
+" välfungerande webbplatser. Du hittar dessa artiklar via våra "
+
+#: functions/spicepress-info/sections/github.php:98
+msgid "Help Section"
+msgstr "Hjälpsidor"
+
+#: functions/spicepress-info/sections/github.php:106
+msgid "Custom widget "
+msgstr "Anpassad widget "
+
+#: functions/spicepress-info/sections/github.php:107
+msgid ""
+"Building a website with our custom widgets is very simple. Just place them "
+"inside the available sidebar or even in the content."
+msgstr ""
+"Det är mycket enkelt att bygga en hemsida med våra anpassade widgetar. Det "
+"är bara att placera dem i den tillgängliga sidopanelen eller rentav i "
+"innehållet."
+
+#: functions/spicepress-info/sections/github.php:116
+msgid "Translation Ready"
+msgstr "Stöd för språkfiler"
+
+#: functions/spicepress-info/sections/github.php:117
+msgid ""
+"The theme supports yet another famous plugin: WPML. With the help of this "
+"support you can create a website available in multiple languages."
+msgstr ""
+"Temat stöder ännu ett känt tillägg: WPML. Med hjälp av detta kan du skapa en"
+" webbplats som är tillgänglig på flera språk."
+
+#: functions/spicepress-info/welcome-screen.php:57
+msgid "Welcome to %1$s - Version %2$s"
+msgstr "Välkommen till %1$s – version %2$s"
+
+#: functions/spicepress-info/welcome-screen.php:59
+msgid ""
+"Welcome! Thank you for choosing SpiceThemes SpicePress WordPress theme. To "
+"take full advantage of the features this theme has to offer visit our "
+"%swelcome page%s."
+msgstr ""
+"Välkommen! Tack för att du valt WordPress-temat SpicePress från SpiceThemes."
+" För att dra full nytta av de funktioner temat erbjuder bör du besöka vår "
+"%svälkomstsida%s."
+
+#: functions/spicepress-info/welcome-screen.php:60
+msgid "Get started with SpicePress"
+msgstr "Kom igång med SpicePress"
+
+#: functions/spicepress-info/welcome-screen.php:103
+msgid "Hooray! There are no required actions for you right now."
+msgstr "Hurra! Inga åtgärder krävs av dig just nu."
+
+#: functions/spicepress-info/welcome-screen.php:140
+msgid "View Theme Info"
+msgstr "Visa temainformation"
+
+#: functions/spicepress-info/welcome-screen.php:213
+msgid "Free VS PRO"
+msgstr "Gratis VS PRO"
+
+#: functions/template-tags.php:26
+msgid "By"
+msgstr "av"
+
+#: functions/template-tags.php:32
+msgid "in"
+msgstr "i"
+
+#: functions/template-tags.php:36
+msgid "Tag"
+msgstr "Etikett"
+
+#: functions/template-tags.php:99 functions/template-tags.php:103
+#: functions/template-tags.php:107 functions/template-tags.php:113
+#: functions/template-tags.php:119 functions/template-tags.php:125
+#: functions/template-tags.php:147
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: functions/template-tags.php:111
+msgid "Category Archive"
+msgstr "Kategoriarkiv"
+
+#: functions/template-tags.php:117
+msgid "All posts by"
+msgstr "Alla inlägg av"
+
+#: functions/template-tags.php:123
+msgid "Tag Archive"
+msgstr "Etikettarkiv"
+
+#: functions/template-tags.php:143
+msgid "Search results for"
+msgstr "Sökresultat för"
+
+#: functions/template-tags.php:153
+msgid "Error 404: Page Not Found"
+msgstr "Fel 404: Sidan hittades inte"
+
+#: functions/template-tags.php:157
+msgid "%1$s "
+msgstr "%1$s "
+
+#: functions/template-tags.php:177
+msgid "previous page"
+msgstr "föregående sida"
+
+#: functions/template-tags.php:177
+msgid "next page"
+msgstr "nästa sida"
+
+#: functions/widgets/sidebars.php:8 functions/widgets/sidebars.php:10
+msgid "Sidebar widget area"
+msgstr "Sidopanelens widgetområde"
+
+#: functions/widgets/sidebars.php:18 functions/widgets/sidebars.php:20
+msgid "Footer widget left area"
+msgstr "Sidfotens vänstra widgetområde"
+
+#: functions/widgets/sidebars.php:28 functions/widgets/sidebars.php:30
+msgid "Footer widget central area"
+msgstr "Sidfotens widgetområde i mitten"
+
+#: functions/widgets/sidebars.php:38 functions/widgets/sidebars.php:40
+msgid "Footer widget right area"
+msgstr "Sidfotens högra widgetområde"
+
+#: functions/widgets/sidebars.php:50 functions/widgets/sidebars.php:52
+msgid "WooCommerce sidebar widget area"
+msgstr "Sidopanelens widgetområde för WooCommerce"
+
+#: functions.php:49
+msgid "Page"
+msgstr "Sida"
+
+#: functions.php:98
+msgid "Primary Menu"
+msgstr "Huvudmeny"
+
+#: header/header-navbar.php:45
+msgid "Toggle navigation"
+msgstr "Växla navigering"
+
+#: search.php:28
+msgid "Nothing found"
+msgstr "Inget hittades"
+
+#: search.php:29
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Inga matchande resultat kunde hittas baserat på dina sökkriterier. Försök "
+"med andra sökord."
+
+#: searchform.php:3
+msgid "Search here"
+msgstr "Sök här"
+
+#. Theme URI of the plugin/theme
+msgid "https://spicethemes.com/spicepress-wordpress-theme/"
+msgstr "https://spicethemes.com/spicepress-wordpress-theme/"
+
+#. Description of the plugin/theme
+msgid ""
+"SpicePress is a responsive and fully customizable business template. The "
+"advanced admin panel will enable you to personalize the theme without any "
+"technical information. SpicePress offers 7 predefined color schemes as well "
+"as the opportunity to customize the existing graphics to create your own "
+"unique website interface."
+msgstr ""
+"SpicePress är ett responsivt och helt anpassningsbart tema för företag. Den "
+"avancerade adminpanelen låter dig anpassa temat utan behov av teknisk "
+"information. SpicePress erbjuder 7 fördefinierade färgscheman och möjlighet "
+"att anpassa den befintliga grafiken för att skapa en webbplats med ditt eget"
+" unika gränssnitt."
+
+#. Author of the plugin/theme
+msgid "spicethemes.com"
+msgstr "spicethemes.com"
+
+#. Author URI of the plugin/theme
+msgid "https://spicethemes.com"
+msgstr "https://spicethemes.com"
+
+#. Template Name of the plugin/theme
+msgid "Business Template"
+msgstr "Företagsmall"
+
+#. Template Name of the plugin/theme
+msgid "Full-width page"
+msgstr "Fullbreddssida"

@@ -1,0 +1,84 @@
+.spicepress-notice {
+			background: #e9eff3 !important;
+			border: 10px solid #fff !important;
+			color: #608299 !important;
+			padding: 30px 10px !important;
+			text-align: center !important;
+			box-shadow: none !important;
+			text-align: center !important;
+			padding: 25px !important;
+			position: relative !important;
+}
+			
+.button_spicepress{   
+	font-size: 14px!important;
+	height: 46px!important;
+	line-height: 44px!important;
+	padding: 0 36px!important;}
+	
+.button.button-blue-secondary {
+background: #0085ba;
+border-color: #0073aa #006799 #006799;
+-webkit-box-shadow: 0 1px 0 #006799;
+box-shadow: 0 1px 0 #006799;
+color: #fff;
+text-decoration: none;
+text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+}
+
+.button.button-blue-secondary:focus, .button.button-blue-secondary:hover {
+background: #0073aa;
+border-color: #006799;
+vertical-align: top;
+color:#fff;
+ text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+}
+
+.upgrade-spicepress-pro {
+  background-color: #ce1b28;
+  border-color: #ce1b28;
+  color: #fff !important;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+   margin-bottom: 0px;
+  padding: 13px 30px 14px 29px;
+  text-transform: uppercase;
+  width: 70%;
+  border-radius:2px;
+  text-decoration: none;
+  text-align:center;
+}
+#accordion-section-spicepress_pro_section h3.accordion-section-title { background: #007cb2!important; color:#fff; }
+#accordion-section-spicepress_pro_section h3.accordion-section-title:hover, #accordion-section-spicepress_pro_section h3.accordion-section-title:focus{color:#fff !important;}
+#accordion-section-spicepress_pro_section h3.accordion-section-title:after{color:#fff !important;}
+
+.pro-box .read-more-button {
+    background-color: #008ec2;
+    border-color: #ef9c28;
+    color: #fff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding: 13px 30px 14px 29px;
+    text-transform: uppercase;
+    width: 54%;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.pro-vesrion {
+    text-align: center;
+    margin-top: 15px;
+}
+.pro-box {
+    display: block;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#accordion-section-spicepress_pro_general h3.accordion-section-title { background: #007cb2!important; color:#fff; }
+#accordion-section-spicepress_pro_general h3.accordion-section-title:hover, #accordion-section-spicepress_pro_general h3.accordion-section-title:focus{color:#fff !important;}
+#accordion-section-spicepress_pro_general h3.accordion-section-title:after{color:#fff !important;}

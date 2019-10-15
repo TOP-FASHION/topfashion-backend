@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+
+  php:
+    environment:
+      DH_URL: "dh.unica.it"
+      DH_ENV: "live"

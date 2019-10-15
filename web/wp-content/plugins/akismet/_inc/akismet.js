@@ -146,15 +146,10 @@ jQuery( function ( $ ) {
 		} );
 	} );
 
-	$( '.checkforspam' ).click( function( e ) {
+	$('.checkforspam:not(.button-disabled)').click( function(e) {
 		e.preventDefault();
 
-		if ( $( this ).hasClass( 'button-disabled' ) ) {
-			window.location.href = $( this ).data( 'success-url' ).replace( '__recheck_count__', 0 ).replace( '__spam_count__', 0 );
-			return;
-		}
-
-		$('.checkforspam').addClass('button-disabled').addClass( 'checking' );
+		$('.checkforspam:not(.button-disabled)').addClass('button-disabled');
 		$('.checkforspam-spinner').addClass( 'spinner' ).addClass( 'is-active' );
 
 		// Update the label on the "Check for Spam" button to use the active "Checking for Spam" language.

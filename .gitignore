@@ -1,2 +1,3 @@
 .idea/
 .docker-sync
+mariadb-init*

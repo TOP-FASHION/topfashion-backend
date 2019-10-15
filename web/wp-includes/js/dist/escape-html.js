@@ -82,45 +82,22 @@ this["wp"] = this["wp"] || {}; this["wp"]["escapeHtml"] =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 381);
+/******/ 	return __webpack_require__(__webpack_require__.s = 275);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 381:
+/***/ 275:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/@wordpress/escape-html/build-module/escape-greater.js
-/**
- * Returns a string with greater-than sign replaced.
- *
- * Note that if a resolution for Trac#45387 comes to fruition, it is no longer
- * necessary for `__unstableEscapeGreaterThan` to exist.
- *
- * See: https://core.trac.wordpress.org/ticket/45387
- *
- * @param {string} value Original string.
- *
- * @return {string} Escaped string.
- */
-function __unstableEscapeGreaterThan(value) {
-  return value.replace(/>/g, '&gt;');
-}
-
-// CONCATENATED MODULE: ./node_modules/@wordpress/escape-html/build-module/index.js
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "escapeAmpersand", function() { return escapeAmpersand; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "escapeQuotationMark", function() { return escapeQuotationMark; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "escapeLessThan", function() { return escapeLessThan; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "escapeAttribute", function() { return escapeAttribute; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "escapeHTML", function() { return escapeHTML; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "isValidAttributeName", function() { return isValidAttributeName; });
-/**
- * Internal dependencies
- */
-
 /**
  * Regular expression matching invalid attribute names.
  *
@@ -132,7 +109,6 @@ function __unstableEscapeGreaterThan(value) {
  *
  * @type {RegExp}
  */
-
 var REGEXP_INVALID_ATTRIBUTE_NAME = /[\u007F-\u009F "'>/="\uFDD0-\uFDEF]/;
 /**
  * Returns a string with ampersands escaped. Note that this is an imperfect
@@ -182,21 +158,13 @@ function escapeLessThan(value) {
  * "[...] the text cannot contain an ambiguous ampersand [...] must not contain
  * any literal U+0022 QUOTATION MARK characters (")"
  *
- * Note we also escape the greater than symbol, as this is used by wptexturize to
- * split HTML strings. This is a WordPress specific fix
- *
- * Note that if a resolution for Trac#45387 comes to fruition, it is no longer
- * necessary for `__unstableEscapeGreaterThan` to be used.
- *
- * See: https://core.trac.wordpress.org/ticket/45387
- *
  * @param {string} value Attribute value.
  *
  * @return {string} Escaped attribute value.
  */
 
 function escapeAttribute(value) {
-  return __unstableEscapeGreaterThan(escapeQuotationMark(escapeAmpersand(value)));
+  return escapeQuotationMark(escapeAmpersand(value));
 }
 /**
  * Returns an escaped HTML element value.

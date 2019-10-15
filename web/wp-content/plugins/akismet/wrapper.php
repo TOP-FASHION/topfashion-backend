@@ -206,8 +206,7 @@ function akismet_kill_proxy_check( $option ) {
 	return 0;
 }
 function akismet_pingback_forwarded_for( $r, $url ) {
-	// This functionality is now in core.
-	return false;
+	return Akismet::pingback_forwarded_for( $r, $url );
 }
 function akismet_pre_check_pingback( $method ) {
 	return Akismet::pre_check_pingback( $method );

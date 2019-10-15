@@ -1,0 +1,70 @@
+== Changelog ==
+
+@Version 1.0.5
+* Added Limitation in service setion.
+* Added Limitation in Team setion.
+* Remove Testimonial Feature.
+* Remove Call To Action Feature.
+* Remove Subscribe Feature.
+
+@Version 1.0.4
+* Added Innofit plus features link in customizer.
+
+@Version 1.0.3
+* Fixed menu create issue.
+
+@Version 1.0.2
+* Added Innofit plus features in theme about page.
+
+@Version 1.0.1
+* Update pot file.
+
+@Version 1.0
+* Change theme description.
+* Update string.
+
+@Version 0.9.9.2
+* Update description.
+
+@Version 0.9.9.1
+* Fixed theme review issues.
+
+@Version 0.9.9
+* Added one click demo import tab.
+
+@Version 0.9.2.1
+* Update string.
+
+@Version 0.9.2
+* Update Images.
+
+@Version 0.9.1
+* Fixed theme review issue.
+
+@Version 0.9
+* Fixed string issue.
+* Fixed escaping issues.
+
+@Version 0.8
+* Fixed string issue.
+
+@Version 0.7
+* Fixed String issue.
+
+@Version 0.6
+* Fixed Styling issue.
+
+@Version 0.5
+* Fixed Styling issue.
+
+@Version 0.4
+* Fixed string issue.
+
+@Version 0.3
+* Fixed string issue.
+
+@Version 0.2
+* Fixed string issue.
+
+@Version 0.1
+* release

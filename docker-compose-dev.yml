@@ -1,0 +1,27 @@
+version: "3"
+
+services:
+  mariadb:
+    volumes:
+      - ./mariadb-init:/docker-entrypoint-initdb.d # Place init .sql file(s) here.
+
+  php:
+    environment:
+      DH_URL: "dh.unica.localhost"
+      DH_ENV: "dev"
+
+  nginx:
+    ports:
+      - "80:80"
+
+  pma:
+    image: phpmyadmin/phpmyadmin
+    container_name: "${PROJECT_NAME}_pma"
+    environment:
+      PMA_HOST: $DB_HOST
+      PMA_USER: $DB_USER
+      PMA_PASSWORD: $DB_PASSWORD
+      PHP_UPLOAD_MAX_FILESIZE: 1G
+      PHP_MAX_INPUT_VARS: 1G
+    ports:
+      - '9000:80'

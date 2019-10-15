@@ -1,0 +1,998 @@
+# <!=Copyright (C) 2018 spicethemes.com
+# This file is distributed under the GNU General Public License v3 or later.=!>
+# Translators:
+# Emre Erkan <kara+transifex@karalamalar.net>, 2018
+# FX Bénard <fxb@wp-translations.org>, 2018
+# Türker YILDIRIM <turker.biz@gmail.com>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: SpicePress 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wp-translations.pro/\n"
+"POT-Creation-Date: 2018-04-19 14:47:50+00:00\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Türker YILDIRIM <turker.biz@gmail.com>, 2018\n"
+"Language-Team: Turkish (Turkey) (https://www.transifex.com/wp-translations/teams/64435/tr_TR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: grunt-wp-i18n1.0.2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Textdomain-Support: yes\n"
+
+#: 404.php:14
+msgid "4"
+msgstr "4"
+
+#: 404.php:13
+msgid "Oops! Page not found"
+msgstr "Off! Sayfa bulunamadı"
+
+#: 404.php:15
+msgid "We are sorry, but the page you are looking for does not exist."
+msgstr "Üzgünüz ancak aradığınız sayfa mevcut değil."
+
+#: 404.php:16
+msgid "Go Back"
+msgstr "Geri dön"
+
+#: comments.php:6
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr "Bu yazı parola korumalı. Yorumları görmek için parola girin."
+
+#: comments.php:21
+msgid "Reply"
+msgstr "Cevapla"
+
+#: comments.php:30
+msgid "Posted on"
+msgstr "Yayın tarihi"
+
+#: comments.php:33
+msgid "Edit"
+msgstr "Düzenle"
+
+#: comments.php:36
+msgid "Your comment is awaiting moderation."
+msgstr "Yorumunuz denetim için bekliyor."
+
+#: comments.php:55
+msgid "No comments so far"
+msgstr "Şimdilik yorum yok"
+
+#: comments.php:55
+msgid "1 comment so far"
+msgstr "Şu ana kadar 1 yorum"
+
+#: comments.php:55
+msgid "% Comments"
+msgstr "% Yorum"
+
+#: comments.php:63
+msgid "Comment navigation"
+msgstr "Yorum dolaşımı"
+
+#: comments.php:64
+msgid "&larr; Older Comments"
+msgstr "&arr; Eski yorumlar"
+
+#: comments.php:65
+msgid "Newer Comments &rarr;"
+msgstr "Yeni yorumlar &arr;"
+
+#: comments.php:70 comments.php:116
+msgid "Comments are closed."
+msgstr "Yorumlar kapalı."
+
+#: comments.php:76
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment"
+msgstr "Yorum yapabilmek için <a href=\"%s\">giriş yapmalısınız</a>"
+
+#: comments.php:82
+msgid "Name"
+msgstr "İsim"
+
+#: comments.php:83
+msgid "Email"
+msgstr "E-posta"
+
+#: comments.php:95
+msgid "Message"
+msgstr "Mesaj"
+
+#: comments.php:96
+msgid "Logged in as"
+msgstr "Giriş yapıldı "
+
+#: comments.php:96
+msgid "Logout of this account"
+msgstr "Bu hesaptan çıkış yap"
+
+#: comments.php:96
+msgid "Log out"
+msgstr "Çıkış"
+
+#: comments.php:98
+msgid "Send Message"
+msgstr "Mesajı gönder"
+
+#: comments.php:102
+msgid "Leave a Reply"
+msgstr "Bir Cevap Yazın"
+
+#: content-page.php:36 content.php:34 functions/template-tags.php:168
+#: index-news.php:60 template/template-page-full-width.php:28
+msgid "Read More"
+msgstr "Daha fazlasını oku"
+
+#: footer.php:5 functions/customizer/customizer_general_settings.php:44
+msgid "Copyright © 2018 SpiceThemes. All right reserved"
+msgstr "2018 © SpiceThemes. Tüm hakları saklıdır"
+
+#: functions/breadcrumbs/breadcrumbs.php:30
+#: functions/breadcrumbs/breadcrumbs.php:41
+#: functions/breadcrumbs/breadcrumbs.php:44
+msgid "Home"
+msgstr "Başlangıç"
+
+#: functions/breadcrumbs/breadcrumbs.php:47
+msgid "Archive by category"
+msgstr "Kategori bazında arşiv"
+
+#: functions/breadcrumbs/breadcrumbs.php:51
+#: functions/breadcrumbs/breadcrumbs.php:52
+#: functions/breadcrumbs/breadcrumbs.php:57
+#: functions/breadcrumbs/breadcrumbs.php:62
+msgid "Y"
+msgstr "Y"
+
+#: functions/breadcrumbs/breadcrumbs.php:52
+msgid "m"
+msgstr "m"
+
+#: functions/breadcrumbs/breadcrumbs.php:52
+#: functions/breadcrumbs/breadcrumbs.php:58
+msgid "F"
+msgstr "C"
+
+#: functions/breadcrumbs/breadcrumbs.php:53
+msgid "d"
+msgstr "d"
+
+#: functions/breadcrumbs/breadcrumbs.php:97
+msgid "Error 404"
+msgstr "Hata 404"
+
+#: functions/customizer/customizer-pro.php:12
+msgid "UPGRADE TO PRO"
+msgstr "PRO SÜRÜME YÜKSELTİN"
+
+#: functions/customizer/customizer-pro.php:19
+msgid "Upgrade to Pro"
+msgstr "Pro sürümüne yükselt"
+
+#: functions/customizer/customizer_general_settings.php:11
+msgid "General settings"
+msgstr "Genel ayarlar"
+
+#: functions/customizer/customizer_general_settings.php:16
+msgid "Remove animation"
+msgstr "Animasyonu kaldır"
+
+#: functions/customizer/customizer_general_settings.php:27
+msgid "Remove animation effects from entire site"
+msgstr "Tüm siteden animasyon efektlerini kaldırır"
+
+#: functions/customizer/customizer_general_settings.php:36
+msgid "Footer copyright settings"
+msgstr "Alt kısım telif hakkı ayarları"
+
+#: functions/customizer/customizer_general_settings.php:51
+msgid "Copyright text"
+msgstr "Telif hakkı metni"
+
+#: functions/customizer/customizer_header_image.php:7
+msgid "Custom header settings"
+msgstr "Özel üst bölüm ayarları"
+
+#: functions/customizer/customizer_header_image.php:15
+msgid "Header Headline"
+msgstr "Üst bölüm başlığı"
+
+#: functions/customizer/customizer_header_image.php:27
+msgid "Header Text"
+msgstr "Başlık metni"
+
+#: functions/customizer/customizer_recommended_plugin.php:16
+msgid "Recommended Actions"
+msgstr "Önerilen eylemler"
+
+#: functions/customizer/customizer_recommended_plugin.php:17
+msgid "Recommended Plugin"
+msgstr "Önerilen eklenti"
+
+#: functions/customizer/customizer_recommended_plugin.php:18
+msgid "Install and Activate"
+msgstr "Yükle ve etkinleştir"
+
+#: functions/customizer/customizer_recommended_plugin.php:19
+msgid "Activate"
+msgstr "Etkinleştir"
+
+#: functions/customizer/customizer_recommended_plugin.php:20
+msgid "Deactivate"
+msgstr "Etkisizleştir"
+
+#: functions/customizer/customizer_sections_settings.php:21
+msgid "Homepage section settings"
+msgstr "Ana sayfa bölüm ayarları"
+
+#: functions/customizer/customizer_sections_settings.php:26
+msgid "Latest News settings"
+msgstr "Güncel haberler ayarları"
+
+#: functions/customizer/customizer_sections_settings.php:35
+msgid "Enable Home News section"
+msgstr "Ana sayfa haberler bölümünü etkinleştir"
+
+#: functions/customizer/customizer_sections_settings.php:39
+msgid "ON"
+msgstr "Açık"
+
+#: functions/customizer/customizer_sections_settings.php:40
+msgid "OFF"
+msgstr "Kapalı"
+
+#: functions/customizer/customizer_sections_settings.php:47 index-news.php:10
+msgid "Latest News"
+msgstr "Güncel haberler"
+
+#: functions/customizer/customizer_sections_settings.php:52
+#: functions/customizer-repeater/class/customizer-repeater-control.php:256
+#: functions/customizer-repeater/class/customizer-repeater-control.php:405
+msgid "Title"
+msgstr "Başlık"
+
+#: functions/customizer/customizer_sections_settings.php:64
+#: functions/customizer-repeater/class/customizer-repeater-control.php:270
+#: functions/customizer-repeater/class/customizer-repeater-control.php:419
+msgid "Description"
+msgstr "Açıklama"
+
+#: functions/customizer/customizer_sections_settings.php:82
+msgid "Enable post meta values, like author name, date, comments, etc."
+msgstr "Yazar ismi, tarih, yorumlar vb. yazı meta değerlerini etkinleştir"
+
+#: functions/customizer-notify/spicepress-customizer-notify.php:111
+msgid "Activating"
+msgstr "Etkinleştiriliyor"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:33
+msgid "Add new field"
+msgstr "Yeni ekle alanı"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:38
+msgid "Customizer Repeater"
+msgstr "Özelleştirici tekrarlayıcısı"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:263
+#: functions/customizer-repeater/class/customizer-repeater-control.php:412
+msgid "Subtitle"
+msgstr "Alt başlık"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:279
+#: functions/customizer-repeater/class/customizer-repeater-control.php:427
+msgid "Button Text"
+msgstr "Düğme metni"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:290
+#: functions/customizer-repeater/class/customizer-repeater-control.php:437
+#: functions/customizer-repeater/class/customizer-repeater-control.php:626
+#: functions/customizer-repeater/class/customizer-repeater-control.php:648
+msgid "Link"
+msgstr "Bağlantı"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:309
+#: functions/customizer-repeater/class/customizer-repeater-control.php:455
+msgid "Video Url"
+msgstr "Video adresi"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:333
+#: functions/customizer-repeater/class/customizer-repeater-control.php:397
+msgid "Color"
+msgstr "Renk"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:343
+#: functions/customizer-repeater/class/customizer-repeater-control.php:466
+msgid "Shortcode"
+msgstr "Kısa kod"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:351
+#: functions/customizer-repeater/class/customizer-repeater-control.php:475
+msgid "Designation"
+msgstr "Tanımlama"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:367
+#: functions/customizer-repeater/class/customizer-repeater-control.php:486
+msgid "Delete field"
+msgstr "Sil alanı"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:523
+msgid "Open link in new tab:"
+msgstr "Bağlantıları yeni penerede aç:"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:534
+#: functions/customizer-repeater/class/customizer-repeater-control.php:602
+msgid "Icon"
+msgstr "Simge"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:539
+msgid ""
+"Note: Some icons may not be displayed here. You can see the full list of "
+"icons at %1$s."
+msgstr ""
+"Not: Bazı simgeler burada görüntülenmeyebilir. Simgelerin tam listesini %1$s"
+" adresinde görebilirsiniz."
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:540
+msgid "http://fontawesome.io/icons/"
+msgstr "http://fontawesome.io/icons/"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:557
+#: functions/customizer-repeater/class/customizer-repeater-control.php:603
+msgid "Image"
+msgstr "Resim"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:560
+msgid "Upload Image"
+msgstr "Görsel yükle"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:569
+msgid "Slide Format"
+msgstr "Slayt biçimi"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:573
+msgid "Standard"
+msgstr "Standart"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:577
+msgid "Aside"
+msgstr "Kenar"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:581
+msgid "Quote"
+msgstr "Alıntı"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:585
+msgid "Status"
+msgstr "Durum"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:589
+msgid "Video"
+msgstr "Video"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:599
+msgid "Image type"
+msgstr "Görsel tipi"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:604
+msgid "None"
+msgstr "Hiç biri"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:612
+msgid "Social icons"
+msgstr "Sosyal simgeler"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:629
+#: functions/customizer-repeater/class/customizer-repeater-control.php:659
+msgid "Remove Icon"
+msgstr "Simgeyi kaldır"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:634
+#: functions/customizer-repeater/class/customizer-repeater-control.php:667
+msgid "Add Icon"
+msgstr "Simge ekle"
+
+#: functions/spicepress-info/sections/free_pro.php:14
+msgid "Features"
+msgstr "Özellikler"
+
+#: functions/spicepress-info/sections/free_pro.php:18
+msgid "Frontpage Sections"
+msgstr "Ön sayfa bölümleri"
+
+#: functions/spicepress-info/sections/free_pro.php:19
+msgid "You will find a number of sections on the front page."
+msgstr "Ön sayfada bir çok bölüm bulacaksınız."
+
+#: functions/spicepress-info/sections/free_pro.php:21
+msgid "Page Templates Support"
+msgstr "Sayfa şablonları desteği"
+
+#: functions/spicepress-info/sections/free_pro.php:22
+msgid "SpicePress includes various page templates."
+msgstr "SpicePress teması çeşitli sayfa şablonları içermektedir."
+
+#: functions/spicepress-info/sections/free_pro.php:24
+msgid "Layout Options"
+msgstr "Yerleşim seçenekleri"
+
+#: functions/spicepress-info/sections/free_pro.php:25
+msgid ""
+"SpicePress supports both a Full-Width and a Boxed layout options. To choose "
+"your preference (and switch between them) go to Appearance > Customize."
+msgstr ""
+"SpicePress hem tam genişlik, hem de sınırlandırılmış yerleşim düzeni "
+"seçeneklerini destekler. Görünüm > Özelleştir bölümüne giderek seçiminizi "
+"yapabilirsiniz (ve aralarında geçiş yapabilirsiniz)."
+
+#: functions/spicepress-info/sections/free_pro.php:27
+msgid "Mobile Friendly"
+msgstr "Mobil dostu"
+
+#: functions/spicepress-info/sections/free_pro.php:28
+msgid "Responsive layout in all devices"
+msgstr "Tüm cihazlarda duyarlı yerleşim"
+
+#: functions/spicepress-info/sections/free_pro.php:30
+msgid "Contact Form Support"
+msgstr "İletişim formu desteği"
+
+#: functions/spicepress-info/sections/free_pro.php:31
+msgid ""
+"This theme supports the Contact Form 7 plugin. Use it to build your contact "
+"form."
+msgstr ""
+"Tema Contact Form 7 eklentisini desteklemektedir. İletişim formlarınızı "
+"yapılandırmak için kullanabilirsiniz."
+
+#: functions/spicepress-info/sections/free_pro.php:34
+#: functions/spicepress-info/sections/github.php:88
+msgid "Mulitple Color Schemes"
+msgstr "Çoklu renk şemaları"
+
+#: functions/spicepress-info/sections/free_pro.php:35
+msgid ""
+"Enjoy any of the 7 preset color schemes, or create your own, without adding "
+"any code."
+msgstr ""
+"Var olan 7 ön tanımlı ayarı kullanın ya da kendiniz istediğiniz gibi "
+"oluşturun, hiç kod kullanmadan."
+
+#: functions/spicepress-info/sections/free_pro.php:37
+msgid "Google Map"
+msgstr "Google haritası"
+
+#: functions/spicepress-info/sections/free_pro.php:38
+msgid ""
+"Display your Shop and Business location on your website using Google Maps."
+msgstr ""
+"Google haritaları kullanarak mağaza ya da firma konumunuzu web sitenizde "
+"gösterin."
+
+#: functions/spicepress-info/sections/free_pro.php:40
+msgid "Portfolio"
+msgstr "Portföy"
+
+#: functions/spicepress-info/sections/free_pro.php:41
+msgid ""
+"Present your project/portfolio collection with 2 column, 3 column and 4 "
+"column layouts. You can also display your project/portfolio by category."
+msgstr ""
+"Proje/portföy koleksiyonunuzu 2 sütun, 3 sütun ve 4 sütunlu yerleşimler ile "
+"sunun. Ayrıca projelerinizi/portföyünüzü kategori bazında gösterebilirsiniz."
+
+#: functions/spicepress-info/sections/free_pro.php:44
+msgid "About Us Page"
+msgstr "Hakkımızda sayfası"
+
+#: functions/spicepress-info/sections/free_pro.php:45
+msgid "Show team members and custom content added in the WordPress editor."
+msgstr ""
+"Ekip üyelerini ve özel içeriği WordPress düzenleyicisi içinden ekleyerek "
+"gösterebilirsiniz."
+
+#: functions/spicepress-info/sections/free_pro.php:48
+msgid "Services Page"
+msgstr "Servisler sayfası"
+
+#: functions/spicepress-info/sections/free_pro.php:49
+msgid "Show all your services in a single place."
+msgstr "Tüm servislerinizi bir yerde gösterin."
+
+#: functions/spicepress-info/sections/free_pro.php:52
+msgid "Testimonial/Review Section"
+msgstr "Deneyim/inceleme bölümü"
+
+#: functions/spicepress-info/sections/free_pro.php:53
+msgid "Show user feedback on the Homepage."
+msgstr "Kullanıcı geri bildirimlerini ana sayfada göster."
+
+#: functions/spicepress-info/sections/free_pro.php:57
+msgid "Typography Settings"
+msgstr "Tipografi ayarları"
+
+#: functions/spicepress-info/sections/free_pro.php:58
+msgid "You can customize the style without adding any code."
+msgstr "Hiç bir kod eklemeden stilleri özelleştirebilirsiniz."
+
+#: functions/spicepress-info/sections/free_pro.php:62
+msgid "WPML Support"
+msgstr "WPML desteği"
+
+#: functions/spicepress-info/sections/free_pro.php:63
+msgid "You can use WPML to make your website multilingual."
+msgstr "Web sitenizi çok dilli yapmak için WPML kullanabilirsiniz."
+
+#: functions/spicepress-info/sections/free_pro.php:66
+msgid "Support Forum"
+msgstr "Destek forumu"
+
+#: functions/spicepress-info/sections/free_pro.php:67
+msgid "Get instant 24/7 support on our Support Forum."
+msgstr "Destek forumumuzdan 7/24 destek alın."
+
+#. Theme Name of the plugin/theme
+msgid "SpicePress"
+msgstr "SpicePress"
+
+#: functions/spicepress-info/sections/free_pro.php:87
+msgid ""
+"Slider [Static Image], Services [3 Services], Portfolio [3 Portfolio], "
+"Testimonial, Latest News"
+msgstr ""
+"Kaydırak [sabit görsel], servisler [3 servis], Portföy [3 föy], deneyimler, "
+"güncel haberler"
+
+#: functions/spicepress-info/sections/free_pro.php:92
+msgid "Business Template and Full-Width Template"
+msgstr "Kurumsal şablon ve tam genişlikli şablon"
+
+#: functions/spicepress-info/sections/free_pro.php:93
+msgid "Wide Layout"
+msgstr "Geniş düzen"
+
+#: functions/spicepress-info/sections/free_pro.php:105
+msgid "On WordPress.org Support Forum"
+msgstr "WordPress.org destek forumlarında"
+
+#: functions/spicepress-info/sections/free_pro.php:117
+msgid "SpicePress PRO"
+msgstr "SpicePress PRO"
+
+#: functions/spicepress-info/sections/free_pro.php:122
+msgid ""
+"Top Header, Slider [Unlimited], Services [Unlimited], Portfolio [Unlimited],"
+" Latest News, Clients, Testimonials, Custom Widgets"
+msgstr ""
+"Üst alan, kaydırak [sınırsız], servisler [sınırsız], portföy [sınırsız], "
+"güncel haberler, müşteriler, deneyimler, özel bileşenler"
+
+#: functions/spicepress-info/sections/free_pro.php:124
+msgid ""
+"About, Services, Portfolio, Blog Left & Right Sidebars, Blog Full Width, "
+"Page Full Width, Contact Page and much more."
+msgstr ""
+"Hakkımızda, servisler, portföy, blog sol ve sağ yan sütun, blog tam "
+"genişlik, sayfa tam genişlik, iletişim sayfası ve daha fazlası."
+
+#: functions/spicepress-info/sections/free_pro.php:125
+msgid "Wide layout & Boxed Layout"
+msgstr "Tam genişlikli yerleşim ve sınırlandırılmış yerleşim"
+
+#: functions/spicepress-info/sections/free_pro.php:137
+msgid "Premium Support Forum"
+msgstr "Premium destek forumları"
+
+#: functions/spicepress-info/sections/free_pro.php:147
+msgid "Get SpicePress PRO Now!"
+msgstr "SpicePress PRO'yu şimdi edinin!"
+
+#: functions/spicepress-info/sections/getting-started.php:14
+msgid "About the SpicePress theme"
+msgstr "SpicePress teması hakkında"
+
+#: functions/spicepress-info/sections/getting-started.php:20
+msgid ""
+"This theme is ideal for creating corporate and business websites. The PRO "
+"version has tons of features: a homepage with many sections where you can "
+"feature unlimited sliders, portfolios, user reviews, latest news, services, "
+"calls to action and much more. Each section in the HomePage template is "
+"carefully designed to fit to all business requirements."
+msgstr ""
+"Kurumsal ve ticari web siteleri oluşturmak için kurumsal bir temadır. PRO "
+"sürümü bir çok özellik içerir: ana sayfada sınırsız kaydırak, portöy, "
+"kullanıcı deneyimleri, güncel haberler, servisler, eyleme çağrı ve çok daha "
+"fazlasını içerek bir çok bölüm vardır. Her bir bölüm ana sayfa şablonu "
+"içindedir ve ticari ihtiyaçlara en iyi şekilde cevap verecek şekilde "
+"tasarlanmıştır."
+
+#: functions/spicepress-info/sections/getting-started.php:22
+msgid ""
+"You can use this theme for any type of activity. SpicePress is compatible "
+"with popular plugins like WPML and Polylang. To help you create an effective"
+" and impactful web presence, SpicePress has predefined versions of many "
+"pages: Contact, Services, Portfolios, About Us and Blog."
+msgstr ""
+"Bu temayı her türlü etkinlik tipi için kullanabilirsiniz. SpicePress WPML ve"
+" Polylang gibi popüler eklentiler ile uyumludur. İletişim, servisler, "
+"portföy, hakkımızda ve blog sayfaları efektif ve etkili bir web varlığı "
+"oluştırabilmenize yardımcı olur."
+
+#: functions/spicepress-info/sections/getting-started.php:24
+#: functions/spicepress-info/welcome-screen.php:210
+msgid "Getting Started"
+msgstr "Başlarken"
+
+#: functions/spicepress-info/sections/getting-started.php:28
+msgid ""
+"To take full advantage of all the features this theme has to offer, install "
+"and activate the SpiceBox plugin. Go to Customize and install the SpiceBox "
+"plugin."
+msgstr ""
+"Bu temanın size sunduğu tüm imkanlardan faydalanabilmek için SpiceBox "
+"eklentisini kurun ve etkinleştirin. Özelleştir bölümüne gidin ve SpiceBox "
+"eklentisini kurun."
+
+#: functions/spicepress-info/sections/getting-started.php:31
+msgid "Go to the Customizer"
+msgstr "Özelleştiriciye git"
+
+#: functions/spicepress-info/sections/getting-started.php:37
+msgid "SpicePress theme"
+msgstr "SpicePress teması"
+
+#: functions/spicepress-info/sections/getting-started.php:45
+msgid "Useful Links"
+msgstr "İşe yarar bağlantılar"
+
+#: functions/spicepress-info/sections/getting-started.php:52
+msgid "Lite Demo"
+msgstr "Lite demo"
+
+#: functions/spicepress-info/sections/getting-started.php:56
+msgid "PRO Demo"
+msgstr "PRO örneği"
+
+#: functions/spicepress-info/sections/getting-started.php:67
+msgid "Your feedback is valuable to us"
+msgstr "Geri bildiriminiz bizim için değerlidir"
+
+#: functions/spicepress-info/sections/getting-started.php:70
+msgid "Premium Theme Support"
+msgstr "Premium tema desteği"
+
+#: functions/spicepress-info/sections/getting-started.php:80
+msgid "Premium Theme Details"
+msgstr "Premium tema detayları"
+
+#: functions/spicepress-info/sections/github.php:11
+#: functions/spicepress-info/welcome-screen.php:212
+msgid "Why Upgrade to PRO?"
+msgstr "Neden PRO sürüme yükseltmeli?"
+
+#: functions/spicepress-info/sections/github.php:16
+msgid "Site Layout"
+msgstr "Site yerleşimi"
+
+#: functions/spicepress-info/sections/github.php:17
+msgid ""
+"SpicePress comes with two types of layout: a boxed one and a full-width "
+"layout. You can easily switch between them in Appearance > Customize."
+msgstr ""
+"SpicePress iki tür yerleşim ile beraber gelir: sınırlandırılmış ve tam "
+"genişlikli yerleşim. Görünüm > Özelleştir altından kolayca aralarında geçiş "
+"yapabilirsiniz."
+
+#: functions/spicepress-info/sections/github.php:24
+msgid "Top Header Section"
+msgstr "Üst alan bölümü"
+
+#: functions/spicepress-info/sections/github.php:25
+msgid ""
+"You can customize your header section. There are Contact info detail and "
+"social media icons features in Header Top section."
+msgstr ""
+"Üst alanı özelleştirebilirsiniz. İletişim bilgileri ve/veya sosyal medya "
+"simgelerini üst alanın üst bölümüne ekleyebilirsiniz."
+
+#: functions/spicepress-info/sections/github.php:33
+msgid "Multi Level Navigation"
+msgstr "Çoklu seviye dolaşımı"
+
+#: functions/spicepress-info/sections/github.php:34
+msgid ""
+"There are beautifully styled navigation/menus in SpicePress. You can create "
+"sub menus and make multi level menus."
+msgstr ""
+"SpicePress içinde harikulade stillendirilmiş dolaşım/menüler mevcuttur. Alt "
+"menüler oluşturabilir ve çok seviyeli menüler yapabilirsiniz."
+
+#: functions/spicepress-info/sections/github.php:42
+msgid "Caption Slider"
+msgstr "Başlık kaydırağı"
+
+#: functions/spicepress-info/sections/github.php:43
+msgid ""
+"You can create unlimited sliders, which can be controlled by the settings in"
+" Appearance > Customize."
+msgstr ""
+"Sınırsız kaydırak oluşturabilir. Oluşturduklarınızı Görünüm > Özelleştir "
+"altındaki ayarlar ile yönetebilirsiniz."
+
+#: functions/spicepress-info/sections/github.php:51
+msgid "Service Features"
+msgstr "Servis özellikleri"
+
+#: functions/spicepress-info/sections/github.php:53
+msgid ""
+"You can display any number of services on the Homepage, with thousands of "
+"Font Awesome icons available. You can also display a set of services on a "
+"separate page by using the Service page template."
+msgstr ""
+"Ana sayfada binlerce Font Awesome simgesi ile istediğiniz kadar servis "
+"gösterebilirsiniz. Ayrıca servis sayfası şablonu ile servislerinizi ayrı bir"
+" sayfada da gösterebilirsiniz."
+
+#: functions/spicepress-info/sections/github.php:61
+msgid "Portfolio Features"
+msgstr "Portföy özellikleri"
+
+#: functions/spicepress-info/sections/github.php:62
+msgid ""
+"Showcase any number of projects. This theme provides you with an option to "
+"create 2, 3, 4 column grid layouts by using the portfolio 2, 3, 4 column "
+"layout templates, respectively. If you have a number of projects to present "
+"then these templates are the answer. You can also create categorized "
+"portfolios, which display all the portfolio categories in a single place. In"
+" fact, we have coded this theme so that you can create any number of "
+"different portfolios."
+msgstr ""
+"Vitrinize istediğiniz kadar proje yerleştirin. Tema size portföy 2, 3, 4 "
+"sütunlu yerleşim şablonları ile 2, 3, 4 sütunlu ızgara yerleşimi seçeneği "
+"sağlıyor. Eğer bir çok proje göstermeniz gerekiyorsa bu şablonlar "
+"ihtiyacınıza cevap olacaklardır. Ayrıca kategorize edilmiş portföy ile tek "
+"bir yerde tüm portföy kategorilerinizi gösterebilirsiniz. Hatta temayı öyle "
+"bir kodladık ki, istediğiniz kadar farklı portföy oluşturabilirsiniz."
+
+#: functions/spicepress-info/sections/github.php:70
+msgid "Latest News Section"
+msgstr "En güncel haberler bölümü"
+
+#: functions/spicepress-info/sections/github.php:71
+msgid ""
+"This section is often used to display Latest News, Announcements and Events "
+"type content."
+msgstr ""
+"Bu bölüm genelde en güncel haberleri, duyuruları ve etkinlik tipindeki "
+"içerikleri göstermek için kullanılır."
+
+#: functions/spicepress-info/sections/github.php:78
+msgid "Testimonial Feature"
+msgstr "Deneyimler özelliği"
+
+#: functions/spicepress-info/sections/github.php:79
+msgid ""
+"Testimonials are a powerful way to gain credibility. You can display "
+"testimonials with a carousel effect."
+msgstr ""
+"Deneyimler kredibilite kazanmak için çok güçlü bir yoldur. Deneyimleri atlı "
+"karınca efektiyle gösterebilirsiniz."
+
+#: functions/spicepress-info/sections/github.php:89
+msgid ""
+"SpicePress comes with 7 preset color schemes and you can also create your "
+"own palettes using the Custom Color Setting in the Customizer."
+msgstr ""
+"SpicePress 7 ön tanımlı renk şeması ile beraber gelir ve Özelleştirici "
+"içindeki özel renk ayarları bölümünden kendi şemanızı oluşturabilirsiniz."
+
+#: functions/spicepress-info/sections/github.php:97
+msgid "Well Documented"
+msgstr "İyi belgelenmiş"
+
+#: functions/spicepress-info/sections/github.php:98
+msgid ""
+"We provide good knowledgebase articles which will help you to create "
+"effective websites. You can visit these articles via our  "
+msgstr ""
+"Efektif web siteleri oluşturabilmeniz için bilgi bankası yazıları "
+"sağlıyoruz. Bu yazılara şuradan ulaşabilirsiniz:"
+
+#: functions/spicepress-info/sections/github.php:98
+msgid "Help Section"
+msgstr "Yardım bölümü"
+
+#: functions/spicepress-info/sections/github.php:106
+msgid "Custom widget "
+msgstr "Özel bileşen"
+
+#: functions/spicepress-info/sections/github.php:107
+msgid ""
+"Building a website with our custom widgets is very simple. Just place them "
+"inside the available sidebar or even in the content."
+msgstr ""
+"Bizim özel bileşenlerimizi kullanarak bir web sitesi oluşturmak çok kolay. "
+"Uygun durumdaki yan sütuna ekleyin, hatta içeriğe ekleyin."
+
+#: functions/spicepress-info/sections/github.php:116
+msgid "Translation Ready"
+msgstr "Çeviri hazır"
+
+#: functions/spicepress-info/sections/github.php:117
+msgid ""
+"The theme supports yet another famous plugin: WPML. With the help of this "
+"support you can create a website available in multiple languages."
+msgstr ""
+"Tema başka bir ünlü eklentiyi de destekliyor: WPML. Bu destek ile birden çok"
+" dilte web siteleri oluşturabilirsiniz."
+
+#: functions/spicepress-info/welcome-screen.php:57
+msgid "Welcome to %1$s - Version %2$s"
+msgstr "%1$s temasına hoşgeldiniz - Sürüm %2$s"
+
+#: functions/spicepress-info/welcome-screen.php:59
+msgid ""
+"Welcome! Thank you for choosing SpiceThemes SpicePress WordPress theme. To "
+"take full advantage of the features this theme has to offer visit our "
+"%swelcome page%s."
+msgstr ""
+"Hoş geldiniz! SpiceThemes SpicePress WordPress temasını seçtiğiniz için "
+"teşekkürler. Temanın size sunduğu tüm imkanlardan faydalanabilmek için %shoş"
+" geldiniz sayfamızı%s ziyaret edin."
+
+#: functions/spicepress-info/welcome-screen.php:60
+msgid "Get started with SpicePress"
+msgstr "SpicePress ile işe koyulun"
+
+#: functions/spicepress-info/welcome-screen.php:103
+msgid "Hooray! There are no required actions for you right now."
+msgstr "Heyoo! Sizi bekleyen hiç bir gerekli eylem kalmadı."
+
+#: functions/spicepress-info/welcome-screen.php:140
+msgid "View Theme Info"
+msgstr "Tema bilgilerini görüntüle"
+
+#: functions/spicepress-info/welcome-screen.php:213
+msgid "Free VS PRO"
+msgstr "Ücretsiz/PRO sürüm karşılaştırma"
+
+#: functions/template-tags.php:26
+msgid "By"
+msgstr "Yazar:"
+
+#: functions/template-tags.php:32
+msgid "in"
+msgstr "kategorisi"
+
+#: functions/template-tags.php:36
+msgid "Tag"
+msgstr "Etiket"
+
+#: functions/template-tags.php:99 functions/template-tags.php:103
+#: functions/template-tags.php:107 functions/template-tags.php:113
+#: functions/template-tags.php:119 functions/template-tags.php:125
+#: functions/template-tags.php:147
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: functions/template-tags.php:111
+msgid "Category Archive"
+msgstr "Kategori arşivi"
+
+#: functions/template-tags.php:117
+msgid "All posts by"
+msgstr "Tüm yazıları"
+
+#: functions/template-tags.php:123
+msgid "Tag Archive"
+msgstr "Etiket arşivi"
+
+#: functions/template-tags.php:143
+msgid "Search results for"
+msgstr "Arama sonuçları, kriter:"
+
+#: functions/template-tags.php:153
+msgid "Error 404: Page Not Found"
+msgstr "Hata 404: Sayfa bulunamadı"
+
+#: functions/template-tags.php:157
+msgid "%1$s "
+msgstr "%1$s "
+
+#: functions/template-tags.php:177
+msgid "previous page"
+msgstr "önceki sayfa"
+
+#: functions/template-tags.php:177
+msgid "next page"
+msgstr "sonraki sayfa"
+
+#: functions/widgets/sidebars.php:8 functions/widgets/sidebars.php:10
+msgid "Sidebar widget area"
+msgstr "Kenar çubuğu bileşen alanı"
+
+#: functions/widgets/sidebars.php:18 functions/widgets/sidebars.php:20
+msgid "Footer widget left area"
+msgstr "Alt bölüm sol bileşen alanı"
+
+#: functions/widgets/sidebars.php:28 functions/widgets/sidebars.php:30
+msgid "Footer widget central area"
+msgstr "Alt bölüm orta bileşen alanı"
+
+#: functions/widgets/sidebars.php:38 functions/widgets/sidebars.php:40
+msgid "Footer widget right area"
+msgstr "Alt bölüm sağ bileşen alanı"
+
+#: functions/widgets/sidebars.php:50 functions/widgets/sidebars.php:52
+msgid "WooCommerce sidebar widget area"
+msgstr "WooCommerce yan sütun bileşen alanı"
+
+#: functions.php:49
+msgid "Page"
+msgstr "Sayfa"
+
+#: functions.php:98
+msgid "Primary Menu"
+msgstr "Birincil menü"
+
+#: header/header-navbar.php:45
+msgid "Toggle navigation"
+msgstr "Navigasyonu değiştir"
+
+#: search.php:28
+msgid "Nothing found"
+msgstr "Hiçbir şey bulunamadı"
+
+#: search.php:29
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Üzgünüz fakat aradığınız kriterler ile örtüşen sonuç bulunamadı. Lütfen "
+"başka anahtar kelimeler ile tekrar deneyin."
+
+#: searchform.php:3
+msgid "Search here"
+msgstr "Burada arayın"
+
+#. Theme URI of the plugin/theme
+msgid "https://spicethemes.com/spicepress-wordpress-theme/"
+msgstr "https://spicethemes.com/spicepress-wordpress-theme/"
+
+#. Description of the plugin/theme
+msgid ""
+"SpicePress is a responsive and fully customizable business template. The "
+"advanced admin panel will enable you to personalize the theme without any "
+"technical information. SpicePress offers 7 predefined color schemes as well "
+"as the opportunity to customize the existing graphics to create your own "
+"unique website interface."
+msgstr ""
+"SpicePress duyarlı ve tamamen özelleştirilebilir bir kurumsal şablondur. "
+"Gelişmiş yönetim paneli teknik bir bilgiye sahip olmadan temanızı "
+"özelleştirebilmenize imkan sağlar. SpicePress 7 ön tanımlı renk şeması ve "
+"kendi eşsiz web sitesi arayüzünüzü oluşturabileceğiniz özelleştirme "
+"fırsatları sunar."
+
+#. Author of the plugin/theme
+msgid "spicethemes.com"
+msgstr "spicethemes.com"
+
+#. Author URI of the plugin/theme
+msgid "https://spicethemes.com"
+msgstr "https://spicethemes.com"
+
+#. Template Name of the plugin/theme
+msgid "Business Template"
+msgstr "Kurumsal şablon"
+
+#. Template Name of the plugin/theme
+msgid "Full-width page"
+msgstr "Tam genişlikli sayfa"

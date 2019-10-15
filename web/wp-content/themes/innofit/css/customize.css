@@ -1,0 +1,26 @@
+.sortable{ 
+list-style-type: none;
+ margin: 0;
+ padding: 0; 
+ margin-bottom: 10px;
+ min-height:100px;
+ padding:5px 0;
+ }
+ .customizer_layout {
+  background-color:#ccc;
+ }
+ .sortable li {
+ margin: 5px;
+ padding: 5px;
+ width: 215px; 
+ background-color:#fff;
+ border:1px solid #000;
+ text-align:center;
+ }
+ 
+.background_active { border: 1px solid #f1c40f !important; border-radius: 2px;}
+ 
+#customize-control-theme_color  input[type=radio], #customize-control-innofit_layout_style input[type=radio], #customize-control-theme_style_type input[type=radio], #customize-control-predefined_back_image input[type=radio] {display:none !important;}
+#customize-control-front_page_data input, #customize-control-front_page_data label{display:none !important;}
+
+#customize-control-header_varition label { max-width: 100% !important;} 

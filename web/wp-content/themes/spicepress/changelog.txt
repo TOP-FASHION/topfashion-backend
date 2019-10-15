@@ -1,0 +1,108 @@
+== Changelog ==
+@Version 1.5.9
+1. Added Menu breakpoint setting.
+@Version 1.5.8.1
+1. Added sanitize_callback function to add_setting
+@Version 1.5.8
+1. Added Header layout setting with logo placing.
+2. Fixed the translation issue of Home menu and search widget button text.
+
+@Version 1.5.7
+1. Added documentation link in customizer.
+
+@Version 1.5.6
+1. Fixed next page pagination issue on page.
+
+@Version 1.5.5
+1. Fixed menu issue.
+
+@Version 1.5.4
+1. Fixed escaping issues.
+
+@Version 1.5.3
+1. Recommended plugin Easy Instagram Feed By TGM.
+
+@Version 1.5.2
+1. Added Recommended plugin tab.
+
+@Version 1.5.1
+1. Fixed homepage title issue.
+
+1.Updated String
+@Version 1.5
+1.Updated String
+
+@Version 1.4.9.1
+1. Updated String
+
+@Version 1.4.9
+1. Added WooCommerce Gallery support
+
+@Version 1.4.8
+* Update Theme Detail Page for child theme.
+
+@Version 1.4.7
+* Update String.
+
+@Version 1.4.6
+* Fixed scrollup styling issue.
+
+@Version 1.4.5
+* Update Link.
+
+@Version 1.4.4
+* Added setting for remove animation effects from mobile.
+
+@Version 1.4.3
+* Update pot file.
+* Added contact us and about us template
+
+@Version 1.4.2
+* Added breadcrumbs setting for archive page.
+
+@Version 1.4.1
+* Fixed View Theme Info link issue.
+
+@Version 1.4
+* Fixed Styling issue.
+* Added Overlay setting for slider and testimonial.
+
+@Version 1.3
+* Change class name upgrade to upgrade-spicepress-pro.
+
+@Version 1.2
+* Update Theme Description.
+
+@Version 1.1
+* Update strings.
+
+@Version 1.0.1
+* Added Upgrade to pro button.
+
+@Version 1.0
+* Update Theme URI.
+
+@Version 0.8
+* Update Strings.
+
+@Version 0.7
+* Update Theme URI and Links.
+
+@Version 0.6
+* Update Strings.
+
+@Version 0.5
+* Fixed Theme Review Issue.
+* Update Strings.
+
+@Version 0.4
+* Fixed Theme Review Issue.
+
+@Version 0.3
+* Update readme file.
+
+@Version 0.2
+* Update with homepage template.
+
+@Version 0.1
+* Initial release
