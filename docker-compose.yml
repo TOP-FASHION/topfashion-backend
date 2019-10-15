@@ -35,7 +35,7 @@ services:
 #      PHP_XDEBUG_REMOTE_HOST: 10.254.254.254 # macOS
 #      PHP_XDEBUG_REMOTE_HOST: 10.0.75.1 # Windows
     volumes:
-      - ./:/var/www/html
+      - ./wordpress:/var/www/html
 ## For macOS users (https://wodby.com/docs/stacks/wordpress/local#docker-for-mac)
 #      - ./:/var/www/html:cached # User-guided caching
 #      - docker-sync:/var/www/html # Docker-sync
@@ -54,7 +54,7 @@ services:
       NGINX_VHOST_PRESET: wordpress
       #NGINX_SERVER_ROOT: /var/www/html/subdir
     volumes:
-      - ./:/var/www/html
+      - ./wordpress:/var/www/html
 # Options for macOS users (https://wodby.com/docs/stacks/wordpress/local#docker-for-mac)
 #      - ./:/var/www/html:cached # User-guided caching
 #      - docker-sync:/var/www/html # Docker-sync
