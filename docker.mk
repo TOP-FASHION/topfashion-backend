@@ -6,10 +6,15 @@ default: up
 
 WP_ROOT ?= /var/www/html/
 
-up:
-	@echo "Starting up containers for for $(PROJECT_NAME)..."
+up-dev:
+	@echo "Starting up DEV containers for $(PROJECT_NAME)..."
 	docker-compose pull
-	docker-compose up -d --remove-orphans
+	docker-compose -f docker-compose.yml -f docker-compose-dev.yml up -d --remove-orphans
+
+up-prod:
+	@echo "Starting up PROD containers for $(PROJECT_NAME)..."
+	docker-compose pull
+	docker-compose -f docker-compose.yml -f docker-compose-prod.yml up -d --remove-orphans
 
 down: stop
 
