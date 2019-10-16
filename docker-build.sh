@@ -59,7 +59,7 @@ function build {
 
     SRC="wordpress"
     BUILD="build"
-    THEME="mytheme"
+    THEME="storefront"
 
     # cleanup
     rm -rf $BUILD
@@ -99,7 +99,7 @@ function build {
     # fi
 
     # build docker image
-    docker build --squash -f Dockerfile -t $image .
+    docker build -f Dockerfile -t $image .
 
     # replace colon with hyphen on $TAG for filename
     TAR=${image//:/-}
