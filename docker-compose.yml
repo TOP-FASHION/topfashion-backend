@@ -10,9 +10,9 @@ services:
       MYSQL_DATABASE: $DB_NAME
       MYSQL_USER: $DB_USER
       MYSQL_PASSWORD: $DB_PASSWORD
-    volumes:
-      - ./mariadb-init:/docker-entrypoint-initdb.d # Place init .sql file(s) here.
-#      - /path/to/mariadb/data/on/host:/var/lib/mysql # I want to manage volumes manually.
+#    volumes:
+#      - ./mariadb-init:/docker-entrypoint-initdb.d # Place init .sql file(s) here.
+##      - /path/to/mariadb/data/on/host:/var/lib/mysql # I want to manage volumes manually.
 
   php:
     image: wodby/wordpress-php:$PHP_TAG
@@ -59,14 +59,20 @@ services:
 #      - ./:/var/www/html:cached # User-guided caching
 #      - docker-sync:/var/www/html # Docker-sync
     labels:
+    - "traefik.enable=true"
     - "traefik.http.routers.${PROJECT_NAME}_nginx.rule=Host(`${PROJECT_BASE_URL}`)"
+    - "traefik.http.routers.${PROJECT_NAME}_nginx.entrypoints=websecure"
+    - "traefik.http.routers.${PROJECT_NAME}_nginx.tls.certresolver=mytlschallenge"
 
   mailhog:
     image: mailhog/mailhog
     container_name: "${PROJECT_NAME}_mailhog"
     labels:
     - "traefik.http.services.${PROJECT_NAME}_mailhog.loadbalancer.server.port=8025"
+    - "traefik.enable=true"
     - "traefik.http.routers.${PROJECT_NAME}_mailhog.rule=Host(`mailhog.${PROJECT_BASE_URL}`)"
+    - "traefik.http.routers.${PROJECT_NAME}_mailhog.entrypoints=websecure"
+    - "traefik.http.routers.${PROJECT_NAME}_mailhog.tls.certresolver=mytlschallenge"
 
 #  postgres:
 #    image: wodby/postgres:$POSTGRES_TAG
@@ -146,7 +152,10 @@ services:
       PHP_UPLOAD_MAX_FILESIZE: 1G
       PHP_MAX_INPUT_VARS: 1G
     labels:
+      - "traefik.enable=true"
       - "traefik.http.routers.${PROJECT_NAME}_pma.rule=Host(`pma.${PROJECT_BASE_URL}`)"
+      - "traefik.http.routers.${PROJECT_NAME}_pma.entrypoints=websecure"
+      - "traefik.http.routers.${PROJECT_NAME}_pma.tls.certresolver=mytlschallenge"
 
 #  athenapdf:
 #    image: arachnysdocker/athenapdf-service:$ATHENAPDF_TAG
@@ -231,17 +240,32 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     labels:
+    - "traefik.enable=true"
     - "traefik.http.routers.${PROJECT_NAME}_portainer.rule=Host(`portainer.${PROJECT_BASE_URL}`)"
+    - "traefik.http.routers.${PROJECT_NAME}_portainer.entrypoints=websecure"
+    - "traefik.http.routers.${PROJECT_NAME}_portainer.tls.certresolver=mytlschallenge"
 
   traefik:
-    image: traefik:v2.0
+    image: "traefik:v2.0.0-rc3"
     container_name: "${PROJECT_NAME}_traefik"
-    command: --api.insecure=true --providers.docker
+    command:
+#- "--log.level=DEBUG"
+      - "--api.insecure=true"
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      - "--entrypoints.web.address=:80"
+      - "--entrypoints.websecure.address=:443"
+      - "--certificatesresolvers.myhttpchallenge.acme.httpchallenge=true"
+      - "--certificatesresolvers.myhttpchallenge.acme.httpchallenge.entrypoint=web"
+      #- "--certificatesresolvers.myhttpchallenge.acme.caserver=https://acme-staging-v02.api.letsencrypt.org/directory"
+      - "--certificatesresolvers.myhttpchallenge.acme.email=postmaster@mydomain.com"
+      - "--certificatesresolvers.myhttpchallenge.acme.storage=/letsencrypt/acme.json"
     ports:
-      - '8888:80'
-#      - '8080:8080' # Dashboard
+      - "443:443"
+      - "8080:8080"
     volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
+      - "./letsencrypt:/letsencrypt"
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
 
 #volumes:
 ## Docker-sync for macOS users

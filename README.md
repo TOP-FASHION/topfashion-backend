@@ -43,36 +43,11 @@ The WordPress stack consist of the following containers:
 
 Supported WordPress versions: 5
 
-❗️PHP 5.6 [has reached end of life](http://php.net/supported-versions.php) and no longer supported by PHP team. PHP 7.1 is currently in security fix only mode. We strongly advise you to migrate to the latest stable PHP version.   
 
 ## Documentation
 
 Full documentation is available at https://wodby.com/docs/stacks/wordpress/local.
 
-## Images' tags
-
-Images tags format is `[VERSION]-[STABILITY_TAG]` where:
-
-`[VERSION]` is the _version of an application_ (without patch version) running in a container, e.g. `wodby/nginx:1.15-x.x.x` where Nginx version is `1.15` and `x.x.x` is a stability tag. For some images we include both major and minor version like PHP `7.2`, for others we include only major like Redis `5`. 
-
-`[STABILITY_TAG]` is the _version of an image_ that corresponds to a git tag of the image repository, e.g. `wodby/mariadb:10.2-3.3.8` has MariaDB `10.2` and stability tag [`3.3.8`](https://github.com/wodby/mariadb/releases/tag/3.3.8). New stability tags include patch updates for applications and image's fixes/improvements (new env vars, orchestration actions fixes, etc). Stability tag changes described in the corresponding a git tag description. Stability tags follow [semantic versioning](https://semver.org/).
-
-We highly encourage to use images only with stability tags.
-
-## Maintenance
-
-We regularly update images used in this stack and release them together, see [releases page](https://github.com/wodby/docker4wordpress/releases) for full changelog and update instructions. Most of routine updates for images and this project performed by [the bot](https://github.com/wodbot) via scripts located at [wodby/images](https://github.com/wodby/images).
-
-## Beyond local environment
-
-Docker4WordPress is a project designed to help you spin up local environment with docker-compose. If you want to deploy a consistent stack with orchestrations to your own server, check out [![WordPress stack on Wodby](https://www.google.com/s2/favicons?domain=wodby.com) Wodby](https://wodby.com/stacks/wordpress).
-
-## Other Docker4x projects
-
-* [docker4php](https://github.com/wodby/docker4php)
-* [docker4drupal](https://github.com/wodby/docker4drupal)
-* [docker4ruby](https://github.com/wodby/docker4ruby)
-* [docker4python](https://github.com/wodby/docker4python)
 
 ## License
 
@@ -143,3 +118,18 @@ docker-compose down -v
 docker-compose up
 ```
 If there are no .sql files in this folder, no action will be taken when the container is built.
+
+Exporting a specific database:
+```
+docker-compose exec mariadb sh -c 'exec mysqldump -uroot -p"root-password" my-db' > my-db.sql
+```
+
+# Environment variables
+
+* nginx/apache - [https://wp.docker.localhost:443](https://wp.docker.localhost:443)
+* pma - [https://pma.wp.docker.localhost:443](https://pma.wp.docker.localhost:443)
+* adminer - [https://adminer.wp.docker.localhost:443](https://adminer.wp.docker.localhost:443)
+* mailhog	- [https://mailhog.wp.docker.localhost:443](https://mailhog.wp.docker.localhost:443)
+* varnish	- [https://varnish.wp.docker.localhost:443](https://varnish.wp.docker.localhost:443)
+* portainer - [https://portainer.wp.docker.localhost:443](https://portainer.wp.docker.localhost:443)
+* webgrind - [https://webgrind.wp.docker.localhost:443](https://webgrind.wp.docker.localhost:443)
