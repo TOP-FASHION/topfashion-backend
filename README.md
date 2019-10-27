@@ -121,7 +121,9 @@ If there are no .sql files in this folder, no action will be taken when the cont
 
 Exporting a specific database:
 ```
-docker-compose exec mariadb sh -c 'exec mysqldump -uroot -p"root-password" my-db' > my-db.sql
+docker-compose exec mariadb sh -c 'exec mysqldump -uroot -p"password" my-db' > my-db.sql
+docker-compose exec mariadb sh -c 'exec mysqldump --all-databases -uroot -p"password"' > databases.sql
+
 ```
 
 # Environment variables
