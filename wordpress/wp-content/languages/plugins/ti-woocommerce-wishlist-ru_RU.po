@@ -1,0 +1,1438 @@
+# Translation of Plugins - TI WooCommerce Wishlist - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - TI WooCommerce Wishlist - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-09-23 14:17:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - TI WooCommerce Wishlist - Stable (latest release)\n"
+
+#: admin/settings/general.class.php:417 admin/settings/general.class.php:557
+msgid "\"Already In Wishlist\" button Text"
+msgstr "Текст кнопки \"Уже в списке желаний\""
+
+#: admin/settings/general.class.php:407 admin/settings/general.class.php:547
+msgid "Show \"Already In Wishlist\" button Text"
+msgstr "Показывать текст кнопки \"Уже в списке желаний\""
+
+#: integrations/woocommerce-rental-and-booking.php:245
+msgid "Due Payment"
+msgstr "Срок платежа"
+
+#: integrations/woocommerce-rental-and-booking.php:237
+msgid "Total Hours"
+msgstr "Общее кол.-во часов"
+
+#: integrations/woocommerce-rental-and-booking.php:231
+msgid "Total Days"
+msgstr "Общее кол.-во дней"
+
+#: integrations/woocommerce-rental-and-booking.php:204
+#: integrations/woocommerce-rental-and-booking.php:218
+msgid "at"
+msgstr "в"
+
+#: integrations/woocommerce-rental-and-booking.php:140
+#: integrations/woocommerce-rental-and-booking.php:156
+#: integrations/woocommerce-rental-and-booking.php:172
+msgid "One Time"
+msgstr "Одноразовый"
+
+#: integrations/woocommerce-rental-and-booking.php:138
+#: integrations/woocommerce-rental-and-booking.php:154
+#: integrations/woocommerce-rental-and-booking.php:170
+msgid "Per Day"
+msgstr "Ежедневный"
+
+#: integrations/woocommerce-rental-and-booking.php:128
+msgid "Location Cost"
+msgstr "Стоимость местоположения"
+
+#: integrations/woocommerce-rental-and-booking.php:104
+#: integrations/woocommerce-rental-and-booking.php:120
+msgid " Cost"
+msgstr "Стоимость"
+
+#: integrations/woocommerce-rental-and-booking.php:88
+msgid "Quote Request"
+msgstr "Запрос цены"
+
+#: integrations/woocommerce-rental-and-booking.php:32
+msgid "Rental Product"
+msgstr "Рентный товар"
+
+#: includes/api/wishlist.class.php:330
+msgid "Product removed from a wishlist."
+msgstr "Товар удален из списка желаний"
+
+#: includes/api/wishlist.class.php:327
+msgid "Product not found."
+msgstr "Товар не найден."
+
+#: includes/api/wishlist.class.php:291
+msgid "Add product to wishlist failed."
+msgstr "Не удалось добавить товар в список желаний"
+
+#: includes/api/wishlist.class.php:235
+msgid "No products found for this wishlist."
+msgstr "Товары для этого списка желаний не найдены"
+
+#: includes/api/wishlist.class.php:186
+msgid "Update wishlist data failed."
+msgstr "Не удалось обновить данные списка желаний"
+
+#: includes/api/wishlist.class.php:132
+msgid "No wishlists found for this user."
+msgstr "Списки желаний для этого пользователя не найдены"
+
+#: includes/api/wishlist.class.php:102 includes/api/wishlist.class.php:165
+#: includes/api/wishlist.class.php:213 includes/api/wishlist.class.php:269
+msgid "Invalid wishlist share key."
+msgstr "Неверный ключ доступа списка желаний"
+
+#: views/admin/premium-features.php:77
+msgid "100% No-Risk 14-Days Money Back Guarantee"
+msgstr "100% возврат денег в течение 14 дней без рисков"
+
+#: integrations/mycred.php:308
+msgid "Purchased From Wishlist"
+msgstr "Куплено из списка желаний"
+
+#: integrations/mycred.php:222
+msgid "Purchasing Product from Wishlist"
+msgstr "Покупка товара из списка желаний"
+
+#: integrations/mycred.php:212 integrations/mycred.php:257
+msgid "required"
+msgstr "обязательное"
+
+#: integrations/mycred.php:208 integrations/mycred.php:253
+msgid "Log Template"
+msgstr "Шаблон Журнала"
+
+#: integrations/mycred.php:195 integrations/mycred.php:240
+msgid "Limit"
+msgstr "Лимит"
+
+#: integrations/mycred.php:182 integrations/mycred.php:227
+msgid "Points"
+msgstr "Баллы"
+
+#: integrations/mycred.php:177
+msgid "Adding Product to Wishlist"
+msgstr "Добавление товара в список желаний"
+
+#: integrations/mycred.php:31
+msgid "Awards %_plural% for users adding products to their wishlist and purchased products from their wishlist."
+msgstr "Награды% _plural% для пользователей, добавляющих товары в свой список желаний и приобретающих товары из своего списка желаний."
+
+#: admin/settings/general.class.php:243
+msgid "This option should be enabled to avoid any issues with URL rewrites between other plugins and Wishlist"
+msgstr "Эта опция должна быть включена, чтобы избежать конфликтов с перенаправлением постоянных ссылок между другими плагинами и списком желаний"
+
+#: admin/settings/general.class.php:242
+msgid "Force permalinks rewrite"
+msgstr "Принудительное перенаправление постоянных ссылок"
+
+#: admin/settings/general.class.php:236
+msgid "Permalinks Settings"
+msgstr "Настройки постоянных ссылок"
+
+#: views/wizard/step-social.php:62
+msgid "Show \"Clipboard\" Button"
+msgstr "Показывать кнопку \"Копировать в буфер обмена\""
+
+#: admin/settings/general.class.php:712
+msgid "Show \"Copy to clipboard\" Button"
+msgstr "Показывать кнопку \"Копировать в буфер обмена\""
+
+#: admin/settings/general.class.php:706 views/wizard/step-social.php:53
+msgid "Show \"WhatsApp\" Button"
+msgstr "Показывать кнопку \"WhatsApp\""
+
+#: public/tinvwl.class.php:485
+msgid "Copied!"
+msgstr "Скопировано!"
+
+#: public/wishlist/buttons.class.php:322 public/wishlist/buttons.class.php:453
+msgid "Product %s could not be added to cart because some requirements are not met."
+msgid_plural "Products: %s could not be added to cart because some requirements are not met."
+msgstr[0] "Товар %s не может быть добавлен в корзину, потому что некоторые требования не соблюдены."
+msgstr[1] "Товары %s не могут быть добавлены в корзину, потому что некоторые требования не соблюдены."
+msgstr[2] "Товары %s не могут быть добавлены в корзину, потому что некоторые требования не соблюдены."
+
+#: admin/settings/general.class.php:842
+msgid "Do not show the \"0\" value in a counter if wishlist is empty."
+msgstr "Не показывать значение \"0\" в счетчике, если список желаний пустой."
+
+#: admin/settings/general.class.php:841
+msgid "Hide zero value"
+msgstr "Не отображать нулевое значение"
+
+#: templates/ti-wishlist-user.php:83 templates/ti-wishlist.php:84
+msgid "Select for bulk action"
+msgstr "Выбрать для массовых действий"
+
+#: templates/ti-wishlist-user.php:30 templates/ti-wishlist.php:30
+msgid "Select all for bulk action"
+msgstr "Выбрать все для массовых действий"
+
+#: admin/settings/general.class.php:860
+msgid "Disable support chat"
+msgstr "Отключить чат поддержки"
+
+#: admin/settings/general.class.php:853
+msgid "Support chat settings"
+msgstr "Настройки чата поддержки"
+
+#: admin/settings/general.class.php:832
+msgid "Show number of products in counter"
+msgstr "Показывать количество товара в счетчике"
+
+#: admin/settings/general.class.php:821
+msgid "Allows you to add the wishlist counter as a menu item and apply its position."
+msgstr "Позволяет добавить счетчик списка желаний в виде пункта меню и задать его положение"
+
+#: admin/settings/general.class.php:820
+msgid "Counter position (Menu item order)"
+msgstr "Положение счетчика (Порядок положения пункта в меню)"
+
+#: admin/settings/general.class.php:811
+msgid "You can add a wishlist products counter as item to the selected menu."
+msgstr "Вы можете добавить счетчик товаров списка желаний как пункт в выбранное меню"
+
+#: admin/settings/general.class.php:809
+msgid "Add counter to menu"
+msgstr "Добавить счетчик в меню"
+
+#: admin/settings/general.class.php:802
+msgid "\"Wishlist\" Counter Text"
+msgstr "Текст счетчика \"Списка желаний\""
+
+#: admin/settings/general.class.php:793
+msgid "Show \"Wishlist\" Counter Text"
+msgstr "Показывать текст счетчика \"Списка желаний\""
+
+#: admin/settings/general.class.php:782
+msgid "\"Wishlist\" Counter Icon Color"
+msgstr "Цвет иконки счетчика \"Списка желаний\" "
+
+#: admin/settings/general.class.php:750
+msgid "\"Wishlist\" Counter Icon"
+msgstr "Иконка счетчика \"Списка желаний\" "
+
+#: admin/settings/general.class.php:82
+msgid "Select Your Menu"
+msgstr "Выберите меню"
+
+#: admin/settings/general.class.php:380 admin/settings/general.class.php:520
+msgid "If enabled, applies animation for the button icon until product adding or removing processed. (Usable for servers with slow connection mostly.)"
+msgstr "Если включен, применяется анимация для иконки кнопки пока идет обработка добавления или удаления продукта в список желаний. (В основном используется для серверов с медленным соединением.)"
+
+#: admin/settings/general.class.php:379 admin/settings/general.class.php:519
+msgid "Show preloader"
+msgstr "Показать прелоадер"
+
+#: admin/settings/general.class.php:370 admin/settings/general.class.php:510
+#: admin/settings/general.class.php:733 admin/settings/general.class.php:784
+msgid "Use font color"
+msgstr "Использовать цвет шрифта"
+
+#: admin/settings/general.class.php:326 admin/settings/general.class.php:468
+msgid "You can add custom CSS classes to button markup separated by spaces. Most of themes using <code>button</code> class for this type of buttons."
+msgstr "Вы можете добавить произвольные CSS классы для кнопки, разделяя их пробелами. Для этого типа кнопок большинство тем используют класс <code>button</code>."
+
+#: admin/settings/general.class.php:325 admin/settings/general.class.php:467
+msgid "Button custom CSS class"
+msgstr "Пользовательский CSS класс кнопки"
+
+#: views/admin/premium-features.php:83
+msgid "get started now"
+msgstr " закажите сейчас "
+
+#: views/admin/premium-features.php:81
+msgid "Highly skilled WordPress experts are ready to satisfy your needs"
+msgstr "Высококвалифицированные WordPress эксперты готовы помочь в решении Ваших задач."
+
+#: views/admin/premium-features.php:80
+msgid "Need customization?"
+msgstr "Нужна адаптация?"
+
+#: views/admin/premium-features.php:39
+msgid "sign up for emails to get updates and instant discount"
+msgstr "подпишитесь на электронную рассылку, что бы быть в курсе последних обновлений, а так же получить мгновенную скидку"
+
+#: views/admin/premium-features.php:38
+msgid "We love making new friends"
+msgstr "Мы любим заводить новых друзей"
+
+#: views/admin/premium-features.php:34
+msgid "leave a review"
+msgstr "оставить отзыв"
+
+#: views/admin/premium-features.php:32
+msgid "We’d really appreciate if you could spend a few minutes to"
+msgstr "Мы были бы очень признательны, если бы вы могли потратить несколько минут на"
+
+#: views/admin/premium-features.php:30
+msgid "Rate us please"
+msgstr "Нашу оценку, пожалуйста"
+
+#: views/admin/premium-features.php:24
+msgid "check premium options"
+msgstr "посмотреть премиум опции"
+
+#: views/admin/premium-features.php:22
+msgid "benefit from all the features"
+msgstr "получайте выгоду от всех преимуществ"
+
+#: admin/tinvwl.class.php:113
+msgid "In a plugin General Settings section apply this page as a \"Wishlist\" page."
+msgstr "В разделе Общие настройки плагина, сохраните эту страницу как страницу \"Списка желаний\"."
+
+#: admin/tinvwl.class.php:112
+msgid "Add <code>[ti_wishlistsview]</code> shortcode into a page content."
+msgstr "Добавте шорткод <code>[ti_wishlistsview]</code> в содержимое страницы."
+
+#: admin/tinvwl.class.php:111
+msgid "Create a New Page or open to edit a page where the Wishlist should be displayed."
+msgstr "Создайте новую страницу или откройте для редактирования страницу, на которой должен отображаться список желаний."
+
+#: admin/tinvwl.class.php:110
+msgid "Since the Setup Wizard was skipped, the Wishlist may function improperly."
+msgstr "Поскольку Мастер установки был пропущен, список желаний может работать не правильно."
+
+#: admin/tinvwl.class.php:109
+msgid "WooCommerce Wishlist Plugin is misconfigured!"
+msgstr "Плагин WooCommerce Wishlist настроен не верно!"
+
+#: admin/settings/style.class.php:558
+msgid "Icon Hover Color"
+msgstr "Цвет иконки при наведении курсора"
+
+#: admin/settings/style.class.php:552
+msgid "Icon Color"
+msgstr "Цвет иконки"
+
+#: admin/settings/style.class.php:533
+msgid "Share buttons"
+msgstr "Кнопки \"Поделиться\""
+
+#: admin/settings/style.class.php:120
+msgid "Product Title link"
+msgstr "Ссылка наименования товара"
+
+#: admin/settings/style.class.php:338
+msgid "\"Apply Action\" button "
+msgstr "Кнопка \"Применить действия\""
+
+#: admin/settings/style.class.php:269
+msgid "\"Add to Wishlist\" product listing button"
+msgstr "Кнопка \"Добавить в список желаний\" на странице списка товаров"
+
+#: admin/settings/style.class.php:258 admin/settings/style.class.php:327
+#: admin/settings/style.class.php:564
+msgid "Icon Size"
+msgstr "Размер иконки"
+
+#: admin/settings/general.class.php:159 admin/settings/general.class.php:292
+msgid "Redirect to the checkout page from Wishlist if added to cart"
+msgstr "Перенаправить из списка желаний на страницу оформления заказов, если продукт добавить в корзину"
+
+#: public/tinvwl.class.php:484
+msgid "No items or actions are selected."
+msgstr "Товары или действия не выбраны."
+
+#: integrations/yith-woocommerce-product-add-ons.php:47
+msgid "Base price"
+msgstr "Базовая цена"
+
+#: admin/settings/general.class.php:386 admin/settings/general.class.php:526
+msgid "Show button text"
+msgstr "Показывать текст кнопки"
+
+#: public/addtowishlist.class.php:182
+msgid "Login"
+msgstr "Войти"
+
+#: public/addtowishlist.class.php:180
+msgid "Please, login to add products to Wishlist"
+msgstr "Пожалуйста, авторизируйтесь, чтобы добавить товары в список желаний"
+
+#: admin/settings/general.class.php:139
+msgid "If enabled, guests will be redirected to a login page once clicking the \"Add to Wishlist\" button or \"Wishlist Products Counter\" link. Otherwise a popup with login required notice will appear."
+msgstr "Если включено, гости будут перенаправлены на страницу авторизации после нажатия кнопки \"Добавить в список желаний\" или на ссылку \"Счетчик товаров списка желаний\". В противном случае появится всплывающее окно с уведомлением о необходимости авторизации."
+
+#: admin/settings/general.class.php:139
+msgid "Currently this option could not be changed because \"Show successful notice in popup\" is disabled. Guests will be redirected automatically to a login page."
+msgstr "На даный момент эта опция не может быть изменена, так как \"Показывать успешное уведомление во всплывающем окне\" отключено. Гости будут перенаправлены автоматически на страницу авторизации."
+
+#: admin/settings/general.class.php:138
+msgid "Redirect to Login Page"
+msgstr "Перенаправлять на страницу авторизации"
+
+#: admin/settings/general.class.php:129
+msgid "Disallows guests to use Wishlist functionality until they sign-in."
+msgstr "Запрещает гостям использовать функциональность списка желаний до входа в систему."
+
+#: admin/settings/general.class.php:128
+msgid "Require Login"
+msgstr "Запрос авторизации"
+
+#: views/wizard/step-page.php:19
+msgid "Choose from existing pages or leave this field empty and the Wishlist page will be created automatically:"
+msgstr "Выберите из существующих страниц или оставьте это поле пустым и страница Списка Желаний будет создана автоматически:"
+
+#: views/wizard/intro.php:21
+msgid "Thank you for choosing the Wishlist plugin by TemplateInvaders to enhance your WooCommerce store!"
+msgstr "Спасибо, что выбрали Wishlist плагин от TemplateInvaders для улучшения вашего магазина на базе WooCommerce!"
+
+#: admin/settings/upgrade.class.php:56 admin/tinvwl.class.php:274
+#: views/wizard/finish.php:31
+msgid "Upgrade to Premium"
+msgstr "Обновить к премиум версии"
+
+#: admin/settings/general.class.php:700 views/wizard/step-social.php:44
+msgid "Show \"Pinterest\" Button"
+msgstr "Показывать кнопку \"Pinterest\""
+
+#: admin/settings/general.class.php:694 views/wizard/step-social.php:35
+msgid "Show \"Twitter\" Button"
+msgstr "Показывать кнопку \"Twitter\""
+
+#: admin/settings/general.class.php:688 views/wizard/step-social.php:26
+msgid "Show \"Facebook\" Button"
+msgstr "Показывать кнопку \"Facebook\""
+
+#: admin/settings/general.class.php:220
+msgid "This notification will be shown if user will try to add a product that is already in the wishlist."
+msgstr "Это уведомление будет показано, если пользователь попытается добавить товар, который уже находится в списке желаний."
+
+#: admin/tinvwl.class.php:197
+msgid "Are you sure you want to reset the settings?"
+msgstr "Вы уверены что хотите сбросить настройки?"
+
+#: admin/settings/general.class.php:459
+msgid "Above Thumbnail"
+msgstr "Над миниатюрой"
+
+#: admin/settings/general.class.php:882 admin/basestyle.helper.php:121
+msgid "Reset"
+msgstr "Сброс"
+
+#: public/widget/wishlistcounter.class.php:26
+msgid "TI Wishlist Products Counter"
+msgstr "Счетчик товаров в списке желаний"
+
+#: public/wishlist/buttons.class.php:319 public/wishlist/buttons.class.php:450
+msgctxt "Item name in quotes"
+msgid "&ldquo;%s&rdquo;"
+msgstr "&ldquo;%s&rdquo;"
+
+#: integrations/yith-woocommerce-product-bundles.php:74
+msgid "Out of stock"
+msgstr "Нет в наличии"
+
+#: integrations/gift-cards-for-woocommerce.php:104
+msgid "Reload existing Gift Card"
+msgstr "Загрузить имеющуюся Подарочную карту"
+
+#: integrations/gift-cards-for-woocommerce.php:101
+msgid "Address"
+msgstr "Адрес"
+
+#: integrations/gift-cards-for-woocommerce.php:98
+msgid "To Email"
+msgstr "Отправить на электронную почту"
+
+#: integrations/gift-cards-for-woocommerce.php:95
+msgid "To"
+msgstr "Кому"
+
+#: integrations/gift-cards-for-woocommerce.php:92
+msgid "Note"
+msgstr "Заметка"
+
+#: includes/api/yoasti18n/i18n-module.php:236
+msgid "Register now &raquo;"
+msgstr "Зарегистрировать сейчас &raquo;"
+
+#: includes/api/yoasti18n/i18n-module.php:234
+msgid "Translation of %s"
+msgstr "Перевод %s"
+
+#: includes/api/yoasti18n/i18n-module.php:204
+msgid "You're using WordPress in a language we don't support yet. We'd love for %2$s to be translated in that language too, but unfortunately, it isn't right now. You can change that! Register at %4$s to help translate it!"
+msgstr "В данный момент вы используеет WordPress на языке, который мы пока не поддерживаем. Нам бы очень хотелось, чтобы %2$s тоже был переведен на этот язык, но к сожалению, этого пока нет. Вы можете это изменить! Зарегистрируйтесь на %4$s, чтобы помочь с переводом!"
+
+#: includes/api/yoasti18n/i18n-module.php:202
+msgid "You're using WordPress in <strong>%1$s</strong>. While %2$s has been translated to %1$s for <strong>%3$d%%</strong>, it's not been shipped with the plugin yet.<br> You can help! Register at %4$s to help complete the translation to %1$s!"
+msgstr "Вы используете WordPress на <strong>%1$s</strong>. Хотя %2$s был переведен на %1$s на <strong>%3$d%%</strong>, он еще не поставляется с плагином.<br> Вы можете помочь! Зарегистрируйтесь на %4$s, чтобы завершить перевод на %1$s! "
+
+#: includes/api/yoasti18n/i18n-module.php:200
+msgid "As you can see, there is a translation of this plugin in %1$s. This translation is currently %3$d%% complete. We need your help to make it complete and to fix any errors. Please register at %4$s to help complete the translation to %1$s!"
+msgstr "Как вы можете видеть, существует перевод этого плагина на %1$s. Этот перевод в настоящее время завершен на %3$d%%. Нам нужна ваша помощь, чтобы завершить работу и исправить ошибки. Пожалуйста, зарегистрируйтесь на %4$s, чтобы завершить перевод на %1$s!"
+
+#: admin/settings/general.class.php:172
+msgid "Remove product from Wishlist on second click"
+msgstr "Удалять товар из списка желаний по второму клику"
+
+#: views/wizard/step-button.php:65
+msgid "\"Add to Wishlist\" Text in Product listing"
+msgstr "Текст \"Добавить в список желаний\" в списке товаров"
+
+#: views/wizard/step-button.php:56
+msgid "Show in Product listing"
+msgstr "Показывать в списке товаров"
+
+#: views/wizard/step-button.php:51
+msgid "You can also show “Add to Wishlist” button in Product listing. More options in %s."
+msgstr "Вы также можете показать кнопку \"Добавить в список желаний\" на странице списка товаров. Дополнительные параметры в %s."
+
+#: public/widget/wishlistcounter.class.php:31
+msgid "Show counter icon"
+msgstr "Показывать иконку счетчика"
+
+#: public/widget/wishlistcounter.class.php:24
+msgid "Displays the number of products in the wishlist on your site."
+msgstr "Отображает количество товаров в списке желаний на вашем сайте."
+
+#: admin/settings/general.class.php:803
+msgid "Wishlist - "
+msgstr "Список желаний - "
+
+#: public/widget/wishlistcounter.class.php:41
+msgid "Counter Text"
+msgstr "Текст счетчика"
+
+#: public/widget/wishlistcounter.class.php:36
+msgid "Show counter text"
+msgstr "Показывать текст счетчика продуктов"
+
+#: admin/settings/general.class.php:744
+msgid "Add this shortcode <code>[ti_wishlist_products_counter]</code> anywhere into a page content to show Wishlist Counter.<br/><br/>It can be also added as a widget <code>Wishlist Products Counter</code> under the <a href=\"%s\">Appearance -> Widgets</a> section."
+msgstr "Добавьте этот шорткод <code>[ti_wishlist_products_counter]</code> куда-либо в контекст страницы, чтобы отобразить счетчик списка желаний.<br/><br/>Он так же может быть добавлен как <code>Счетчик товаров списка желаний</code> виджет в разделе <a href=\"%s\">Внешний вид -> Виджеты</a>."
+
+#: admin/settings/general.class.php:743
+msgid "Wishlist Product Counter"
+msgstr "Счетчик товаров списка желаний"
+
+#: admin/settings/general.class.php:462
+msgid "Note: if \"Custom position with code\" option is applied, the \"Add to Wishlist\" button should be added into template using <code>do_shortcode()</code> function like this:<br /><code>do_shortcode(\"[ti_wishlists_addtowishlist loop=yes]\")</code>"
+msgstr "Примечание: если выбрана опция \"Произвольная позиция с кодом\", кнопка \"Добавить в список желаний\" должна быть добавлена в шаблон темы с помощью функции <code>do_shortcode()</code> таким образом: <br /><code>do_shortcode(\"[ti_wishlists_addtowishlist loop=yes]\")</code>"
+
+#: admin/settings/general.class.php:439
+msgid "Show in Product Listing"
+msgstr "Показывать на странице списка товаров"
+
+#: admin/settings/general.class.php:433
+msgid "These are separate settings for the \"Add to Wishlist\" button on a product listing (Shop page, categories, etc.). You can also adjust button and text colors, size, etc. in a <code>TI Wishlist > Style Options.</code>"
+msgstr "Это отдельные настройки для кнопки \"Добавить в список желаний\" на странице списка товаров (каталог, категории и т.д.). Вы также можете настроить вид кнопоки, цвета, размеры текста,  и т. д. в разделе <code>TI Wishlist > Параметры стилей.</code>"
+
+#: admin/settings/general.class.php:432
+msgid "Product listing Button Settings"
+msgstr "Настройки кнопки на странице списка товаров"
+
+#: admin/settings/general.class.php:228
+msgid "This notification will be shown once the product is removed from Wishlist on a single or a catalog page."
+msgstr "Это уведомление будет показано как только продукт будет удален из списка желаний на страницах товаров или каталога."
+
+#: admin/settings/general.class.php:227
+msgid "\"Product removed from Wishlist\" Text"
+msgstr "Текст \"Товар удален из списка желаний\""
+
+#: admin/settings/general.class.php:187
+msgid "This option allows to show/hide a popup with successful or error notices after addition or removing products from a Wishlist."
+msgstr "Эта опция позволяет показывать или скрывать всплывающее сообщение об успешной операции или ошибках после добавления или удаления товаров из списка желаний."
+
+#: admin/settings/general.class.php:186
+msgid "Show successful notice in popup"
+msgstr "Показывать уведомление об успешной операции во всплывающем окне"
+
+#: admin/settings/general.class.php:424 admin/settings/general.class.php:564
+msgid "\"Remove from Wishlist\" Button Text"
+msgstr "Текст кнопки \"Удалить из списка желаний\" "
+
+#: admin/settings/general.class.php:165 admin/settings/general.class.php:299
+msgid "Remove by anyone"
+msgstr "Удалять при добавлении кем либо"
+
+#: admin/tinvwl.class.php:313
+msgid "<code>%1$s</code> version <strong style=\"color:red\">%2$s</strong> is out of date. The core version is <strong style=\"color:red\">%3$s</strong>"
+msgstr "<code>%1$s</code> версия <strong style=\"color:red\">%2$s</strong> устарела. Основная версия - <strong style=\"color:red\">%3$s</strong>"
+
+#: views/admin/templates-status.php:24 views/admin/templates-status.php:31
+msgid "Overrides"
+msgstr "Переопределения"
+
+#: views/admin/templates-status.php:16
+msgid "This section shows the files that are overriding the default TI WooCommerce Wishlist templates."
+msgstr "В этом разделе показаны файлы, которые переопределяют шаблоны TI WooCommerce Wishlist плагина."
+
+#: admin/tinvwl.class.php:339
+msgid "<strong>Your theme (%1$s) contains outdated copies of some WooCommerce Wishlist Plugin template files.</strong><br> These files may need updating to ensure they are compatible with the current version of WooCommerce Wishlist Plugin.<br> You can see which files are affected from the <a href=\"%2$s\">system status page</a>.<br> If in doubt, check with the author of the theme."
+msgstr "<strong>В вашей теме (%1$s) содержатся устаревшие копии некоторых шаблонов WooCommerce Wishlist плагина.</strong><br> Возможно, эти шаблоны потребуется обновить, чтобы обеспечить совместимость с текущей версией WooCommerce Wishlist плагина.<br> Эти шаблоны отображены на <a href=\"%2$s\">странице состояния системы</a>.<br> Если увас есть сомнения, свяжитесь с автором темы."
+
+#: views/wizard/finish.php:18
+msgid "WooCommerce Wishlist Plugin Settings"
+msgstr "Настройки плагина WooCommerce Wishlist"
+
+#. Plugin Name of the plugin
+msgid "TI WooCommerce Wishlist Plugin"
+msgstr "Плагин TI WooCommerce Wishlist"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/ti-woocommerce-wishlist/"
+msgstr "https://wordpress.org/plugins/ti-woocommerce-wishlist/"
+
+#: views/admin/templates-status.php:16
+msgid "TI WooCommerce Wishlist Templates"
+msgstr "Шаблоны TI WooCommerce Wishlist"
+
+#: views/admin/premium-features.php:21
+msgid "Premium version"
+msgstr "Премиум версия"
+
+#: admin/tinvwl.class.php:116
+msgid " or "
+msgstr "или"
+
+#: admin/tinvwl.class.php:115
+msgid "Please apply the Wishlist page"
+msgstr "Пожалуйста выбирите страницу списка желаний"
+
+#: admin/tinvwl.class.php:108 includes/notice.helper.php:115
+msgid "Dismiss"
+msgstr "Закрыть"
+
+#: admin/tinvwl.class.php:100
+msgid "Skip Setup"
+msgstr "Пропустить настройку"
+
+#: admin/tinvwl.class.php:98 admin/tinvwl.class.php:118
+msgid "Run the Setup Wizard"
+msgstr "Запустить помощника установки"
+
+#: admin/tinvwl.class.php:96
+msgid "<strong>Welcome to WooCommerce Wishlist Plugin</strong> – You‘re almost ready to start :)"
+msgstr "<strong>Добро пожаловать в WooCommerce Wishlist Plugin</strong> – Вы почти готовы начать :)"
+
+#: public/tinvwl.class.php:483
+msgid "Please select some product options before adding this product to your wishlist."
+msgstr "Пожалуйста, выберите параметры товара прежде, чем добавить его в свой список желаний."
+
+#: includes/tinvwl.class.php:169
+msgid "Live Demo"
+msgstr "Демонстрация"
+
+#: includes/tinvwl.class.php:168
+msgid "Premium Version"
+msgstr "Премиум версия"
+
+#: includes/tinvwl.class.php:167
+msgid "Settings"
+msgstr "Настройки"
+
+#: integrations/woocommerce-gravityforms-product-addons.php:43
+msgid "Select options"
+msgstr "Выберите параметры"
+
+#: admin/settings/general.class.php:146
+msgid "Show Link to Wishlist in my account"
+msgstr "Показывать ссылку на страницу списка желаний в моей учетной записи "
+
+#. Author URI of the plugin
+msgid "https://templateinvaders.com/"
+msgstr "https://templateinvaders.com/"
+
+#. Author of the plugin
+msgid "TemplateInvaders"
+msgstr "TemplateInvaders"
+
+#. Description of the plugin
+msgid "Wishlist functionality for your WooCommerce store."
+msgstr "Функции списка желаний для вашего магазина на базе WooCommerce"
+
+#: integrations/mycred.php:30
+msgid "WooCommerce Wishlist"
+msgstr "TI WooCommerce Wishlist (Список Желаний)"
+
+#: views/wizard/step-social.php:22
+msgid "Allow people to share wishlists by adding social share buttons to Wishlist page."
+msgstr "Позволить делиться своими списками желаний, добавив кнопки соц. сетей на страницу списка желаний."
+
+#: views/wizard/step-processing.php:24
+msgid "How products should be removed from Wishlist?"
+msgstr "Как товары будут удаляться из списка желаний?"
+
+#: views/wizard/step-processing.php:20
+msgid "Following option allows you to set products to be automatically removed from a wishlist when added to cart."
+msgstr "Следующая опция позволяет вам автоматически удалять товары из списка желаний при добавлении в корзину."
+
+#: views/wizard/step-processing.php:16
+msgid "Processing Options"
+msgstr "Параметры обработки"
+
+#: views/wizard/step-page.php:48
+msgid "Once created, this page can be managed from WordPress dashboard."
+msgstr "После создания, этой страницей можно будет управлять из консоли WordPress."
+
+#: views/wizard/step-page.php:18
+msgid "The following page needs to be applied so the “Wishlist” knows where it is. "
+msgstr "Следующая страница должна быть задана, что бы \"Wishlist\" знал, где она."
+
+#: views/wizard/step-page-field.php:34
+msgid "Page with name “%s” aready exist! Please choose another page or create a new one"
+msgstr "Страница с названием “%s” уже существует! Пожалуйста, выберите другую страницу или создайте новую"
+
+#: views/wizard/step-social.php:85 views/wizard/step-page.php:54
+#: views/wizard/step-button.php:77 views/wizard/step-processing.php:36
+msgid "continue"
+msgstr "продолжить"
+
+#: views/wizard/step-social.php:84 views/wizard/step-page.php:53
+#: views/wizard/step-button.php:76 views/wizard/step-processing.php:35
+msgid "Skip this step"
+msgstr "Пропустить этот шаг"
+
+#: admin/settings/general.class.php:541 views/wizard/step-button.php:41
+msgid "\"Add to Wishlist\" Text"
+msgstr "Текст \"Добавить в список желаний\""
+
+#: views/wizard/step-button.php:26
+msgid " and "
+msgstr "и"
+
+#: views/wizard/step-button.php:26
+msgid "And set button text. You can add an icon, change button appearance and other settings in %s."
+msgstr "И задайте текст кнопки. Вы можете добавить иконку, изменить вид кнопки и другие настройки в %s."
+
+#: views/wizard/step-button.php:24
+msgid "TI  Wishlists > Style Options"
+msgstr "TI  Wishlists > Параметры стилей"
+
+#: views/wizard/step-button.php:21
+msgid "Choose where to place “Add to Wishlist” button on the product page: before or after “Add to Cart” button."
+msgstr "Выберите где разместить кнопку \"Добавить в список желаний\" на странице товара: до или после кнопки \"Добавить в корзину\""
+
+#: views/wizard/step-button.php:16
+msgid "Button options"
+msgstr "Параметры кнопки"
+
+#: views/wizard/intro.php:26
+msgid "Not Right Now"
+msgstr "Не сейчас"
+
+#: views/wizard/intro.php:24
+msgid "let’s go"
+msgstr "Поехали"
+
+#: views/wizard/intro.php:22
+msgid "This quick setup wizard will help you configure the basic settings."
+msgstr "Этот быстрый помощник установки поможет вам настроить основные параметры."
+
+#: views/wizard/intro.php:16
+msgid "Welcome!"
+msgstr "Добро пожаловать!"
+
+#: views/wizard/intro.php:15
+msgid "Setup Wizard"
+msgstr "Помощник Установки"
+
+#: views/wizard/header.php:19
+msgid "TI Wishlist &rsaquo; %s"
+msgstr "TI Wishlist &rsaquo; %s"
+
+#: views/wizard/footer.php:17
+msgid "Return to the WordPress Dashboard"
+msgstr "Вернуться в консоль WordPress"
+
+#: views/wizard/finish.php:27
+msgid "Wishlist Settings"
+msgstr "Настройки списка желаний"
+
+#: views/wizard/finish.php:25
+msgid "Documentation"
+msgstr "Документация"
+
+#: views/wizard/finish.php:20
+msgid "Online Documentation"
+msgstr "Онлайн-документация"
+
+#: views/wizard/finish.php:20
+msgid "Details about WooCommerce Wishlist Plugin options can be found in our %s."
+msgstr "Подробную информацию о параметрах списка желаний можно найти в нашей %s."
+
+#: views/wizard/finish.php:18
+msgid "You have set basic Wishlist settings. If you want to make more in-depth plugin setup you can make it in plugin settings page %s."
+msgstr "Вы установили основные настройки списка желаний. Если вы хотите задать более детальные параметры, можете сделать это в настройках плагина %s."
+
+#: views/wizard/finish.php:16
+msgid "Your Wishlist is ready!"
+msgstr "Ваш список желаний готов!"
+
+#: views/wizard/finish.php:15
+msgid "Congratulations"
+msgstr "Поздравляем"
+
+#: views/null.php:19
+msgid "Template \"%s\" not found!"
+msgstr "Шаблон \"%s\" не найден!"
+
+#: views/null.php:15
+msgid "Error 404"
+msgstr "Ошибка 404"
+
+#: templates/ti-wishlist-user.php:142 templates/ti-wishlist.php:150
+#: integrations/woocommerce-composite-products.php:109
+#: integrations/woocommerce-mix-and-match-products.php:86
+#: integrations/yith-woocommerce-product-bundles.php:138
+#: integrations/woocommerce-product-bundles.php:110
+msgid "In stock"
+msgstr "В наличии"
+
+#: templates/ti-wishlist-user.php:44 templates/ti-wishlist.php:45
+msgid "Stock Status"
+msgstr "Cтатус склада"
+
+#: templates/ti-wishlist-user.php:41 templates/ti-wishlist.php:42
+msgid "Date Added"
+msgstr "Дата добавления"
+
+#: templates/ti-wishlist-user.php:38 templates/ti-wishlist.php:39
+msgid "Unit Price"
+msgstr "Цена"
+
+#: templates/ti-wishlist-user.php:36 templates/ti-wishlist.php:37
+msgid "Product"
+msgstr "Товар"
+
+#: templates/ti-wishlist-user.php:35 templates/ti-wishlist.php:36
+msgid "Product Name"
+msgstr "Название товара"
+
+#: templates/ti-wishlist-null.php:15
+msgid "Wishlist is not found!"
+msgstr "Список желаний не найден!"
+
+#: templates/ti-wishlist-null.php:21 templates/ti-wishlist-empty.php:28
+msgid "Return To Shop"
+msgstr "Вернуться в магазин"
+
+#: templates/ti-wishlist-empty.php:21
+msgid "Wishlist is currently empty."
+msgstr "Список желаний в настоящее время пуст."
+
+#: templates/ti-wishlist-empty.php:19
+msgid "Your Wishlist is currently empty."
+msgstr "Ваш список желаний в настоящее время пуст."
+
+#: integrations/mycred.php:309
+msgid "Added To Wishlist"
+msgstr "Добавлено в список желаний"
+
+#: templates/ti-addedtowishlist-dialogbox.php:32
+msgid "Close"
+msgstr "Закрыть"
+
+#: public/wishlist/view.class.php:796
+msgid "Next Page"
+msgstr "Следующая страница"
+
+#: public/wishlist/view.class.php:770
+msgid "Previous Page"
+msgstr "Предыдущая страница"
+
+#: public/wishlist/view.class.php:649
+msgid "Return to Wishlist"
+msgstr "Вернуться к списку желаний"
+
+#: public/wishlist/view.class.php:506
+msgid "%s has not been removed from wishlist."
+msgstr "%s не может быть удален из списка желаний."
+
+#: public/wishlist/view.class.php:504
+msgid "%s has been removed from wishlist."
+msgstr "%s был удален из списка желаний."
+
+#: public/wishlist/buttons.class.php:523
+msgid "%s has been successfully removed from wishlist."
+msgid_plural "%s have been successfully removed from wishlist."
+msgstr[0] "%s был успешно удален из списка желаний."
+msgstr[1] "%s был успешно удален из списка желаний."
+msgstr[2] "%s был успешно удален из списка желаний."
+
+#: public/wishlist/view.class.php:491 public/wishlist/buttons.class.php:507
+msgid "&ldquo;%s&rdquo;"
+msgstr "&ldquo;%s&rdquo;"
+
+#: public/wishlist/buttons.class.php:359 templates/ti-wishlist.php:92
+msgid "Remove"
+msgstr "Убрать"
+
+#: public/wishlist/buttons.class.php:350
+msgid "Actions"
+msgstr "Действия"
+
+#: public/wishlist/buttons.class.php:60
+msgid "Action"
+msgstr "Действие"
+
+#: public/wishlist/buttons.class.php:60
+msgid "Apply %s"
+msgstr "Применить %s"
+
+#: public/tinvwl.class.php:480
+msgid "Create New"
+msgstr "Создать новый"
+
+#: public/wishlist/view.class.php:429
+msgid "%1$s by %2$s"
+msgstr "%1$s от %2$s"
+
+#: includes/wizard.class.php:521
+msgid "Ready!"
+msgstr "Готово!"
+
+#: includes/wizard.class.php:477 views/wizard/step-social.php:18
+msgid "Share"
+msgstr "Поделиться"
+
+#: includes/wizard.class.php:453
+msgid "Manual"
+msgstr "Вручную"
+
+#: includes/wizard.class.php:452
+msgid "Automatically"
+msgstr "Автоматически"
+
+#: includes/wizard.class.php:442
+msgid "Processing"
+msgstr "В обработке"
+
+#: includes/wizard.class.php:294
+msgid "Create new Page"
+msgstr "Создать новую страницу"
+
+#: includes/wizard.class.php:293
+msgid "Create Automatically"
+msgstr "Создать автоматически"
+
+#: public/tinvwl.class.php:584 includes/wizard.class.php:289
+#: includes/wizard.class.php:320
+msgid "Wishlist"
+msgstr "Список желаний"
+
+#: includes/wizard.class.php:281 views/wizard/step-page.php:16
+msgid "Page Setup"
+msgstr "Настройки страницы"
+
+#: includes/wizard.class.php:265
+msgid "Introduction"
+msgstr "Введение"
+
+#: includes/view.helper.php:356
+msgid "read documentation"
+msgstr "прочесть документацию"
+
+#: includes/view.helper.php:215
+msgid "Useful Tip"
+msgstr "Полезный совет"
+
+#: includes/view.helper.php:199
+msgid "Errors(%s)"
+msgstr "Ошибки(%s)"
+
+#: includes/view.helper.php:183
+msgid "Attention!"
+msgstr "Внимание!"
+
+#: includes/pluginextend.helper.php:546
+msgid "%1$s %3$s is required. Please activate it before activating this plugin."
+msgstr "Необходим %1$s %3$s. Пожалуйста, активируйте его, прежде чем активировать этот плагин."
+
+#: includes/pluginextend.helper.php:542
+msgid "%1$s is conflicted with %2$s %3$s. Please disable it before activating this plugin."
+msgstr "%1$s несовместим %2$s %3$s. Пожалуйста, отключите его, прежде чем активировать этот плагин."
+
+#: includes/pluginextend.helper.php:538
+msgid "%2$s %3$s is required. Please activate it before activating this plugin."
+msgstr "Необходим %2$s %3$s. Пожалуйста, активируйте его, прежде чем активировать этот плагин. "
+
+#: includes/pluginextend.helper.php:534
+msgid "%2$s %3$s is required. Please downgrade it before activating this plugin."
+msgstr "Необходим %2$s %3$s. Пожалуйста, используйте более раннюю версию, прежде чем активировать этот плагин. "
+
+#: includes/pluginextend.helper.php:529
+msgid "%2$s %3$s is required. Please update it before activating this plugin."
+msgstr "Необходим %2$s %3$s. Пожалуйста, обновите его, прежде чем активировать этот плагин."
+
+#: includes/pluginextend.helper.php:520
+msgid "%1$s is confilcted with %2$s %3$s. Deactivating %1$s."
+msgstr "%1$s несовместим с %2$s %3$s. Деактивация %1$s."
+
+#: includes/pluginextend.helper.php:511
+msgid "%2$s %3$s is required for %1$s. Deactivating %1$s."
+msgstr "Для %1$s необходим %2$s %3$s. Деактивация %1$s. "
+
+#: includes/form.helper.php:508
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: admin/settings/upgrade.class.php:57
+msgid "Premium Features"
+msgstr "Премиум-функции"
+
+#: admin/settings/style.class.php:620
+msgid "Normal Buttons Text Hover Color"
+msgstr "Цвет текста обычных конопок при наведении курсора "
+
+#: admin/settings/style.class.php:614
+msgid "Normal Buttons Text Color"
+msgstr "Цвет текста обычных конопок"
+
+#: admin/settings/style.class.php:608
+msgid "Normal Buttons Background Hover Color"
+msgstr "Цвет фона обычных конопок при наведении курсора"
+
+#: admin/settings/style.class.php:602
+msgid "Normal Buttons Background Color"
+msgstr "Цвет фона обычных конопок"
+
+#: admin/settings/style.class.php:569
+msgid "popups"
+msgstr "Всплывающие окна"
+
+#: admin/settings/general.class.php:734
+msgid "Dark"
+msgstr "Темный"
+
+#: admin/settings/general.class.php:730
+msgid "Social Icons Color"
+msgstr "Цвет соц. иконок"
+
+#: admin/settings/style.class.php:529
+msgid "Special Price Background Color"
+msgstr "Цвет фона спец. цены"
+
+#: admin/settings/style.class.php:523
+msgid "Special Price Color"
+msgstr "Цвет спец. цены "
+
+#: admin/settings/style.class.php:517
+msgid "Price Font Size"
+msgstr "Размер шрифта цены"
+
+#: admin/settings/style.class.php:509
+msgid "Price Font"
+msgstr "Шрифт цены"
+
+#: admin/settings/style.class.php:503
+msgid "Price Color"
+msgstr "Цвет цены"
+
+#: admin/settings/style.class.php:497 admin/settings/style.class.php:596
+msgid "Content Text Font Size"
+msgstr "Размер шифта текста содержания"
+
+#: admin/settings/style.class.php:489 admin/settings/style.class.php:588
+msgid "Content Text Font"
+msgstr "Шрифт текста содержания"
+
+#: admin/settings/style.class.php:477
+msgid "Table Head Font Size"
+msgstr "Размер шрифта заголовка таблицы"
+
+#: admin/settings/style.class.php:469
+msgid "Table Head Font"
+msgstr "Шрифт заголовка таблицы "
+
+#: admin/settings/style.class.php:463
+msgid "Table Head Text Color"
+msgstr "Цвет текста заголовка таблицы "
+
+#: admin/settings/style.class.php:457
+msgid "Table Head Background Color"
+msgstr "Цвет фона заголовка таблицы "
+
+#: admin/settings/style.class.php:438
+msgid "table"
+msgstr "Таблица"
+
+#: admin/settings/style.class.php:388
+msgid "add to cart button"
+msgstr "Кнопка \"Добавить в корзину\""
+
+#: admin/settings/style.class.php:225 admin/settings/style.class.php:294
+msgid "Button Text Hover Color"
+msgstr "Цвет текста кнопки при наведении курсора"
+
+#: admin/settings/style.class.php:237 admin/settings/style.class.php:306
+#: admin/settings/style.class.php:363 admin/settings/style.class.php:413
+msgid "Text Hover Color"
+msgstr "Цвет текста при наведении курсора"
+
+#: admin/settings/style.class.php:219 admin/settings/style.class.php:288
+msgid "Button Text Color"
+msgstr "Цвет текста кнопки"
+
+#: admin/settings/style.class.php:213 admin/settings/style.class.php:282
+#: admin/settings/style.class.php:351 admin/settings/style.class.php:401
+#: admin/settings/style.class.php:546
+msgid "Background Hover Color"
+msgstr "Цвет фона при наведении курсора"
+
+#: admin/settings/style.class.php:200
+msgid "\"Add to Wishlist\" product page button"
+msgstr "Кнопка \"Добавить в список желаний\" на странице товара"
+
+#: admin/settings/style.class.php:195
+msgid "Select Font Size"
+msgstr "Выбрать размер шрифта"
+
+#: admin/settings/style.class.php:252 admin/settings/style.class.php:321
+#: admin/settings/style.class.php:377 admin/settings/style.class.php:427
+msgid "Font Size"
+msgstr "Размер шрифта"
+
+#: admin/settings/style.class.php:181 admin/settings/style.class.php:231
+#: admin/settings/style.class.php:300 admin/settings/style.class.php:357
+#: admin/settings/style.class.php:407
+msgid "Text Color"
+msgstr "Цвет текста"
+
+#: admin/settings/style.class.php:175 admin/settings/style.class.php:264
+#: admin/settings/style.class.php:333 admin/settings/style.class.php:383
+#: admin/settings/style.class.php:433
+msgid "Border Radius"
+msgstr "Радиус границы"
+
+#: admin/settings/style.class.php:169 admin/settings/style.class.php:451
+msgid "Border Color"
+msgstr "Цвет границы"
+
+#: admin/settings/style.class.php:163 admin/settings/style.class.php:207
+#: admin/settings/style.class.php:276 admin/settings/style.class.php:345
+#: admin/settings/style.class.php:395 admin/settings/style.class.php:445
+#: admin/settings/style.class.php:540 admin/settings/style.class.php:576
+msgid "Background Color"
+msgstr "Цвет фона"
+
+#: admin/settings/style.class.php:156
+msgid "fields"
+msgstr "Поля"
+
+#: admin/settings/style.class.php:142
+msgid "No"
+msgstr "Нет"
+
+#: admin/settings/style.class.php:141
+msgid "Yes"
+msgstr "Да"
+
+#: admin/settings/style.class.php:139
+msgid "Underline"
+msgstr "Подчеркивание"
+
+#: admin/settings/style.class.php:133
+msgid "Hover Color"
+msgstr "Цвет при наведении курсора"
+
+#: admin/settings/style.class.php:127
+msgid "Color"
+msgstr "Цвет"
+
+#: admin/settings/style.class.php:113 admin/settings/style.class.php:149
+#: admin/settings/style.class.php:187 admin/settings/style.class.php:244
+#: admin/settings/style.class.php:313 admin/settings/style.class.php:369
+#: admin/settings/style.class.php:419
+msgid "Font"
+msgstr "Шрифт"
+
+#: admin/settings/style.class.php:107 admin/settings/style.class.php:483
+#: admin/settings/style.class.php:582
+msgid "Content Text Color"
+msgstr "Цвет текста содержания"
+
+#: admin/settings/style.class.php:101
+msgid "Title Font Size"
+msgstr "Размер шрифта заголовка"
+
+#: admin/settings/style.class.php:95
+msgid "Title Color"
+msgstr "Цвет заголовка"
+
+#: admin/settings/style.class.php:88
+msgid "text"
+msgstr "Текст"
+
+#: admin/settings/style.class.php:71
+msgid "Use Default Font"
+msgstr "Использовать шрифт по умолчанию"
+
+#: admin/settings/style.class.php:57
+msgid "Wishlist Style Options"
+msgstr "Параметры стилей списка желаний"
+
+#: admin/settings/style.class.php:56
+msgid "Style Options"
+msgstr "Параметры стилей"
+
+#: admin/settings/general.class.php:724
+msgid "\"Share on\" Text"
+msgstr "Текст \"Поделиться в\""
+
+#: admin/settings/general.class.php:718 views/wizard/step-social.php:71
+msgid "Show \"Share by Email\" Button"
+msgstr "Показывать кнопку \"Поделиться с помощью эл. почты\""
+
+#: admin/settings/general.class.php:682
+msgid "Social Networks Sharing Options"
+msgstr "Варианты поделится в социальных сетях"
+
+#: admin/settings/general.class.php:676
+msgid "Following options enable/disable Social share icons below wishlist table on wishlist page. Wishlist owner can easily share their wishlists using this button on social networks. Wishlist privacy should be set to public or shared status, private wishlists can't be shared."
+msgstr "Следующие параметры включают/выключают отображение иконок социальных сетей под таблицей на странице списка желаний. Владелец списка желаний может легко поделиться им, используя кнопки социальных сетей. При этом конфиденциальность списка желаний должна быть \"Общая\" или \"По ссылке\", приватными списками желаний поделиться нельзя."
+
+#: admin/settings/general.class.php:663
+msgid "\"Add All to Cart\" Button Text"
+msgstr "Текст кнопки \"Добавить всё в корзину\""
+
+#: admin/settings/general.class.php:656
+msgid "Show \"Add All to Cart\" button"
+msgstr "Показывать кнопку \"Добавить всё в корзину\""
+
+#: admin/settings/general.class.php:645
+msgid "\"Add Selected to Cart\" Button Text"
+msgstr "Текст кнопки \"Добавить выбранное в корзину\""
+
+#: admin/settings/general.class.php:638
+msgid "Show \"Add Selected to Cart\" button"
+msgstr "Показывать кнопку \"Добавить выбранное в корзину\""
+
+#: admin/settings/general.class.php:632
+msgid "Bulk actions drop down at the bottom of wishlist table"
+msgstr "Выпадающий список массовых действий под таблицей списка желаний"
+
+#: admin/settings/general.class.php:631
+msgid "Show Actions button"
+msgstr "Показывать кнопку действий"
+
+#: admin/settings/general.class.php:619
+msgid "Show Checkboxes"
+msgstr "Показывать флажки"
+
+#: admin/settings/general.class.php:613
+msgid "Following options will help user to manage and add products to cart from wishlist table in bulk."
+msgstr "Следующие опции помогут пользователю управлять товарами и добавлять их в корзину из таблицы списка желаний."
+
+#: admin/settings/general.class.php:612
+msgid "Wishlist Table Settings"
+msgstr "Настройки таблицы списка желаний"
+
+#: admin/settings/general.class.php:605
+msgid "Show Date of addition"
+msgstr "Показывать дату добавления"
+
+#: admin/settings/general.class.php:599
+msgid "Show Stock status"
+msgstr "Показывать статус склада"
+
+#: admin/settings/general.class.php:593
+msgid "Show Unit price"
+msgstr "Показывать цену за единицу"
+
+#: admin/settings/general.class.php:586
+msgid "\"Add to Cart\" Text"
+msgstr "Текст \"Добавить в корзину\" "
+
+#: admin/settings/general.class.php:579
+msgid "Show \"Add to Cart\" button"
+msgstr "Показывать кнопку \"Добавить в корзину\""
+
+#: admin/settings/general.class.php:573
+msgid "Following options allows you to choose what information/functionality to show/enable in wishlist table on wishlist page."
+msgstr "Следующие опции позволяют вам выбрать, какую информацию/функциональность отображать/активировать в таблице списка желаний на странице списка желаний."
+
+#: admin/settings/general.class.php:572
+msgid "Wishlist Product Settings"
+msgstr "Настройки товаров в списке желаний"
+
+#: admin/settings/general.class.php:212
+msgid "\"Product added to Wishlist\" Text"
+msgstr "Текст \"Товар добавлен в список желаний\""
+
+#: admin/settings/general.class.php:219
+msgid "\"Product already in Wishlist\" Text"
+msgstr "Текст \"Товар уже в списке желаний\""
+
+#: admin/settings/general.class.php:205
+msgid "If enabled, user will be redirected to wishlist page after 5 sec from adding product to wishlist."
+msgstr "Если включено, пользователь будет перенаправлен на страницу списка желаний через 5 секунд после добавления товараа в список пожеланий."
+
+#: admin/settings/general.class.php:204
+msgid "Redirect to Wishlist"
+msgstr "Перенаправить в список желаний"
+
+#: admin/settings/general.class.php:197
+msgid "\"View Wishlist\" button Text"
+msgstr "Текст кнопки \"Посмотреть список желаний\""
+
+#: admin/settings/general.class.php:401
+msgid "\"Add to Wishlist\" button Text"
+msgstr "Текст кнопки \"Добавить в список желаний\""
+
+#: admin/settings/general.class.php:372 admin/settings/general.class.php:512
+#: admin/settings/general.class.php:735 admin/settings/general.class.php:786
+msgid "White"
+msgstr "Белый"
+
+#: admin/settings/general.class.php:371 admin/settings/general.class.php:511
+#: admin/settings/general.class.php:785
+msgid "Black"
+msgstr "Черный"
+
+#: admin/settings/general.class.php:368 admin/settings/general.class.php:508
+msgid "\"Add to Wishlist\" Icon Color"
+msgstr "Цвет иконки \"Добавить в список желаний\""
+
+#: admin/settings/general.class.php:359 admin/settings/general.class.php:499
+#: admin/settings/general.class.php:773
+msgid "Upload"
+msgstr "Загрузить"
+
+#: admin/settings/general.class.php:342 admin/settings/general.class.php:483
+#: admin/settings/general.class.php:756
+msgid "Custom"
+msgstr "Произвольно"
+
+#: admin/settings/general.class.php:341 admin/settings/general.class.php:482
+#: admin/settings/general.class.php:755
+msgid "Heart+"
+msgstr "Сердце+"
+
+#: admin/settings/general.class.php:340 admin/settings/general.class.php:481
+#: admin/settings/general.class.php:754
+msgid "Heart"
+msgstr "Сердце"
+
+#: admin/settings/general.class.php:339 admin/settings/general.class.php:480
+#: admin/settings/general.class.php:753
+msgid "None"
+msgstr "Ничего"
+
+#: admin/settings/general.class.php:336 admin/settings/general.class.php:758
+msgid "You can choose from our predefined icons or upload your custom icon. Custom icon size is limited to 16x16 px."
+msgstr "Вы можете выбрать из предлагаемых нами иконок или загрузить свою собственную. Размер иконки ограничен 16x16px."
+
+#: admin/settings/general.class.php:335 admin/settings/general.class.php:477
+msgid "\"Add to Wishlist\" Icon"
+msgstr "Иконка \"Добавить в список желаний\""
+
+#: includes/wizard.class.php:398
+msgid "Button"
+msgstr "Кнопка"
+
+#: admin/settings/general.class.php:319 admin/settings/general.class.php:460
+#: includes/wizard.class.php:411
+msgid "Custom position with code"
+msgstr "Произвольная позиция с кодом"
+
+#: admin/settings/general.class.php:318 admin/settings/general.class.php:458
+#: includes/wizard.class.php:410
+msgid "Before \"Add to Cart\" button"
+msgstr "Перед кнопкой \"Добавить в корзину\""
+
+#: admin/settings/general.class.php:317 admin/settings/general.class.php:457
+#: includes/wizard.class.php:409
+msgid "After \"Add to Cart\" button"
+msgstr "После кнопки \"Добавить в корзину\""
+
+#: admin/settings/general.class.php:314
+msgid "Add this shortcode <code>[ti_wishlists_addtowishlist]</code> anywhere on product page, if you have chosen custom position for product button. You will have to do this for each product."
+msgstr "Если вы выбрали произвольную позицию для кнопки товара, добавьте шорткод <code>[ti_wishlists_addtowishlist]</code> где нибудь на странице товара. Это нужно будет сделать для каждого товара."
+
+#: admin/settings/general.class.php:313 admin/settings/general.class.php:454
+#: views/wizard/step-button.php:32
+msgid "Button position"
+msgstr "Позиция кнопки"
+
+#: admin/settings/general.class.php:307
+msgid "Product page \"Add to Wishlist\" Button Settings"
+msgstr "Параметры кнопки \"Добавить в список желаний\" на странице товара"
+
+#: admin/settings/general.class.php:285
+msgid "Add to Cart"
+msgstr "Добавить в корзину"
+
+#: admin/settings/general.class.php:282
+msgid "Remove condition"
+msgstr "Условие удаления"
+
+#: admin/settings/general.class.php:275
+msgid "Automatic removal"
+msgstr "Автоматическое удаление"
+
+#: admin/settings/general.class.php:267
+msgid "Wishlist Processing Options"
+msgstr "Параметры обработки списка желаний"
+
+#: admin/settings/general.class.php:258 views/wizard/step-page.php:36
+msgid "My Wishlist"
+msgstr "Мой список желаний"
+
+#: admin/settings/general.class.php:251 admin/settings/general.class.php:268
+msgid "Coming soon"
+msgstr "Скоро"
+
+#: admin/settings/general.class.php:250
+msgid "Wishlist Page Options"
+msgstr "Параметры страницы списка желаний"
+
+#: admin/settings/general.class.php:152
+msgid "Remove Product from Wishlist if added to cart"
+msgstr "Убрать товар из списка желаний если добавлен в корзину"
+
+#: admin/settings/general.class.php:120 admin/tinvwl.class.php:399
+msgid "Wishlist Page"
+msgstr "Страница списка желаний"
+
+#: admin/settings/general.class.php:114 views/wizard/step-page.php:27
+msgid "Default Wishlist Name"
+msgstr "Название списка желаний по умолчанию"
+
+#: admin/settings/general.class.php:108
+msgid "Wishlist page needs to be selected so the plugin knows where it is. This page should be created upon installation of the plugin, if not you will need to create it manually."
+msgstr "Страница \"Списка Желаний\" должна быть выбрана, для ее определения плагином. Эта страница должна быть создана при установке плагина. Если нет, вам нужно будет создать ее вручную."
+
+#: admin/settings/general.class.php:69 admin/settings/general.class.php:107
+msgid "General Settings"
+msgstr "Основные настройки"
+
+#: admin/settings/general.class.php:888 admin/basestyle.helper.php:127
+msgid "Save"
+msgstr "Сохранить"
+
+#: admin/settings/general.class.php:876 admin/basestyle.helper.php:115
+msgid "Save Settings"
+msgstr "Сохранить настройки"
+
+#: admin/basestyle.helper.php:82 admin/basestyle.helper.php:89
+msgid "Template Custom CSS"
+msgstr "Пользовательские стили темы"
+
+#: admin/basestyle.helper.php:74
+msgid "Template Options"
+msgstr "Опции шаблона"
+
+#: admin/basestyle.helper.php:65
+msgid "Use Theme style"
+msgstr "Использовать стили темы"
+
+#: admin/basestyle.helper.php:58
+msgid "Templates"
+msgstr "Шаблоны"
