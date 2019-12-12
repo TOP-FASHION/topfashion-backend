@@ -3,7 +3,7 @@ Contributors: ClaudioLaBarbera
 Tags: api, json, json-rest-api, menu-routes, menus, REST, wp-api, wp-rest-api, v2
 Requires at least: 4.4
 Tested up to: 5.2.2
-Stable tag: 0.7.2
+Stable tag: 0.7.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,6 +43,8 @@ Of course! This is the GitHub Repository https://github.com/thebatclaudio/wp-res
 Nothing to show. This plugin has no settings or frontend, it just extends WP API with new routes.
 
 == Changelog ==
+
+0.7.3 - Added slug to category item object
 
 0.7.2 - Added slug to menu item object
 

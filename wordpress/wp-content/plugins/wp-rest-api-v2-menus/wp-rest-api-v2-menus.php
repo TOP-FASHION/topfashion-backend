@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: WP-REST-API V2 Menus
-Version: 0.7.2
+Version: 0.7.3
 Description: Adding menus endpoints on WP REST API v2
 Author: Claudio La Barbera
 Author URI: https://thebatclaud.io
@@ -140,9 +140,21 @@ function wp_api_v2_menus_get_menu_items( $id ) {
 	$child_items = [];
 	// pull all child menu items into separate object
 	foreach ( $menu_items as $key => $item ) {
-		// add slug to menu items
-		$slug = basename( get_permalink($item->object_id) );
-		$item->slug = $slug;
+
+		if($item->type == 'post_type') {
+			// add slug to menu items
+			$slug = basename( get_permalink($item->object_id) );
+			$item->slug = $slug;
+		} else if($item->type == 'taxonomy') {
+			$cat = get_category($item->object_id);
+			$item->slug = $cat->slug;
+		} else if($item->type == 'post_type_archive') {
+			$post_type_data = get_post_type_object($item->object);
+
+			if ($post_type_data->has_archive) {
+				$item->slug = $post_type_data->rewrite['slug'];
+			}
+		}
 
 		if ( $item->menu_item_parent ) {
 			array_push( $child_items, $item );
