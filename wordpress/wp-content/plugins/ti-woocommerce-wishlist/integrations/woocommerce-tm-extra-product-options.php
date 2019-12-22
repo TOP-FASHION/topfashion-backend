@@ -4,7 +4,7 @@
  *
  * @name WooCommerce TM Extra Product Options
  *
- * @version 4.9.7
+ * @version 4.9.11
  *
  * @slug woocommerce-tm-extra-product-options
  *
@@ -45,11 +45,11 @@ if ( ! function_exists( 'tinv_wishlist_metasupport_woocommerce_tm_extra_product_
 				$cart_class = version_compare( $version, '4.8.0', '<' ) ? $core : $cart;
 
 				$cart_item = $cart_class->add_cart_item_data_helper( array(), $product_id, $post_data );
-
 				if ( 'normal' == $core->tm_epo_hide_options_in_cart && 'advanced' != $core->tm_epo_cart_field_display && ! empty( $cart_item['tmcartepo'] ) ) {
 					$cart_item['quantity']         = 1;
 					$cart_item['data']             = wc_get_product( $variation_id ? $variation_id : $product_id );
 					$cart_item['tm_cart_item_key'] = '';
+					$cart_item['product_id']       = $product_id;
 					$item_data                     = $cart_class->get_item_data_array( array(), $cart_item );
 
 					foreach ( $item_data as $key => $data ) {
@@ -108,9 +108,11 @@ if ( ! function_exists( 'tinvwl_item_price_woocommerce_tm_extra_product_options'
 					if ( ! empty( $cart_item['tmcartepo'] ) ) {
 						$to_currency = version_compare( $version, '4.9.0', '<' ) ? tc_get_woocommerce_currency() : themecomplete_get_woocommerce_currency();
 						foreach ( $cart_item['tmcartepo'] as $value ) {
-							if ( array_key_exists( $to_currency, $value['price_per_currency'] ) ) {
+							if ( isset( $value['price_per_currency'] ) && array_key_exists( $to_currency, $value['price_per_currency'] ) ) {
 								$value         = floatval( $value['price_per_currency'][ $to_currency ] );
 								$product_price += $value;
+							} else {
+								$product_price += floatval( $value['price'] );
 							}
 						}
 					}

@@ -2,8 +2,8 @@
 Contributors: templateinvaders
 Tags: woocommerce, wishlist, woocommerce wishlist, e-commerce, ecommerce
 Requires at least: 4.7
-Tested up to: 5.2
-Stable tag: 1.14.6
+Tested up to: 5.3
+Stable tag: 1.15.4
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Plugin URI:  https://wordpress.org/plugins/ti-woocommerce-wishlist/
@@ -164,6 +164,50 @@ Yes you can! Join in on our [GitHub repository](https://github.com/TemplateInvad
 
 
 == Changelog ==
+= 1.15.4 =
+*Release Date - 16 December 2019*
+
+* Added compatibility with Kallyas theme and guest issue when cart hidden
+* Fixed product meta display on wishlist table
+* Improved compatibility with Divi builder
+
+= 1.15.3 =
+*Release Date - 12 December 2019*
+
+* Added compatibility for Divi builder to fix 'out of stock' issue
+* Enhanced compatibility with Improved Product Options for WooCommerce plugin
+
+= 1.15.2 =
+*Release Date - 6 December 2019*
+
+* Added compatibility with WooCommerce Variation Swatches - Pro plugin
+* Enhanced integration with WP Grid Builder plugin
+* Updated integration with WooCommerce TM Extra Product Options plugin
+* Updated integration with [WooCommerce Bookings](https://woocommerce.com/products/woocommerce-bookings/?aff=3955) plugin
+
+= 1.15.1 =
+*Release Date - 4 December 2019*
+
+* Added WP GridBuilder plugin custom block to show wishlist button
+* Fixed bulk adding products from wishlist to cart for WooCommerce versions below 3.8
+* Fixed pricing issue for TM Extra Product Options plugin integration
+
+= 1.15.0 =
+*Release Date - 27 November 2019*
+
+* Added support for WordPress 5.3
+* Added support for WooCommerce 3.8
+* Added compatibility with Flatsome theme
+* Added AutomateWoo plugin integration with following triggers:
+ * product added to wishlist;
+ * wishlist reminder;
+ * product from wishlist added to cart;
+ * product from wishlist purchased;
+ * product removed from wishlist;
+* Fixed issue related to 'Add All to cart' action
+* Fixed issue with removing products after adding to cart
+* Fixed issue with uppercase while wishlist share via copy to clipboard action
+
 = 1.14.6 =
 *Release Date - 1 October 2019*
 
@@ -252,33 +296,4 @@ Yes you can! Join in on our [GitHub repository](https://github.com/TemplateInvad
 * Fixed wishlist products query issue  on multilingual setup
 * TM Product Options plugin integration updated
 
-= 1.12.3 =
-*Release Date - 17 May 2019*
-
-* Fixed wishlist products issue with WPML plugin
-
-= 1.12.2 =
-*Release Date - 7 May 2019*
-
-* Added filter <i>tinvwl_wc_cart_fragments_refresh</i> to disable WC cart fragments refreshing
-* Fixed integration issues with Improved Product Options for WooCommerce plugin
-* Fixed issue with wishlist URL for sharing buttons
-
-= 1.12.1 =
-*Release Date - 2 May 2019*
-
-* Improved performance of wishlist page
-* Added method tinvwl_get_wishlist_products() to get wishlist products by wishlist ID or SHAREKEY
-* Fixed URI rewrites issue
-* Fixed issue with auto removing grouped products from wishlist
-
-= 1.12.0 =
-*Release Date - 22 April 2019*
-
-* Greatly improved frontend performance
-* Fixed wishlist analytics issues
-* Code cleanup
-
-
 [See changelog for all versions](https://templateinvaders.com/changelogs/ti-woocommerce-wishlist-plugin-free-changelog/?utm_source=wordpressorg&utm_content=changelog).
-
