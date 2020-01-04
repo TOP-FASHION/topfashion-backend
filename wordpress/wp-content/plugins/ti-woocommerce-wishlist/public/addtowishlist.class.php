@@ -323,7 +323,19 @@ class TInvWL_Public_AddToWishlist {
 		$data['icon'] = $data['status'] ? 'icon_big_heart_check' : 'icon_big_times';
 		$data['msg']  = array_unique( $data['msg'] );
 		$data['msg']  = implode( '<br>', $data['msg'] );
+
+		$msg_placeholders = array(
+			'{product_name}' => is_callable( array(
+				$product,
+				'get_name'
+			) ) ? $product->get_name() : $product->get_title(),
+		);
+
+		$find    = array_keys( $msg_placeholders );
+		$replace = array_values( $msg_placeholders );
+
 		if ( ! empty( $data['msg'] ) ) {
+			$data['msg'] = str_replace( $find, $replace, $data['msg'] );
 			$data['msg'] = apply_filters( 'tinvwl_addtowishlist_message_after', $data['msg'], $data, $post, $form, $product );
 			$data['msg'] = tinv_wishlist_template_html( 'ti-addedtowishlist-dialogbox.php', apply_filters( 'tinvwl_addtowishlist_dialog_box', $data, $post ) );
 		}
@@ -511,7 +523,7 @@ class TInvWL_Public_AddToWishlist {
 			$product_data = wc_get_product( $variation_id ? $variation_id : $product_id );
 
 			if ( $product_data && 'trash' !== ( version_compare( WC_VERSION, '3.0.0', '<' ) ? $product_data->post->post_status : get_post( $product_data->get_id() )->post_status ) ) {
-				$this->product = $product_data;
+				$this->product = apply_filters( 'tinvwl_addtowishlist_out_prepare_product', $product_data );
 			} else {
 				return '';
 			}
@@ -524,7 +536,7 @@ class TInvWL_Public_AddToWishlist {
 
 		add_action( 'tinvwl_wishlist_addtowishlist_button', array( $this, 'button' ) );
 
-		if ( $this->is_loop && in_array( ( version_compare( WC_VERSION, '3.0.0', '<' ) ? $product->product_type : $product->get_type() ), array(
+		if ( $this->is_loop && in_array( ( version_compare( WC_VERSION, '3.0.0', '<' ) ? $this->product->product_type : $this->product->get_type() ), array(
 				'variable',
 				'variable-subscription',
 			) ) ) {
