@@ -1,19 +1,23 @@
 ## https://github.com/docker-library/wordpress
 FROM wordpress:5.2.4-php7.2-apache
 
-## PHP extensions
-## update and uncomment this next line as needed
-# RUN docker-php-ext-install pdo pdo_mysql
+MAINTAINER EvgeniyPopov 1212evgen@gmail.com
 
-## custom directories and files
-## copy them here instead of volume
-## /var/www/html/
-## wordpress docker-entrypoint.sh runs
-## chown -R www-data:www-data /usr/src/wordpress
+# NOTE:
+# Do NOT set WORKDIR as the entrypoint script provided by WordPress
+# has assumptions about the working directory when it runs and the
+# build will be boken if its set here.
 
-# Copy plugins
-COPY ./wordpress/wp-config.php /var/www/html/wp-config.php
-COPY ./wordpress/wp-content/plugins/better-rest-api-featured-images /var/www/html/wp-content/plugins/better-rest-api-featured-images
-COPY ./wordpress/wp-content/plugins/cart-rest-api-for-woocommerce /var/www/html/wp-content/plugins/cart-rest-api-for-woocommerce
+# Setup required build binaries
+RUN apt-get update
+RUN apt-get install unzip
 
-RUN chown -R www-data:www-data /usr/src/wordpress/
+# Pull the config into the final hosted directory
+ADD ./wordpress/wp-config.php /var/www/html/
+
+# Remove the default plugins and themes
+RUN rm -rf /usr/src/wordpress/wp-content/plugins/hello.php
+RUN rm -rf /usr/src/wordpress/wp-content/themes/*
+
+########### Install common dependencies ################
+COPY wordpress/wp-content/plugins/woocommerce /usr/src/wordpress/wp-content/plugins/woocommerce

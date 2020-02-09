@@ -6,7 +6,10 @@ services:
     container_name: "topfashion-backend"
     ports:
       - "80:80"
-    restart: always
+    volumes:
+      - ./plugins:/var/www/html/wp-content/plugins:rw
+      - ./themes:/var/www/html/wp-content/themes:rw
+      - ./uploads:/var/www/html/wp-content/uploads:rw
 
   mariadb:
     image: wodby/mariadb:$MARIADB_TAG
