@@ -72,7 +72,6 @@ This project is licensed under the MIT open source license.
 [Varnish]: https://wodby.com/docs/stacks/wordpress/containers#varnish
 [Webgrind]: https://wodby.com/docs/stacks/wordpress/containers#webgrind
 [Wordpress]: https://wodby.com/docs/stacks/wordpress/containers#php
-[XHProf viewer]: https://wodby.com/docs/stacks/php/containers#xhprof-viewer
 
 [_/traefik]: https://hub.docker.com/_/traefik
 [arachnysdocker/athenapdf-service]: https://hub.docker.com/r/arachnysdocker/athenapdf-service
