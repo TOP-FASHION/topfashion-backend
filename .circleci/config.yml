@@ -97,8 +97,6 @@ workflows:
   development:
     jobs:
       - build-docker-stage:
-          requires:
-            - hold-deploy-stage
           filters:
             branches:
               ignore: master
