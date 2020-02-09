@@ -1,6 +1,7 @@
 ## https://github.com/docker-library/wordpress
 FROM wordpress:5.2.4-php7.2-apache
 
+WORKDIR /var/www/html
 ## PHP extensions
 ## update and uncomment this next line as needed
 # RUN docker-php-ext-install pdo pdo_mysql
