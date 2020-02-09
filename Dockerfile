@@ -12,4 +12,5 @@ FROM wordpress:5.2.4-php7.2-apache
 ## chown -R www-data:www-data /usr/src/wordpress
 
 # Copy plugins
+RUN mkdir -p /var/www/html/wp-content/plugins
 COPY ./wordpress/wp-content/plugins /var/www/html/wp-content/plugins
