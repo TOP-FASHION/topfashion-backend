@@ -1,0 +1,145 @@
+defaults: &defaults
+  docker:
+    - image: circleci/node:latest-browsers
+  working_directory: ~/repo
+
+version: 2
+jobs:
+  build-docker-stage:
+    <<: *defaults
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: Build docker image
+          command: docker build -t 12evgen/topfashion-backend:latest .
+      - deploy:
+          name: Push image to DockerHub
+          command: |
+            docker login -u $DOCKERHUB_LOGIN -p $DOCKERHUB_PASSWORD
+            docker push 12evgen/topfashion-backend:latest
+
+  build-docker-prod:
+    <<: *defaults
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: Build docker image
+          command: |
+            PACKAGE_VERSION=$(node -p "require('./package.json').version")
+            docker build -t 12evgen/topfashion-backend:latest .
+      - deploy:
+          name: Push image to DockerHub
+          command: |
+            PACKAGE_VERSION=$(node -p "require('./package.json').version")
+            docker login -u $DOCKERHUB_LOGIN -p $DOCKERHUB_PASSWORD
+            docker push 12evgen/topfashion-backend:latest
+
+  deploy-to-staging:
+    machine:
+      image: ubuntu-1604:201903-01
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - bundles-{{ .Revision }}
+      - run:
+          name: Login registry.heroku.com
+          command: docker login --username=${HEROKU_LOGIN} --password=${HEROKU_API_KEY} registry.heroku.com
+      - run:
+          name: Pull docker image from Docker Hub
+          command: |
+            docker pull 12evgen/topfashion-backend:latest
+      - run:
+          name: Tag image for Heroku
+          command: |
+            docker tag 12evgen/topfashion-backend:latest registry.heroku.com/${HEROKU_APP_NAME_STAGE}/web
+      - run:
+          name: Push image to Heroku
+          command: |
+            docker push registry.heroku.com/${HEROKU_APP_NAME_STAGE}/web
+      - run:
+          name: Release new container
+          command: |
+            heroku container:release web -a ${HEROKU_APP_NAME_STAGE}
+
+  deploy-to-production:
+    machine:
+      image: ubuntu-1604:201903-01
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - bundles-{{ .Revision }}
+      - run:
+          name: Login registry.heroku.com
+          command: docker login --username=${HEROKU_LOGIN} --password=${HEROKU_API_KEY} registry.heroku.com
+      - run:
+          name: Pull docker image from Docker Hub
+          command: |
+            docker pull 12evgen/topfashion-backend:latest
+      - run:
+          name: Tag image for Heroku
+          command: |
+            docker tag 12evgen/topfashion-backend:latest registry.heroku.com/${HEROKU_APP_NAME}/web
+      - run:
+          name: Push image to Heroku
+          command: |
+            docker push registry.heroku.com/${HEROKU_APP_NAME}/web
+      - run:
+          name: Release new container
+          command: |
+            heroku container:release web -a ${HEROKU_APP_NAME}
+
+workflows:
+  version: 2
+  development:
+    jobs:
+      - hold-deploy-stage:
+          type: approval
+          requires:
+            - build-frontend
+          filters:
+            branches:
+              ignore: master
+      - build-docker-stage:
+          requires:
+            - hold-deploy-stage
+          filters:
+            branches:
+              ignore: master
+#      - deploy-to-staging:
+#          requires:
+#            - build-frontend
+#            - hold-deploy-stage
+#            - build-docker-stage
+#          filters:
+#            branches:
+#              ignore: master
+
+  release:
+    jobs:
+      - hold-deploy-prod:
+          type: approval
+          requires:
+            - build-frontend
+          filters:
+            branches:
+              only: master
+      - build-docker-prod:
+          requires:
+            - hold-deploy-prod
+          filters:
+            branches:
+              only: master
+#      - deploy-to-production:
+#          requires:
+#            - build-frontend
+#            - hold-deploy-prod
+#            - build-docker-prod
+#          filters:
+#            branches:
+#              only: master
