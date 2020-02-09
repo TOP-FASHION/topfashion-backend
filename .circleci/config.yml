@@ -1,6 +1,4 @@
 defaults: &defaults
-  docker:
-    - image: circleci/node:latest-browsers
   working_directory: ~/repo
 
 version: 2
@@ -98,13 +96,6 @@ workflows:
   version: 2
   development:
     jobs:
-      - hold-deploy-stage:
-          type: approval
-          requires:
-            - build-frontend
-          filters:
-            branches:
-              ignore: master
       - build-docker-stage:
           requires:
             - hold-deploy-stage
