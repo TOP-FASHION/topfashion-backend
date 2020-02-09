@@ -124,8 +124,6 @@ workflows:
     jobs:
       - hold-deploy-prod:
           type: approval
-          requires:
-            - build-frontend
           filters:
             branches:
               only: master
