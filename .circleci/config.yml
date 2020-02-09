@@ -122,14 +122,7 @@ workflows:
 
   release:
     jobs:
-      - hold-deploy-prod:
-          type: approval
-          filters:
-            branches:
-              only: master
       - build-docker-prod:
-          requires:
-            - hold-deploy-prod
           filters:
             branches:
               only: master
