@@ -29,12 +29,10 @@ jobs:
       - run:
           name: Build docker image
           command: |
-            PACKAGE_VERSION=$(node -p "require('./package.json').version")
             docker build -t 12evgen/topfashion-backend:latest .
       - deploy:
           name: Push image to DockerHub
           command: |
-            PACKAGE_VERSION=$(node -p "require('./package.json').version")
             docker login -u $DOCKERHUB_LOGIN -p $DOCKERHUB_PASSWORD
             docker push 12evgen/topfashion-backend:latest
 
