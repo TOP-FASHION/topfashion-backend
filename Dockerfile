@@ -10,14 +10,16 @@ MAINTAINER EvgeniyPopov 1212evgen@gmail.com
 
 # Setup required build binaries
 RUN apt-get update
-RUN apt-get install unzip
-
-# Pull the config into the final hosted directory
-ADD ./wordpress/wp-config.php /var/www/html/
 
 # Remove the default plugins and themes
 RUN rm -rf /usr/src/wordpress/wp-content/plugins/hello.php
 RUN rm -rf /usr/src/wordpress/wp-content/themes/*
 
-########### Install common dependencies ################
-COPY wordpress/wp-content/plugins/woocommerce /usr/src/wordpress/wp-content/plugins/woocommerce
+# WP config
+COPY wordpress/wp-config.php /usr/src/wordpress/wp-config.php
+COPY --chown=www-data:www-data . /var/www/html
+COPY --chown=www-data:www-data wordpress/wp-config.php /var/www/html/wp-config.php
+
+# COPY locally updated plugins & themes to the new image for redployment to Cloud RUN
+COPY wordpress/wp-content/plugins/  /usr/src/wordpress/wp-content/plugins/
+COPY wordpress/wp-content/themes/  /usr/src/wordpress/wp-content/themes/
