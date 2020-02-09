@@ -12,6 +12,6 @@ FROM wordpress:5.2.4-php7.2-apache
 ## chown -R www-data:www-data /usr/src/wordpress
 
 COPY . /var/www/html
-COPY . /var/www/html/wp-content/plugins/better-rest-api-featured-images
+COPY . /var/www/html/wp-content/plugins/better-rest-api-featured-images/
 
 COPY better-rest-api-featured-images /var/www/html/wp-content/plugins/better-rest-api-featured-images/
