@@ -5,6 +5,8 @@ version: 2
 jobs:
   build-docker-stage:
     <<: *defaults
+    docker:
+      - image: docker:stable-git
     steps:
       - checkout
       - setup_remote_docker
@@ -19,6 +21,8 @@ jobs:
 
   build-docker-prod:
     <<: *defaults
+    docker:
+      - image: docker:stable-git
     steps:
       - checkout
       - setup_remote_docker
