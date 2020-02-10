@@ -5,7 +5,13 @@ services:
     image: 12evgen/topfashion-backend:latest
     container_name: "topfashion-backend"
     ports:
-      - "80:80"
+      - "8081:80"
+      - "8021:22"
+    environment:
+      WORDPRESS_DB_HOST: mariadb:3306
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress
+      WORDPRESS_DB_NAME: wordpress
 
   mariadb:
     image: wodby/mariadb:$MARIADB_TAG
