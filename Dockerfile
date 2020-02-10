@@ -10,4 +10,4 @@ FROM wordpress:5.2.4-php7.2-apache
 ## /var/www/html/
 ## wordpress docker-entrypoint.sh runs
 ## chown -R www-data:www-data /usr/src/wordpress
-COPY ./wordpress/wp-content/* ./usr/src/wordpress/
+COPY ./wordpress/wp-content/ ./usr/src/wordpress/
