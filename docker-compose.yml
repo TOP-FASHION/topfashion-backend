@@ -25,22 +25,8 @@ services:
       DB_NAME: $DB_NAME
       PHP_FPM_USER: wodby
       PHP_FPM_GROUP: wodby
-## Read instructions at https://wodby.com/docs/stacks/wordpress/local#xdebug
-#      PHP_XDEBUG: 1
-#      PHP_XDEBUG_DEFAULT_ENABLE: 1
-#      PHP_XDEBUG_REMOTE_CONNECT_BACK: 0
-#      PHP_IDE_CONFIG: serverName=my-ide
-#      PHP_XDEBUG_IDEKEY: "my-ide"
-#      PHP_XDEBUG_REMOTE_HOST: 172.17.0.1 # Linux
-#      PHP_XDEBUG_REMOTE_HOST: 10.254.254.254 # macOS
-#      PHP_XDEBUG_REMOTE_HOST: 10.0.75.1 # Windows
     volumes:
       - ./wordpress:/var/www/html
-## For macOS users (https://wodby.com/docs/stacks/wordpress/local#docker-for-mac)
-#      - ./:/var/www/html:cached # User-guided caching
-#      - docker-sync:/var/www/html # Docker-sync
-## For XHProf and Xdebug profiler traces
-#      - files:/mnt/files
 
   nginx:
     image: wodby/nginx:$NGINX_TAG
@@ -52,46 +38,13 @@ services:
       NGINX_ERROR_LOG_LEVEL: debug
       NGINX_BACKEND_HOST: php
       NGINX_VHOST_PRESET: wordpress
-      #NGINX_SERVER_ROOT: /var/www/html/subdir
     volumes:
       - ./wordpress:/var/www/html
-# Options for macOS users (https://wodby.com/docs/stacks/wordpress/local#docker-for-mac)
-#      - ./:/var/www/html:cached # User-guided caching
-#      - docker-sync:/var/www/html # Docker-sync
     labels:
-    - "traefik.enable=true"
-    - "traefik.http.routers.${PROJECT_NAME}_nginx.rule=Host(`${PROJECT_BASE_URL}`)"
-    - "traefik.http.routers.${PROJECT_NAME}_nginx.entrypoints=websecure"
-    - "traefik.http.routers.${PROJECT_NAME}_nginx.tls.certresolver=mytlschallenge"
-
-  mailhog:
-    image: mailhog/mailhog
-    container_name: "${PROJECT_NAME}_mailhog"
-    labels:
-    - "traefik.http.services.${PROJECT_NAME}_mailhog.loadbalancer.server.port=8025"
-    - "traefik.enable=true"
-    - "traefik.http.routers.${PROJECT_NAME}_mailhog.rule=Host(`mailhog.${PROJECT_BASE_URL}`)"
-    - "traefik.http.routers.${PROJECT_NAME}_mailhog.entrypoints=websecure"
-    - "traefik.http.routers.${PROJECT_NAME}_mailhog.tls.certresolver=mytlschallenge"
-
-#  varnish:
-#    image: wodby/varnish:$VARNISH_TAG
-#    container_name: "${PROJECT_NAME}_varnish"
-#    depends_on:
-#      - nginx
-#    environment:
-#      VARNISH_SECRET: secret
-#      VARNISH_BACKEND_HOST: nginx
-#      VARNISH_BACKEND_PORT: 80
-#      VARNISH_CONFIG_PRESET: wordpress
-#      VARNISH_ALLOW_UNRESTRICTED_PURGE: 1
-#    labels:
-#      - "traefik.http.services.${PROJECT_NAME}_varnish.loadbalancer.server.port=6081"
-#      - "traefik.http.routers.${PROJECT_NAME}_varnish.rule=Host(`varnish.${PROJECT_BASE_URL}`)"
-
-#  redis:
-#    container_name: "${PROJECT_NAME}_redis"
-#    image: wodby/redis:$REDIS_TAG
+    - traefik.enable=true
+    - traefik.http.routers.${PROJECT_NAME}_nginx.rule=Host(`${PROJECT_BASE_URL}`)
+    - traefik.http.routers.${PROJECT_NAME}_nginx.entrypoints=https
+    - traefik.http.routers.${PROJECT_NAME}_nginx.tls.certresolver=default
 
   pma:
     image: phpmyadmin/phpmyadmin
@@ -103,14 +56,10 @@ services:
       PHP_UPLOAD_MAX_FILESIZE: 1G
       PHP_MAX_INPUT_VARS: 1G
     labels:
-      - "traefik.enable=true"
-      - "traefik.http.routers.${PROJECT_NAME}_pma.rule=Host(`pma.${PROJECT_BASE_URL}`)"
-      - "traefik.http.routers.${PROJECT_NAME}_pma.entrypoints=websecure"
-      - "traefik.http.routers.${PROJECT_NAME}_pma.tls.certresolver=mytlschallenge"
-
-#  rsyslog:
-#    container_name: "${PROJECT_NAME}_rsyslog"
-#    image: wodby/rsyslog:$RSYSLOG_TAG
+      - traefik.enable=true
+      - traefik.http.routers.${PROJECT_NAME}_pma.rule=Host(`pma.${PROJECT_BASE_URL}`)
+      - traefik.http.routers.${PROJECT_NAME}_pma.entrypoints=https
+      - traefik.http.routers.${PROJECT_NAME}_pma.tls.certresolver=default
 
   portainer:
     image: portainer/portainer
@@ -119,36 +68,37 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     labels:
-    - "traefik.enable=true"
-    - "traefik.http.routers.${PROJECT_NAME}_portainer.rule=Host(`portainer.${PROJECT_BASE_URL}`)"
-    - "traefik.http.routers.${PROJECT_NAME}_portainer.entrypoints=websecure"
-    - "traefik.http.routers.${PROJECT_NAME}_portainer.tls.certresolver=mytlschallenge"
+      - traefik.enable=true
+      - traefik.http.routers.${PROJECT_NAME}_portainer.rule=Host(`portainer.${PROJECT_BASE_URL}`)
+      - traefik.http.routers.${PROJECT_NAME}_portainer.entrypoints=https
+      - traefik.http.routers.${PROJECT_NAME}_portainer.tls.certresolver=default
 
   traefik:
     image: "traefik:v2.0.0-rc3"
     container_name: "${PROJECT_NAME}_traefik"
     command:
-#- "--log.level=DEBUG"
-      - "--api.insecure=true"
-      - "--providers.docker=true"
-      - "--providers.docker.exposedbydefault=false"
-      - "--entrypoints.web.address=:80"
-      - "--entrypoints.websecure.address=:443"
-      - "--certificatesresolvers.myhttpchallenge.acme.httpchallenge=true"
-      - "--certificatesresolvers.myhttpchallenge.acme.httpchallenge.entrypoint=web"
-      #- "--certificatesresolvers.myhttpchallenge.acme.caserver=https://acme-staging-v02.api.letsencrypt.org/directory"
-      - "--certificatesresolvers.myhttpchallenge.acme.email=postmaster@mydomain.com"
-      - "--certificatesresolvers.myhttpchallenge.acme.storage=/letsencrypt/acme.json"
+      - --api.insecure=true
+      - --providers.docker=true
     ports:
       - "443:443"
       - "8080:8080"
     volumes:
-      - "./letsencrypt:/letsencrypt"
-      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./traefik/traefik.toml:/etc/traefik/traefik.toml:ro
+      - ./traefik/traefik.config.toml:/etc/traefik/traefik.config.toml:ro
+      - ./certs:/etc/certs:ro
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.traefik.entrypoints=https
+      - traefik.http.routers.traefik.rule=Host(`traefik.${PROJECT_BASE_URL}`)
+      - traefik.http.routers.traefik.tls=true
+      - traefik.http.routers.traefik.tls.certresolver=default
+      - traefik.http.routers.traefik.service=api@internal
 
-#volumes:
-## Docker-sync for macOS users
-#  docker-sync:
-#    external: true
-## For Xdebug profiler
-#  files:
+      # global redirect to https
+      - traefik.http.routers.http-catchall.rule=hostregexp(`{host:.+}`)
+      - traefik.http.routers.http-catchall.entrypoints=http
+      - traefik.http.routers.http-catchall.middlewares=redirect-to-https
+
+      # middleware redirect
+      - traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https
