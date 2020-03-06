@@ -42,7 +42,7 @@ services:
       - ./wordpress:/var/www/html
     labels:
     - traefik.enable=true
-    - traefik.http.routers.${PROJECT_NAME}_nginx.rule=Host(`${PROJECT_BASE_URL}`)
+    - traefik.http.routers.${PROJECT_NAME}_nginx.rule=Host(`bo.${PROJECT_BASE_URL}`)
     - traefik.http.routers.${PROJECT_NAME}_nginx.entrypoints=https
     - traefik.http.routers.${PROJECT_NAME}_nginx.tls.certresolver=default
 
