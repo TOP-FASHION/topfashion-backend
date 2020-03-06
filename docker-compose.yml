@@ -1,6 +1,36 @@
 version: "3"
 
 services:
+  traefik:
+    image: "traefik:v2.0.0-rc3"
+    container_name: "${PROJECT_NAME}_traefik"
+    command:
+      - --api.insecure=true
+      - --providers.docker=true
+    ports:
+      - "443:443"
+      - "8080:8080"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./traefik/traefik.toml:/etc/traefik/traefik.toml:ro
+      - ./traefik/traefik.config.toml:/etc/traefik/traefik.config.toml:ro
+      - ./certs:/etc/certs:ro
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.traefik.entrypoints=https
+      - traefik.http.routers.traefik.rule=Host(`traefik.${PROJECT_BASE_URL}`)
+      - traefik.http.routers.traefik.tls=true
+      - traefik.http.routers.traefik.tls.certresolver=default
+      - traefik.http.routers.traefik.service=api@internal
+
+      # global redirect to https
+      - traefik.http.routers.http-catchall.rule=hostregexp(`{host:.+}`)
+      - traefik.http.routers.http-catchall.entrypoints=http
+      - traefik.http.routers.http-catchall.middlewares=redirect-to-https
+
+      # middleware redirect
+      - traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https
+
   mariadb:
     image: wodby/mariadb:$MARIADB_TAG
     container_name: "${PROJECT_NAME}_mariadb"
@@ -72,33 +102,3 @@ services:
       - traefik.http.routers.${PROJECT_NAME}_portainer.rule=Host(`portainer.${PROJECT_BASE_URL}`)
       - traefik.http.routers.${PROJECT_NAME}_portainer.entrypoints=https
       - traefik.http.routers.${PROJECT_NAME}_portainer.tls.certresolver=default
-
-  traefik:
-    image: "traefik:v2.0.0-rc3"
-    container_name: "${PROJECT_NAME}_traefik"
-    command:
-      - --api.insecure=true
-      - --providers.docker=true
-    ports:
-      - "443:443"
-      - "8080:8080"
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-      - ./traefik/traefik.toml:/etc/traefik/traefik.toml:ro
-      - ./traefik/traefik.config.toml:/etc/traefik/traefik.config.toml:ro
-      - ./certs:/etc/certs:ro
-    labels:
-      - traefik.enable=true
-      - traefik.http.routers.traefik.entrypoints=https
-      - traefik.http.routers.traefik.rule=Host(`traefik.${PROJECT_BASE_URL}`)
-      - traefik.http.routers.traefik.tls=true
-      - traefik.http.routers.traefik.tls.certresolver=default
-      - traefik.http.routers.traefik.service=api@internal
-
-      # global redirect to https
-      - traefik.http.routers.http-catchall.rule=hostregexp(`{host:.+}`)
-      - traefik.http.routers.http-catchall.entrypoints=http
-      - traefik.http.routers.http-catchall.middlewares=redirect-to-https
-
-      # middleware redirect
-      - traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https
