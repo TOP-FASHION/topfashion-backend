@@ -1,4 +1,4 @@
-FROM wordpress:5.2.4-php7.2-apache
+FROM wordpress:5.2.4-php7.2-fpm
 
 WORKDIR /var/www/html
 
