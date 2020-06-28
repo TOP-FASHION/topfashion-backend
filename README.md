@@ -1,10 +1,11 @@
-# Docker-based WordPress Stack
+# topfashion-backend
 
 ## Introduction
+As a basis, I took this ready-made set of tools -  [**Docker4WordPress**](https://wodby.com/docs/stacks/wordpress/local#usage).
+But since there were a lot of unnecessary tools, I customized a little to fit my needs.
 
-Docker4WordPress is a set of docker images optimized for WordPress. Use docker-compose.yml file from this repository to spin up a local environment for WordPress on Linux, macOS and Windows. 
-
-* Read the docs on [**how to use**](https://wodby.com/docs/stacks/wordpress/local#usage)
+Docker4WordPress is a set of docker images optimized for WordPress. 
+Use docker-compose.yml file from this repository to spin up a local environment for WordPress on Linux, macOS and Windows.
 
 ## Stack
 
@@ -56,7 +57,7 @@ docker-compose exec mariadb sh -c 'exec mysqldump --all-databases -uroot -p"pass
 # Environment variables
 
 * traefik - [https://traefik.docker.localhost:443](https://traefik.docker.localhost:443)
-* nginx - [https://docker.localhost:443](https://docker.localhost:443)
+* nginx - [https://bo.docker.localhost/:443](https://bo.docker.localhost:443)
 * pma - [https://pma.docker.localhost:443](https://pma.docker.localhost:443)
 * portainer - [https://portainer.docker.localhost:443](https://portainer.docker.localhost:443)
 
@@ -65,13 +66,9 @@ docker-compose exec mariadb sh -c 'exec mysqldump --all-databases -uroot -p"pass
 
 This project is licensed under the MIT open source license.
 
-[MariaDB]: https://wodby.com/docs/stacks/wordpress/containers#mariadb
-[Nginx]: https://wodby.com/docs/stacks/wordpress/containers#nginx
-[Wordpress]: https://wodby.com/docs/stacks/wordpress/containers#php
 [_/traefik]: https://hub.docker.com/_/traefik
 [phpmyadmin/phpmyadmin]: https://hub.docker.com/r/phpmyadmin/phpmyadmin
 [portainer/portainer]: https://hub.docker.com/r/portainer/portainer
 [wodby/nginx]: https://github.com/wodby/nginx
-[wodby/adminer]: https://github.com/wodby/adminer
 [wodby/mariadb]: https://github.com/wodby/mariadb
 [wodby/wordpress]: https://github.com/wodby/wordpress
